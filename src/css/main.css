@@ -590,7 +590,7 @@ table.field {
 	min-width: 100%;
 	overflow: scroll;
 	min-height: 96px;
-	max-height: 595px;
+	max-height: 225px;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -603,6 +603,7 @@ table.field {
 	min-width: 100%;
 	overflow: scroll;
 	min-height: 96px;
+	max-height: 350px;
 	justify-content: space-between;
 	display: none;
 	justify-content: flex-start;
