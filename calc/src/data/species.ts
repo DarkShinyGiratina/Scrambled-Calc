@@ -5806,6 +5806,31 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 14.3,
   },
+  Drilbur: {
+    types: ["Ground"],
+    bs: {
+      hp: 60,
+      at: 90,
+      df: 57,
+      sa: 30,
+      sd: 45,
+      sp: 68,
+    },
+    weightkg: 8.5,
+    nfe: true,
+  },
+  Excadrill: {
+    types: ["Ground", "Steel"],
+    bs: {
+      hp: 90,
+      at: 135,
+      df: 107,
+      sa: 50,
+      sd: 65,
+      sp: 88,
+    },
+    weightkg: 40.4,
+  },
   Tynamo: {
     types: ["Electric"],
     bs: {
