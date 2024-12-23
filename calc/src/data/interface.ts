@@ -1,41 +1,99 @@
-export interface As<T> {__brand: T}
-export type ID = (string & As<'ID'>) | (string & { __isID: true }) | '';
+export interface As<T> {
+  __brand: T;
+}
+export type ID = (string & As<"ID">) | (string & { __isID: true }) | "";
 export type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
-export type GenderName = 'M' | 'F' | 'N';
-export type StatID = 'hp' | StatIDExceptHP;
-export type StatIDExceptHP = 'atk' | 'def' | 'spa' | 'spd' | 'spe';
-export type StatsTable<T = number> = {[stat in StatID]: T};
+export type GenderName = "M" | "F" | "N";
+export type StatID = "hp" | StatIDExceptHP;
+export type StatIDExceptHP = "atk" | "def" | "spa" | "spd" | "spe";
+export type StatsTable<T = number> = { [stat in StatID]: T };
 
-export type AbilityName = string & As<'AbilityName'>;
-export type ItemName = string & As<'ItemName'>;
-export type MoveName = string & As<'MoveName'>;
-export type SpeciesName = string & As<'SpeciesName'>;
+export type AbilityName = string & As<"AbilityName">;
+export type ItemName = string & As<"ItemName">;
+export type MoveName = string & As<"MoveName">;
+export type SpeciesName = string & As<"SpeciesName">;
 
-export type StatusName = 'slp' | 'psn' | 'brn' | 'frz' | 'par' | 'tox';
+export type StatusName = "slp" | "psn" | "brn" | "frz" | "par" | "tox";
 
-export type GameType = 'Singles' | 'Doubles';
-export type Terrain = 'Electric' | 'Grassy' | 'Psychic' | 'Misty';
+export type GameType = "Singles" | "Doubles";
+export type Terrain = "Electric" | "Grassy" | "Psychic" | "Misty";
 export type Weather =
-  | 'Sand' | 'Sun' | 'Rain' | 'Hail' | 'Snow' | 'Harsh Sunshine' | 'Heavy Rain' | 'Strong Winds';
+  | "Sand"
+  | "Sun"
+  | "Rain"
+  | "Hail"
+  | "Snow"
+  | "Harsh Sunshine"
+  | "Heavy Rain"
+  | "Strong Winds";
 
 export type NatureName =
-  'Adamant' | 'Bashful' | 'Bold' | 'Brave' | 'Calm' |
-  'Careful' | 'Docile' | 'Gentle' | 'Hardy' | 'Hasty' |
-  'Impish' | 'Jolly' | 'Lax' | 'Lonely' | 'Mild' |
-  'Modest' | 'Naive' | 'Naughty' | 'Quiet' | 'Quirky' |
-  'Rash' | 'Relaxed' | 'Sassy' | 'Serious' | 'Timid';
+  | "Adamant"
+  | "Bashful"
+  | "Bold"
+  | "Brave"
+  | "Calm"
+  | "Careful"
+  | "Docile"
+  | "Gentle"
+  | "Hardy"
+  | "Hasty"
+  | "Impish"
+  | "Jolly"
+  | "Lax"
+  | "Lonely"
+  | "Mild"
+  | "Modest"
+  | "Naive"
+  | "Naughty"
+  | "Quiet"
+  | "Quirky"
+  | "Rash"
+  | "Relaxed"
+  | "Sassy"
+  | "Serious"
+  | "Timid";
 
 export type TypeName =
-  'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' |
-  'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy' |
-  'Stellar' | '???';
+  | "Normal"
+  | "Fighting"
+  | "Flying"
+  | "Poison"
+  | "Ground"
+  | "Rock"
+  | "Bug"
+  | "Ghost"
+  | "Steel"
+  | "Fire"
+  | "Water"
+  | "Grass"
+  | "Electric"
+  | "Psychic"
+  | "Ice"
+  | "Dragon"
+  | "Dark"
+  | "Fairy"
+  | "Stellar"
+  | "???";
 
-export type MoveCategory = 'Physical' | 'Special' | 'Status';
+export type MoveCategory = "Physical" | "Special" | "Status";
 
 export type MoveTarget =
-  'adjacentAlly' | 'adjacentAllyOrSelf' | 'adjacentFoe' | 'all' |
-  'allAdjacent' | 'allAdjacentFoes' | 'allies' | 'allySide' | 'allyTeam' |
-  'any' | 'foeSide' | 'normal' | 'randomNormal' | 'scripted' | 'self';
+  | "adjacentAlly"
+  | "adjacentAllyOrSelf"
+  | "adjacentFoe"
+  | "all"
+  | "allAdjacent"
+  | "allAdjacentFoes"
+  | "allies"
+  | "allySide"
+  | "allyTeam"
+  | "any"
+  | "foeSide"
+  | "normal"
+  | "randomNormal"
+  | "scripted"
+  | "self";
 
 export interface Generations {
   get(gen: GenerationNum): Generation;
@@ -51,7 +109,13 @@ export interface Generation {
   readonly natures: Natures;
 }
 
-export type DataKind = 'Ability' | 'Item' | 'Move' | 'Species' | 'Type' | 'Nature';
+export type DataKind =
+  | "Ability"
+  | "Item"
+  | "Move"
+  | "Species"
+  | "Type"
+  | "Nature";
 
 export interface Data<NameT> {
   readonly id: ID;
@@ -65,7 +129,7 @@ export interface Abilities {
 }
 
 export interface Ability extends Data<AbilityName> {
-  readonly kind: 'Ability';
+  readonly kind: "Ability";
 }
 
 export interface Items {
@@ -74,10 +138,10 @@ export interface Items {
 }
 
 export interface Item extends Data<ItemName> {
-  readonly kind: 'Item';
+  readonly kind: "Item";
   readonly megaEvolves?: SpeciesName;
   readonly isBerry?: boolean;
-  readonly naturalGift?: Readonly<{basePower: number; type: TypeName}>;
+  readonly naturalGift?: Readonly<{ basePower: number; type: TypeName }>;
 }
 
 export interface Moves {
@@ -90,11 +154,11 @@ export interface MoveFlags {
   bite?: 1 | 0;
   sound?: 1 | 0;
   // TODO: heal?: 1 | 0;
-  punch?: 1 | 0;
+  brazen?: 1 | 0;
   bullet?: 1 | 0;
   pulse?: 1 | 0;
   slicing?: 1 | 0;
-  wind?: 1| 0;
+  wind?: 1 | 0;
 }
 
 export interface SelfOrSecondaryEffect {
@@ -102,7 +166,7 @@ export interface SelfOrSecondaryEffect {
 }
 
 export interface Move extends Data<MoveName> {
-  readonly kind: 'Move';
+  readonly kind: "Move";
   readonly basePower: number;
   readonly type: TypeName;
   readonly category?: MoveCategory;
@@ -120,8 +184,8 @@ export interface Move extends Data<MoveName> {
   readonly ignoreDefensive?: boolean;
   readonly overrideOffensiveStat?: StatIDExceptHP;
   readonly overrideDefensiveStat?: StatIDExceptHP;
-  readonly overrideOffensivePokemon?: 'target' | 'source';
-  readonly overrideDefensivePokemon?: 'target' | 'source';
+  readonly overrideOffensivePokemon?: "target" | "source";
+  readonly overrideDefensivePokemon?: "target" | "source";
   readonly breaksProtect?: boolean;
   readonly isZ?: boolean | string;
   readonly zMove?: {
@@ -141,7 +205,7 @@ export interface Species {
 }
 
 export interface Specie extends Data<SpeciesName> {
-  readonly kind: 'Species';
+  readonly kind: "Species";
   readonly types: [TypeName] | [TypeName, TypeName];
   readonly baseStats: Readonly<StatsTable>;
   readonly weightkg: number;
@@ -149,7 +213,7 @@ export interface Specie extends Data<SpeciesName> {
   readonly gender?: GenderName;
   readonly otherFormes?: SpeciesName[];
   readonly baseSpecies?: SpeciesName;
-  readonly abilities?: {0: AbilityName | ''};
+  readonly abilities?: { 0: AbilityName | "" };
 }
 
 export interface Types {
@@ -160,8 +224,8 @@ export interface Types {
 export type TypeEffectiveness = 0 | 0.5 | 1 | 2;
 
 export interface Type extends Data<TypeName> {
-  readonly kind: 'Type';
-  readonly effectiveness: Readonly<{[type in TypeName]?: TypeEffectiveness}>;
+  readonly kind: "Type";
+  readonly effectiveness: Readonly<{ [type in TypeName]?: TypeEffectiveness }>;
 }
 
 export interface Natures {
@@ -170,7 +234,7 @@ export interface Natures {
 }
 
 export interface Nature extends Data<NatureName> {
-  readonly kind: 'Nature';
+  readonly kind: "Nature";
   readonly plus?: StatID;
   readonly minus?: StatID;
 }
