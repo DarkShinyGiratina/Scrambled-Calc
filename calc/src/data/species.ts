@@ -10338,7 +10338,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 56,
   },
-  "Ogerpon-Teal-Mask": {
+  Ogerpon: {
     types: ["Grass", "Fairy"],
     bs: {
       hp: 80,
@@ -10350,12 +10350,12 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 39.8,
     otherFormes: [
-      "Ogerpon-Hearthflame-Mask",
-      "Ogerpon-Wellspring-Mask",
-      "Ogerpon-Cornerstone-Mask",
+      "Ogerpon-Hearthflame",
+      "Ogerpon-Wellspring",
+      "Ogerpon-Cornerstone",
     ],
   },
-  "Ogerpon-Wellspring-Mask": {
+  "Ogerpon-Wellspring": {
     types: ["Grass", "Water"],
     bs: {
       hp: 80,
@@ -10366,9 +10366,9 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 110,
     },
     weightkg: 39.8,
-    baseSpecies: "Ogerpon-Teal-Mask",
+    baseSpecies: "Ogerpon",
   },
-  "Ogerpon-Hearthflame-Mask": {
+  "Ogerpon-Hearthflame": {
     types: ["Grass", "Fire"],
     bs: {
       hp: 80,
@@ -10379,9 +10379,9 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 110,
     },
     weightkg: 39.8,
-    baseSpecies: "Ogerpon-Teal-Mask",
+    baseSpecies: "Ogerpon",
   },
-  "Ogerpon-Cornerstone-Mask": {
+  "Ogerpon-Cornerstone": {
     types: ["Grass", "Rock"],
     bs: {
       hp: 80,
@@ -10392,7 +10392,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 110,
     },
     weightkg: 39.8,
-    baseSpecies: "Ogerpon-Teal-Mask",
+    baseSpecies: "Ogerpon",
   },
   Dipplin: {
     types: ["Bug", "Dragon"],

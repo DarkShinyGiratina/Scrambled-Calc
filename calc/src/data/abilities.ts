@@ -101,7 +101,7 @@ const DPP = ADV.concat([
   "Honey Gather",
   "Hydration",
   "Ice Body",
-  "brazen",
+  "Brazen",
   "Klutz",
   "Leaf Guard",
   "Magic Guard",
