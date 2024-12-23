@@ -19,7 +19,7 @@ import {
   checkForecast,
   checkItem,
   checkIntimidate,
-  checkDownload,
+  checkInstinct,
   checkMultihitBoost,
   countBoosts,
   handleFixedDamageMoves,
@@ -42,8 +42,8 @@ export function calculateDPP(
   checkItem(defender);
   checkIntimidate(gen, attacker, defender);
   checkIntimidate(gen, defender, attacker);
-  checkDownload(attacker, defender);
-  checkDownload(defender, attacker);
+  checkInstinct(attacker, defender);
+  checkInstinct(defender, attacker);
   attacker.stats.spe = getFinalSpeed(gen, attacker, field, field.attackerSide);
   defender.stats.spe = getFinalSpeed(gen, defender, field, field.defenderSide);
 
@@ -913,7 +913,7 @@ function calculateFinalModsDPP(
   baseDamage += 2;
 
   if (isCritical) {
-    if (attacker.hasAbility("Sniper")) {
+    if (attacker.hasAbility("Ruthless")) {
       baseDamage *= 3;
       desc.attackerAbility = attacker.ability;
     } else {

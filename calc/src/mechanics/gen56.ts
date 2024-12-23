@@ -15,7 +15,7 @@ import { Result } from "../result";
 import {
   chainMods,
   checkAirLock,
-  checkDownload,
+  checkInstinct,
   checkForecast,
   checkInfiltrator,
   checkIntimidate,
@@ -63,8 +63,8 @@ export function calculateBWXY(
 
   checkIntimidate(gen, attacker, defender);
   checkIntimidate(gen, defender, attacker);
-  checkDownload(attacker, defender, field.isWonderRoom);
-  checkDownload(defender, attacker, field.isWonderRoom);
+  checkInstinct(attacker, defender, field.isWonderRoom);
+  checkInstinct(defender, attacker, field.isWonderRoom);
 
   computeFinalStats(gen, attacker, defender, field, "atk", "spa");
 
@@ -114,7 +114,7 @@ export function calculateBWXY(
     "Flower Veil",
     "Friend Guard",
     "Fur Coat",
-    "Grass Pelt",
+    "Grassy Guard",
     "Heatproof",
     "Heavy Metal",
     "Hyper Cutter",
@@ -372,7 +372,7 @@ export function calculateBWXY(
 
   const fixedDamage = handleFixedDamageMoves(attacker, move);
   if (fixedDamage) {
-    if (attacker.hasAbility("Parental Bond")) {
+    if (attacker.hasAbility("Expertise")) {
       result.damage = [fixedDamage, fixedDamage];
       desc.attackerAbility = attacker.ability;
     } else {
@@ -477,9 +477,9 @@ export function calculateBWXY(
     ["allAdjacent", "allAdjacentFoes"].includes(move.target);
 
   let childDamage: number[] | undefined;
-  if (attacker.hasAbility("Parental Bond") && move.hits === 1 && !isSpread) {
+  if (attacker.hasAbility("Expertise") && move.hits === 1 && !isSpread) {
     const child = attacker.clone();
-    child.ability = "Parental Bond (Child)" as AbilityName;
+    child.ability = "Expertise (Child)" as AbilityName;
     checkMultihitBoost(gen, child, defender, move, field, desc);
     childDamage = calculateBWXY(gen, child, defender, move, field)
       .damage as number[];
@@ -690,9 +690,8 @@ export function calculateBasePowerBWXY(
       desc.moveBP = basePower;
       break;
     case "Assurance":
-      basePower =
-        move.bp * (defender.hasAbility("Parental Bond (Child)") ? 2 : 1);
-      // NOTE: desc.attackerAbility = 'Parental Bond' will already reflect this boost
+      basePower = move.bp * (defender.hasAbility("Expertise (Child)") ? 2 : 1);
+      // NOTE: desc.attackerAbility = 'Expertise' will already reflect this boost
       break;
     case "Wake-Up Slap":
       basePower = move.bp * (defender.hasStatus("slp") ? 2 : 1);
@@ -1240,7 +1239,7 @@ export function calculateDfModsBWXY(
 
   if (
     field.hasTerrain("Grassy") &&
-    defender.hasAbility("Grass Pelt") &&
+    defender.hasAbility("Grassy Guard") &&
     hitsPhysical
   ) {
     dfMods.push(6144);
@@ -1298,7 +1297,7 @@ function calculateBaseDamageBWXY(
     baseDamage = pokeRound(OF32(baseDamage * 3072) / 4096);
   }
 
-  if (attacker.hasAbility("Parental Bond (Child)")) {
+  if (attacker.hasAbility("Expertise (Child)")) {
     baseDamage = pokeRound(OF32(baseDamage * 2048) / 4096);
   }
 
@@ -1363,7 +1362,7 @@ function calculateFinalModsBWXY(
     hitCount === 0 &&
     !field.defenderSide.isSR &&
     (!field.defenderSide.spikes || defender.hasType("Flying")) &&
-    !attacker.hasAbility("Parental Bond (Child)")
+    !attacker.hasAbility("Expertise (Child)")
   ) {
     finalMods.push(2048);
     desc.defenderAbility = defender.ability;
@@ -1379,7 +1378,7 @@ function calculateFinalModsBWXY(
     desc.isFriendGuard = true;
   }
 
-  if (attacker.hasAbility("Sniper") && isCritical) {
+  if (attacker.hasAbility("Ruthless") && isCritical) {
     finalMods.push(6144);
     desc.attackerAbility = attacker.ability;
   }

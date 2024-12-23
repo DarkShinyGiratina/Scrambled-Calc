@@ -1467,12 +1467,12 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 88.4,
     otherFormes: [
-      "Tauros-Paldea-Combat-Breed",
-      "Tauros-Paldea-Blaze-Breed",
-      "Tauros-Paldea-Aqua-Breed",
+      "Tauros-Paldea-Combat",
+      "Tauros-Paldea-Blaze",
+      "Tauros-Paldea-Aqua",
     ],
   },
-  "Tauros-Paldea-Combat-Breed": {
+  "Tauros-Paldea-Combat": {
     types: ["Fighting", "Dark"],
     bs: {
       hp: 90,
@@ -1485,7 +1485,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     weightkg: 115,
     baseSpecies: "Tauros",
   },
-  "Tauros-Paldea-Blaze-Breed": {
+  "Tauros-Paldea-Blaze": {
     types: ["Fighting", "Fire"],
     bs: {
       hp: 90,
@@ -1498,7 +1498,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     weightkg: 85,
     baseSpecies: "Tauros",
   },
-  "Tauros-Paldea-Aqua-Breed": {
+  "Tauros-Paldea-Aqua": {
     types: ["Fighting", "Water"],
     bs: {
       hp: 90,
