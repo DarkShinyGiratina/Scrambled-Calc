@@ -5076,10 +5076,10 @@ var SV_PATCH = {
         bs: {
             hp: 150,
             at: 100,
-            df: 120,
+            df: 125,
             sa: 100,
-            sd: 120,
-            sp: 90
+            sd: 125,
+            sp: 66
         },
         weightkg: 750,
         otherFormes: ["Giratina-Origin"]
@@ -5088,11 +5088,11 @@ var SV_PATCH = {
         types: ["Ghost", "Dragon"],
         bs: {
             hp: 150,
-            at: 120,
-            df: 100,
-            sa: 120,
-            sd: 100,
-            sp: 90
+            at: 125,
+            df: 60,
+            sa: 125,
+            sd: 60,
+            sp: 146
         },
         weightkg: 650,
         baseSpecies: "Giratina"
