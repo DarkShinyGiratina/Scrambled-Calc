@@ -1498,8 +1498,8 @@ $(".gen").change(function () {
 
 function getFirstValidSetOption() {
 	return {
-		text: "Giratina-Origin (Blank Set)",
-		id: "Giratina-Origin (Blank Set)",
+		text: "Giratina-Origin (The Goat)",
+		id: "Giratina-Origin (The Goat)",
 	};
 }
 
