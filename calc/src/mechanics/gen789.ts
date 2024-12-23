@@ -1618,6 +1618,12 @@ export function calculateBPModsSMSSSV(
     bpMods.push(5325);
     desc.attackerItem = attacker.item;
   } else if (
+    (attacker.hasItem("Dragon Fang") && move.hasType("Dragon")) ||
+    (attacker.hasItem("Silver Powder") && move.hasType("Bug"))
+  ) {
+    bpMods.push(5325);
+    desc.attackerItem = attacker.item;
+  } else if (
     (((attacker.hasItem("Adamant Crystal") &&
       attacker.named("Dialga-Origin")) ||
       (attacker.hasItem("Adamant Orb") && attacker.named("Dialga"))) &&
@@ -2228,7 +2234,7 @@ export function calculateFinalModsSMSSSV(
   }
 
   if (attacker.hasItem("Expert Belt") && typeEffectiveness > 1 && !move.isZ) {
-    finalMods.push(4915);
+    finalMods.push(5120);
     desc.attackerItem = attacker.item;
   } else if (attacker.hasItem("Life Orb")) {
     finalMods.push(5324);
