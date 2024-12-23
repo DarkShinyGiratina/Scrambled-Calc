@@ -1,7 +1,7 @@
 {
   "private": true,
-  "homepage": "https://calc.pokemonshowdown.com/",
-  "repository": "github:smogon/damage-calc",
+  "homepage": "https://scrambled.darkshinygira.com/",
+  "repository": "github:DarkShinyGiratina/Scrambled-Calc",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.57.0",
