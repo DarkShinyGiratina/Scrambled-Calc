@@ -231,7 +231,6 @@ class Move implements I.Move {
       }
     }
     if (dex.gen >= 4) {
-      if (move.flags.brazen) this.flags.brazen = move.flags.brazen;
       if (move.flags.bite) this.flags.bite = move.flags.bite;
     }
     if (dex.gen >= 5) {
