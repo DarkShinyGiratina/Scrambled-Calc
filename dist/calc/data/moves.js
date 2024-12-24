@@ -58,6 +58,7 @@ var SM = (0, util_1.extend)(true, {}, XY, SM_PATCH);
 var SS_PATCH = {};
 var SS = (0, util_1.extend)(true, {}, SM, SS_PATCH);
 var SV_PATCH = {
+    "(No Move)": { bp: 0, category: "Status", type: "Normal" },
     Pummel: {
         bp: 25,
         type: "Fighting",

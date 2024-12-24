@@ -76,6 +76,7 @@ const SS_PATCH: { [name: string]: DeepPartial<MoveData> } = {};
 const SS: { [name: string]: MoveData } = extend(true, {}, SM, SS_PATCH);
 
 const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
+  "(No Move)": { bp: 0, category: "Status", type: "Normal" },
   Pummel: {
     bp: 25,
     type: "Fighting",
