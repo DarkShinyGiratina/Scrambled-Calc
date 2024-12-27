@@ -4483,6 +4483,30 @@ var SV_PATCH = {
         },
         weightkg: 27.3
     },
+    Stunky: {
+        types: ["Poison", "Dark"],
+        bs: {
+            hp: 63,
+            at: 63,
+            df: 56,
+            sa: 63,
+            sd: 56,
+            sp: 74
+        },
+        weightkg: 19.2
+    },
+    Skuntank: {
+        types: ["Poison", "Dark"],
+        bs: {
+            hp: 103,
+            at: 93,
+            df: 81,
+            sa: 93,
+            sd: 81,
+            sp: 84
+        },
+        weightkg: 38.0
+    },
     Chingling: {
         types: ["Psychic", "Flying"],
         bs: {
@@ -4923,7 +4947,7 @@ var SV_PATCH = {
             df: 70,
             sa: 120,
             sd: 100,
-            sp: 110
+            sp: 120
         },
         weightkg: 26.6
     },
@@ -5542,6 +5566,30 @@ var SV_PATCH = {
             sp: 92
         },
         weightkg: 96.3
+    },
+    Scraggy: {
+        types: ["Dark", "Fighting"],
+        bs: {
+            hp: 50,
+            at: 77,
+            df: 90,
+            sa: 35,
+            sd: 90,
+            sp: 58
+        },
+        weightkg: 11.8
+    },
+    Scrafty: {
+        types: ["Dark", "Fighting"],
+        bs: {
+            hp: 75,
+            at: 107,
+            df: 115,
+            sa: 45,
+            sd: 115,
+            sp: 68
+        },
+        weightkg: 30.0
     },
     Dwebble: {
         types: ["Bug", "Rock"],
@@ -8271,7 +8319,7 @@ var SV_PATCH = {
             sd: 85,
             sp: 100
         },
-        weightkg: 12,
+        weightkg: 48,
         nfe: true
     },
     Carkol: {
@@ -8284,7 +8332,7 @@ var SV_PATCH = {
             sd: 90,
             sp: 50
         },
-        weightkg: 78,
+        weightkg: 234,
         nfe: true
     },
     Coalossal: {
@@ -8297,7 +8345,7 @@ var SV_PATCH = {
             sd: 95,
             sp: 25
         },
-        weightkg: 310.5
+        weightkg: 621
     },
     Applin: {
         types: ["Grass", "Dragon"],
