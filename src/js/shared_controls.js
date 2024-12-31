@@ -620,7 +620,12 @@ $(".set-selector").change(function () {
 				? correctHiddenPower(setdex[pokemonName][setName])
 				: randset;
 			if (regSets) {
-				pokeObj.find(".teraType").val(set.teraType || pokemon.types[0]);
+				pokeObj.find(".teraType").val(set.teraType || "(None)");
+				if (pokeObj.find(".teraType")[0].value == "(None)") {
+					pokeObj.find(".teraToggle").hide();
+				} else {
+					pokeObj.find(".teraToggle").show();
+				}
 			}
 			pokeObj.find(".level").val(set.level);
 			pokeObj
@@ -708,6 +713,7 @@ $(".set-selector").change(function () {
 			}
 		} else {
 			pokeObj.find(".teraType").val(pokemon.types[0]);
+			pokeObj.find(".teraToggle").show();
 			pokeObj.find(".level").val(100);
 			pokeObj.find(".hp .evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);

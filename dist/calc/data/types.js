@@ -53,7 +53,7 @@ exports.__esModule = true;
 
 var util_1 = require("../util");
 var RBY = {
-    '???': {
+    "???": {
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -71,7 +71,7 @@ var RBY = {
         Dragon: 1
     },
     Normal: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -89,7 +89,7 @@ var RBY = {
         Dragon: 1
     },
     Grass: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 0.5,
@@ -107,7 +107,7 @@ var RBY = {
         Dragon: 0.5
     },
     Fire: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 2,
         Fire: 0.5,
@@ -125,7 +125,7 @@ var RBY = {
         Dragon: 0.5
     },
     Water: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 2,
@@ -143,7 +143,7 @@ var RBY = {
         Dragon: 0.5
     },
     Electric: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 1,
@@ -161,7 +161,7 @@ var RBY = {
         Dragon: 0.5
     },
     Ice: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 2,
         Fire: 1,
@@ -179,7 +179,7 @@ var RBY = {
         Dragon: 2
     },
     Flying: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 2,
         Fire: 1,
@@ -197,7 +197,7 @@ var RBY = {
         Dragon: 1
     },
     Bug: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 2,
         Fire: 0.5,
@@ -215,7 +215,7 @@ var RBY = {
         Dragon: 1
     },
     Poison: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 2,
         Fire: 1,
@@ -233,7 +233,7 @@ var RBY = {
         Dragon: 1
     },
     Ground: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 2,
@@ -251,7 +251,7 @@ var RBY = {
         Dragon: 1
     },
     Rock: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 2,
@@ -269,7 +269,7 @@ var RBY = {
         Dragon: 1
     },
     Fighting: {
-        '???': 1,
+        "???": 1,
         Normal: 2,
         Grass: 1,
         Fire: 1,
@@ -287,7 +287,7 @@ var RBY = {
         Dragon: 1
     },
     Psychic: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -305,7 +305,7 @@ var RBY = {
         Dragon: 1
     },
     Ghost: {
-        '???': 1,
+        "???": 1,
         Normal: 0,
         Grass: 1,
         Fire: 1,
@@ -323,7 +323,7 @@ var RBY = {
         Dragon: 1
     },
     Dragon: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -342,7 +342,7 @@ var RBY = {
     }
 };
 var GSC = (0, util_1.extend)(true, {}, RBY, {
-    '???': { Dark: 1, Steel: 1 },
+    "???": { Dark: 1, Steel: 1 },
     Normal: { Dark: 1, Steel: 0.5 },
     Grass: { Dark: 1, Steel: 0.5 },
     Fire: { Dark: 1, Steel: 2 },
@@ -359,7 +359,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
     Ghost: { Psychic: 2, Dark: 0.5, Steel: 0.5 },
     Dragon: { Dark: 1, Steel: 0.5 },
     Dark: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -379,7 +379,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
         Steel: 0.5
     },
     Steel: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 0.5,
@@ -403,7 +403,7 @@ var ADV = GSC;
 var DPP = GSC;
 var BW = GSC;
 var XY = (0, util_1.extend)(true, {}, GSC, {
-    '???': { Fairy: 1 },
+    "???": { Fairy: 1 },
     Normal: { Fairy: 1 },
     Grass: { Fairy: 1 },
     Fire: { Fairy: 1 },
@@ -422,7 +422,7 @@ var XY = (0, util_1.extend)(true, {}, GSC, {
     Dark: { Steel: 1, Fairy: 0.5 },
     Steel: { Fairy: 2 },
     Fairy: {
-        '???': 1,
+        "???": 1,
         Normal: 1,
         Grass: 1,
         Fire: 0.5,
@@ -446,7 +446,7 @@ var XY = (0, util_1.extend)(true, {}, GSC, {
 var SM = XY;
 var SS = SM;
 var SV = (0, util_1.extend)(true, {}, SS, {
-    '???': { Stellar: 1 },
+    "???": { Stellar: 1 },
     Normal: { Stellar: 1 },
     Grass: { Stellar: 1 },
     Fire: { Stellar: 1 },
@@ -466,8 +466,9 @@ var SV = (0, util_1.extend)(true, {}, SS, {
     Steel: { Stellar: 1 },
     Fairy: { Stellar: 1 },
     Stellar: {
-        '???': 1
-    }
+        "???": 1
+    },
+    "(None)": {}
 });
 exports.TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 var Types = (function () {
@@ -509,7 +510,7 @@ var Types = (function () {
 exports.Types = Types;
 var Type = (function () {
     function Type(name, effectiveness) {
-        this.kind = 'Type';
+        this.kind = "Type";
         this.id = (0, util_1.toID)(name);
         this.name = name;
         this.effectiveness = effectiveness;

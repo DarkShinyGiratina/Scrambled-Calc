@@ -1,4 +1,4 @@
-import type * as I from './interface';
+import type * as I from "./interface";
 export type TypeChart = {
     [type in I.TypeName]?: {
         [type in I.TypeName]?: number;
@@ -12,7 +12,7 @@ export declare class Types implements I.Types {
     [Symbol.iterator](): Generator<Type, void, unknown>;
 }
 declare class Type implements I.Type {
-    readonly kind: 'Type';
+    readonly kind: "Type";
     readonly id: I.ID;
     readonly name: I.TypeName;
     readonly effectiveness: Readonly<{

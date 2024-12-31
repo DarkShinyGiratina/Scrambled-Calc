@@ -5,6 +5,7 @@ var SETDEX_SV = {
 			level: 100,
 			ability: "Brazen",
 			item: "Griseous Orb",
+			teraType: "Dark",
 			nature: "Hasty",
 			moves: [
 				"Shadow Force",

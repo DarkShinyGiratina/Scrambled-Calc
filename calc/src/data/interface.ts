@@ -74,7 +74,8 @@ export type TypeName =
   | "Dark"
   | "Fairy"
   | "Stellar"
-  | "???";
+  | "???"
+  | "(None)";
 
 export type MoveCategory = "Physical" | "Special" | "Status";
 

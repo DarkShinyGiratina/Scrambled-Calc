@@ -2,8 +2,8 @@
 exports.__esModule = true;
 
 var util_1 = require("./util");
-var RBY = ['hp', 'atk', 'def', 'spc', 'spe'];
-var GSC = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
+var RBY = ["hp", "atk", "def", "spc", "spe"];
+var GSC = ["hp", "atk", "def", "spa", "spd", "spe"];
 var ADV = GSC;
 var DPP = GSC;
 var BW = GSC;
@@ -11,19 +11,50 @@ var XY = GSC;
 var SM = GSC;
 var SS = GSC;
 var SV = GSC;
-exports.STATS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+exports.STATS = [
+    [],
+    RBY,
+    GSC,
+    ADV,
+    DPP,
+    BW,
+    XY,
+    SM,
+    SS,
+    SV,
+];
 var HP_TYPES = [
-    'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost', 'Steel',
-    'Fire', 'Water', 'Grass', 'Electric', 'Psychic', 'Ice', 'Dragon', 'Dark',
+    "Fighting",
+    "Flying",
+    "Poison",
+    "Ground",
+    "Rock",
+    "Bug",
+    "Ghost",
+    "Steel",
+    "Fire",
+    "Water",
+    "Grass",
+    "Electric",
+    "Psychic",
+    "Ice",
+    "Dragon",
+    "Dark",
 ];
 var HP = {
     Bug: { ivs: { atk: 30, def: 30, spd: 30 }, dvs: { atk: 13, def: 13 } },
     Dark: { ivs: {}, dvs: {} },
     Dragon: { ivs: { atk: 30 }, dvs: { def: 14 } },
     Electric: { ivs: { spa: 30 }, dvs: { atk: 14 } },
-    Fighting: { ivs: { def: 30, spa: 30, spd: 30, spe: 30 }, dvs: { atk: 12, def: 12 } },
+    Fighting: {
+        ivs: { def: 30, spa: 30, spd: 30, spe: 30 },
+        dvs: { atk: 12, def: 12 }
+    },
     Fire: { ivs: { atk: 30, spa: 30, spe: 30 }, dvs: { atk: 14, def: 12 } },
-    Flying: { ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30 }, dvs: { atk: 12, def: 13 } },
+    Flying: {
+        ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30 },
+        dvs: { atk: 12, def: 13 }
+    },
     Ghost: { ivs: { def: 30, spd: 30 }, dvs: { atk: 13, def: 14 } },
     Grass: { ivs: { atk: 30, spa: 30 }, dvs: { atk: 14, def: 14 } },
     Ground: { ivs: { spa: 30, spd: 30 }, dvs: { atk: 12 } },
@@ -39,40 +70,40 @@ exports.Stats = new ((function () {
     }
     class_1.prototype.displayStat = function (stat) {
         switch (stat) {
-            case 'hp':
-                return 'HP';
-            case 'atk':
-                return 'Atk';
-            case 'def':
-                return 'Def';
-            case 'spa':
-                return 'SpA';
-            case 'spd':
-                return 'SpD';
-            case 'spe':
-                return 'Spe';
-            case 'spc':
-                return 'Spc';
+            case "hp":
+                return "HP";
+            case "atk":
+                return "Atk";
+            case "def":
+                return "Def";
+            case "spa":
+                return "SpA";
+            case "spd":
+                return "SpD";
+            case "spe":
+                return "Spe";
+            case "spc":
+                return "Spc";
             default:
                 throw new Error("unknown stat ".concat(stat));
         }
     };
     class_1.prototype.shortForm = function (stat) {
         switch (stat) {
-            case 'hp':
-                return 'hp';
-            case 'atk':
-                return 'at';
-            case 'def':
-                return 'df';
-            case 'spa':
-                return 'sa';
-            case 'spd':
-                return 'sd';
-            case 'spe':
-                return 'sp';
-            case 'spc':
-                return 'sl';
+            case "hp":
+                return "hp";
+            case "atk":
+                return "at";
+            case "def":
+                return "df";
+            case "spa":
+                return "sa";
+            case "spd":
+                return "sd";
+            case "spe":
+                return "sp";
+            case "spc":
+                return "sl";
         }
     };
     class_1.prototype.getHPDV = function (ivs) {
@@ -103,10 +134,12 @@ exports.Stats = new ((function () {
         return this.calcStatADV(gen.natures, stat, base, iv, ev, level, nature);
     };
     class_1.prototype.calcStatADV = function (natures, stat, base, iv, ev, level, nature) {
-        if (stat === 'hp') {
+        if (stat === "hp") {
             return base === 1
                 ? base
-                : Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + level + 10;
+                : Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) +
+                    level +
+                    10;
         }
         else {
             var mods = [undefined, undefined];
@@ -121,14 +154,15 @@ exports.Stats = new ((function () {
                     : mods[1] === stat
                         ? 0.9
                         : 1;
-            return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n);
+            return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) *
+                n);
         }
     };
     class_1.prototype.calcStatRBY = function (stat, base, iv, level) {
         return this.calcStatRBYFromDV(stat, base, this.IVToDV(iv), level);
     };
     class_1.prototype.calcStatRBYFromDV = function (stat, base, dv, level) {
-        if (stat === 'hp') {
+        if (stat === "hp") {
             return Math.floor((((base + dv) * 2 + 63) * level) / 100) + level + 10;
         }
         else {
@@ -145,7 +179,7 @@ exports.Stats = new ((function () {
         var tr = function (num, bits) {
             if (bits === void 0) { bits = 0; }
             if (bits)
-                return (num >>> 0) % (Math.pow(2, bits));
+                return (num >>> 0) % Math.pow(2, bits);
             return num >>> 0;
         };
         var stats = { hp: 31, atk: 31, def: 31, spe: 31, spa: 31, spd: 31 };
@@ -156,11 +190,14 @@ exports.Stats = new ((function () {
             var spcDV = tr(ivs.spa / 2);
             return {
                 type: HP_TYPES[4 * (atkDV % 4) + (defDV % 4)],
-                power: tr((5 * ((spcDV >> 3) +
-                    (2 * (speDV >> 3)) +
-                    (4 * (defDV >> 3)) +
-                    (8 * (atkDV >> 3))) +
-                    (spcDV % 4)) / 2 + 31)
+                power: tr((5 *
+                    ((spcDV >> 3) +
+                        2 * (speDV >> 3) +
+                        4 * (defDV >> 3) +
+                        8 * (atkDV >> 3)) +
+                    (spcDV % 4)) /
+                    2 +
+                    31)
             };
         }
         else {
@@ -173,8 +210,8 @@ exports.Stats = new ((function () {
                 i *= 2;
             }
             return {
-                type: HP_TYPES[tr(hpTypeX * 15 / 63)],
-                power: (gen.num && gen.num < 6) ? tr(hpPowerX * 40 / 63) + 30 : 60
+                type: HP_TYPES[tr((hpTypeX * 15) / 63)],
+                power: gen.num && gen.num < 6 ? tr((hpPowerX * 40) / 63) + 30 : 60
             };
         }
     };

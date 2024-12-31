@@ -1,12 +1,12 @@
-import type * as I from './interface';
-import {toID, extend} from '../util';
+import type * as I from "./interface";
+import { toID, extend } from "../util";
 
 export type TypeChart = {
-  [type in I.TypeName]?: {[type in I.TypeName]?: number};
+  [type in I.TypeName]?: { [type in I.TypeName]?: number };
 };
 
 const RBY: TypeChart = {
-  '???': {
+  "???": {
     Normal: 1,
     Grass: 1,
     Fire: 1,
@@ -24,7 +24,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Normal: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 1,
@@ -42,7 +42,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Grass: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 0.5,
     Fire: 0.5,
@@ -60,7 +60,7 @@ const RBY: TypeChart = {
     Dragon: 0.5,
   },
   Fire: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 2,
     Fire: 0.5,
@@ -78,7 +78,7 @@ const RBY: TypeChart = {
     Dragon: 0.5,
   },
   Water: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 0.5,
     Fire: 2,
@@ -96,7 +96,7 @@ const RBY: TypeChart = {
     Dragon: 0.5,
   },
   Electric: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 0.5,
     Fire: 1,
@@ -114,7 +114,7 @@ const RBY: TypeChart = {
     Dragon: 0.5,
   },
   Ice: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 2,
     Fire: 1,
@@ -132,7 +132,7 @@ const RBY: TypeChart = {
     Dragon: 2,
   },
   Flying: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 2,
     Fire: 1,
@@ -150,7 +150,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Bug: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 2,
     Fire: 0.5,
@@ -168,7 +168,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Poison: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 2,
     Fire: 1,
@@ -186,7 +186,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Ground: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 0.5,
     Fire: 2,
@@ -204,7 +204,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Rock: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 2,
@@ -222,7 +222,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Fighting: {
-    '???': 1,
+    "???": 1,
     Normal: 2,
     Grass: 1,
     Fire: 1,
@@ -240,7 +240,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Psychic: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 1,
@@ -258,7 +258,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Ghost: {
-    '???': 1,
+    "???": 1,
     Normal: 0,
     Grass: 1,
     Fire: 1,
@@ -276,7 +276,7 @@ const RBY: TypeChart = {
     Dragon: 1,
   },
   Dragon: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 1,
@@ -296,24 +296,24 @@ const RBY: TypeChart = {
 };
 
 const GSC: TypeChart = extend(true, {}, RBY, {
-  '???': {Dark: 1, Steel: 1},
-  Normal: {Dark: 1, Steel: 0.5},
-  Grass: {Dark: 1, Steel: 0.5},
-  Fire: {Dark: 1, Steel: 2},
-  Water: {Dark: 1, Steel: 1},
-  Electric: {Dark: 1, Steel: 1},
-  Ice: {Fire: 0.5, Dark: 1, Steel: 0.5},
-  Flying: {Dark: 1, Steel: 0.5},
-  Bug: {Poison: 0.5, Dark: 2, Steel: 0.5},
-  Poison: {Bug: 1, Dark: 1, Steel: 0},
-  Ground: {Dark: 1, Steel: 2},
-  Rock: {Dark: 1, Steel: 0.5},
-  Fighting: {Dark: 2, Steel: 2},
-  Psychic: {Dark: 0, Steel: 0.5},
-  Ghost: {Psychic: 2, Dark: 0.5, Steel: 0.5},
-  Dragon: {Dark: 1, Steel: 0.5},
+  "???": { Dark: 1, Steel: 1 },
+  Normal: { Dark: 1, Steel: 0.5 },
+  Grass: { Dark: 1, Steel: 0.5 },
+  Fire: { Dark: 1, Steel: 2 },
+  Water: { Dark: 1, Steel: 1 },
+  Electric: { Dark: 1, Steel: 1 },
+  Ice: { Fire: 0.5, Dark: 1, Steel: 0.5 },
+  Flying: { Dark: 1, Steel: 0.5 },
+  Bug: { Poison: 0.5, Dark: 2, Steel: 0.5 },
+  Poison: { Bug: 1, Dark: 1, Steel: 0 },
+  Ground: { Dark: 1, Steel: 2 },
+  Rock: { Dark: 1, Steel: 0.5 },
+  Fighting: { Dark: 2, Steel: 2 },
+  Psychic: { Dark: 0, Steel: 0.5 },
+  Ghost: { Psychic: 2, Dark: 0.5, Steel: 0.5 },
+  Dragon: { Dark: 1, Steel: 0.5 },
   Dark: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 1,
@@ -333,7 +333,7 @@ const GSC: TypeChart = extend(true, {}, RBY, {
     Steel: 0.5,
   },
   Steel: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 0.5,
@@ -361,26 +361,26 @@ const DPP = GSC;
 const BW = GSC;
 
 const XY: TypeChart = extend(true, {}, GSC, {
-  '???': {Fairy: 1},
-  Normal: {Fairy: 1},
-  Grass: {Fairy: 1},
-  Fire: {Fairy: 1},
-  Water: {Fairy: 1},
-  Electric: {Fairy: 1},
-  Ice: {Fairy: 1},
-  Flying: {Fairy: 1},
-  Bug: {Fairy: 0.5},
-  Poison: {Fairy: 2},
-  Ground: {Fairy: 1},
-  Rock: {Fairy: 1},
-  Fighting: {Fairy: 0.5},
-  Psychic: {Fairy: 1},
-  Ghost: {Steel: 1, Fairy: 1},
-  Dragon: {Fairy: 0},
-  Dark: {Steel: 1, Fairy: 0.5},
-  Steel: {Fairy: 2},
+  "???": { Fairy: 1 },
+  Normal: { Fairy: 1 },
+  Grass: { Fairy: 1 },
+  Fire: { Fairy: 1 },
+  Water: { Fairy: 1 },
+  Electric: { Fairy: 1 },
+  Ice: { Fairy: 1 },
+  Flying: { Fairy: 1 },
+  Bug: { Fairy: 0.5 },
+  Poison: { Fairy: 2 },
+  Ground: { Fairy: 1 },
+  Rock: { Fairy: 1 },
+  Fighting: { Fairy: 0.5 },
+  Psychic: { Fairy: 1 },
+  Ghost: { Steel: 1, Fairy: 1 },
+  Dragon: { Fairy: 0 },
+  Dark: { Steel: 1, Fairy: 0.5 },
+  Steel: { Fairy: 2 },
   Fairy: {
-    '???': 1,
+    "???": 1,
     Normal: 1,
     Grass: 1,
     Fire: 0.5,
@@ -407,28 +407,29 @@ const SM = XY;
 const SS = SM;
 
 const SV: TypeChart = extend(true, {}, SS, {
-  '???': {Stellar: 1},
-  Normal: {Stellar: 1},
-  Grass: {Stellar: 1},
-  Fire: {Stellar: 1},
-  Water: {Stellar: 1},
-  Electric: {Stellar: 1},
-  Ice: {Stellar: 1},
-  Flying: {Stellar: 1},
-  Bug: {Stellar: 1},
-  Poison: {Stellar: 1},
-  Ground: {Stellar: 1},
-  Rock: {Stellar: 1},
-  Fighting: {Stellar: 1},
-  Psychic: {Stellar: 1},
-  Ghost: {Stellar: 1},
-  Dragon: {Stellar: 1},
-  Dark: {Stellar: 1},
-  Steel: {Stellar: 1},
-  Fairy: {Stellar: 1},
+  "???": { Stellar: 1 },
+  Normal: { Stellar: 1 },
+  Grass: { Stellar: 1 },
+  Fire: { Stellar: 1 },
+  Water: { Stellar: 1 },
+  Electric: { Stellar: 1 },
+  Ice: { Stellar: 1 },
+  Flying: { Stellar: 1 },
+  Bug: { Stellar: 1 },
+  Poison: { Stellar: 1 },
+  Ground: { Stellar: 1 },
+  Rock: { Stellar: 1 },
+  Fighting: { Stellar: 1 },
+  Psychic: { Stellar: 1 },
+  Ghost: { Stellar: 1 },
+  Dragon: { Stellar: 1 },
+  Dark: { Stellar: 1 },
+  Steel: { Stellar: 1 },
+  Fairy: { Stellar: 1 },
   Stellar: {
-    '???': 1,
+    "???": 1,
   },
+  "(None)": {},
 });
 
 export const TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
@@ -453,25 +454,29 @@ export class Types implements I.Types {
 }
 
 class Type implements I.Type {
-  readonly kind: 'Type';
+  readonly kind: "Type";
   readonly id: I.ID;
   readonly name: I.TypeName;
-  readonly effectiveness: Readonly<{[type in I.TypeName]?: I.TypeEffectiveness}>;
+  readonly effectiveness: Readonly<{
+    [type in I.TypeName]?: I.TypeEffectiveness;
+  }>;
 
   constructor(name: string, effectiveness: TypeChart[I.TypeName]) {
-    this.kind = 'Type';
+    this.kind = "Type";
     this.id = toID(name);
     this.name = name as I.TypeName;
-    this.effectiveness = effectiveness! as {[type in I.TypeName]?: I.TypeEffectiveness};
+    this.effectiveness = effectiveness! as {
+      [type in I.TypeName]?: I.TypeEffectiveness;
+    };
   }
 }
 
-const TYPES_BY_ID: Array<{[id: string]: Type}> = [];
+const TYPES_BY_ID: Array<{ [id: string]: Type }> = [];
 
 for (const typeChart of TYPE_CHART) {
-  const map: {[id: string]: Type} = {};
+  const map: { [id: string]: Type } = {};
   for (const type in typeChart) {
-    const t = new Type(type, {...typeChart[type as I.TypeName]!});
+    const t = new Type(type, { ...typeChart[type as I.TypeName]! });
     map[t.id] = t;
   }
   TYPES_BY_ID.push(map);
