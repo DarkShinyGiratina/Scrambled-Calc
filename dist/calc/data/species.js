@@ -10655,6 +10655,61 @@ var SV_PATCH = {
             sp: 70
         },
         weightkg: 2.2
+    },
+    "Segin Starmobile": {
+        types: ["Dark", "Steel"],
+        bs: {
+            hp: 150,
+            at: 100,
+            df: 120,
+            sa: 100,
+            sd: 100,
+            sp: 20
+        }
+    },
+    "Schedar Starmobile": {
+        types: ["Fire", "Steel"],
+        bs: {
+            hp: 175,
+            at: 120,
+            df: 120,
+            sa: 120,
+            sd: 100,
+            sp: 20
+        }
+    },
+    "Navi Starmobile": {
+        types: ["Poison", "Steel"],
+        bs: {
+            hp: 200,
+            at: 120,
+            df: 120,
+            sa: 120,
+            sd: 100,
+            sp: 20
+        }
+    },
+    "Ruchbah Starmobile": {
+        types: ["Fairy", "Steel"],
+        bs: {
+            hp: 225,
+            at: 120,
+            df: 120,
+            sa: 120,
+            sd: 100,
+            sp: 20
+        }
+    },
+    "Caph Starmobile": {
+        types: ["Fighting", "Steel"],
+        bs: {
+            hp: 250,
+            at: 120,
+            df: 120,
+            sa: 120,
+            sd: 100,
+            sp: 20
+        }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH);
