@@ -4436,7 +4436,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Make It Rain", "Thunder Wave", "Destiny Bond", "Jackpot"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {
@@ -4478,7 +4478,7 @@ var SETDEX_SV = {
 			nature: "Modest",
 			moves: ["Inferno", "Psystrike", "Energy Ball", "Agility"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {
@@ -4512,7 +4512,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Espthra: {
+	Espathra: {
 		Geeta: {
 			level: 100,
 			ability: "Energy Shield",
@@ -4526,7 +4526,7 @@ var SETDEX_SV = {
 			],
 			evs: {
 				sa: 252,
-				hp: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -4547,7 +4547,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Freeze-Dry", "Earth Power", "Meteor Beam", "Rock Polish"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {
