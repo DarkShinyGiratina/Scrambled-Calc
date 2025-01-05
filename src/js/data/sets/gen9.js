@@ -48,7 +48,7 @@ var SETDEX_SV = {
 			level: 10,
 			ability: "Torrent",
 			nature: "Adamant",
-			moves: ["Aqua Jet", "Fury Pecks", "Pummel", "Work Up"],
+			moves: ["Aqua Jet", "Pluck", "Encore", "Endure"],
 			ivs: {
 				hp: 31,
 				at: 31,
