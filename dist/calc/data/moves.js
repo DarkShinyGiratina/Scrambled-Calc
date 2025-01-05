@@ -3008,7 +3008,7 @@ var SV_PATCH = {
         isWind: true,
         secondaries: true
     },
-    "Freeze Dry": {
+    "Freeze-Dry": {
         bp: 85,
         type: "Ice",
         category: "Special",

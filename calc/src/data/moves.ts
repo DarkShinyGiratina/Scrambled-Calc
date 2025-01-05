@@ -3026,7 +3026,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     isWind: true,
     secondaries: true,
   },
-  "Freeze Dry": {
+  "Freeze-Dry": {
     bp: 85,
     type: "Ice",
     category: "Special",
