@@ -644,7 +644,7 @@ var SETDEX_SV = {
 				"Psychic Noise",
 			],
 			evs: {
-				spa: 252,
+				sa: 252,
 				sp: 252,
 			},
 			ivs: {

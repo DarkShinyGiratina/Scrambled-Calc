@@ -1571,7 +1571,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     secondaries: true,
   },
-  "Mist Ball": {
+  "Feather Ball": {
     bp: 70,
     type: "Flying",
     category: "Special",

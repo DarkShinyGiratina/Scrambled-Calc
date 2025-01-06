@@ -1553,7 +1553,7 @@ var SV_PATCH = {
         category: "Special",
         secondaries: true
     },
-    "Mist Ball": {
+    "Feather Ball": {
         bp: 70,
         type: "Flying",
         category: "Special",
