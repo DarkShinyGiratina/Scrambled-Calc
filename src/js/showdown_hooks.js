@@ -56,7 +56,7 @@ function addToDex(poke) {
 	if (!customsets[poke.name]) {
 		customsets[poke.name] = {};
 	}
-	customsets[poke.name]["My Box"] = dexObject;
+	customsets[poke.name][poke.nameProp + " - My Box"] = dexObject;
 	if (poke.name === "Aegislash-Blade") {
 		if (!customsets["Aegislash-Shield"]) {
 			customsets["Aegislash-Shield"] = {};
