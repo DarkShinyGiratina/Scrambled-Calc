@@ -774,7 +774,7 @@ export function getStatDescriptionText(
 }
 
 export function handleFixedDamageMoves(attacker: Pokemon, move: Move) {
-  if (move.named("Seismic Toss", "Night Shade")) {
+  if (move.named("Seismic Toss", "Soul Absorb")) {
     return attacker.level;
   } else if (move.named("Dragon Rage")) {
     return 40;
