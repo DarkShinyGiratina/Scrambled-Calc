@@ -327,7 +327,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 85,
     type: "Dragon",
     category: "Physical",
-    drain: [100, 100],
+    drain: [50, 100],
     makesContact: true,
     isPulse: true,
   },
