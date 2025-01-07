@@ -10274,9 +10274,9 @@ var SV_PATCH = {
             hp: 100,
             at: 85,
             df: 100,
-            sa: 135,
-            sd: 115,
-            sp: 135
+            sa: 150,
+            sd: 135,
+            sp: 150
         },
         weightkg: 240
     },
