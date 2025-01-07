@@ -412,6 +412,7 @@ var SV_PATCH = {
         bp: 65,
         type: "Psychic",
         category: "Special",
+        priority: 1,
         secondaries: true
     },
     "Bubble Beam": {
@@ -471,6 +472,7 @@ var SV_PATCH = {
         type: "Ground",
         category: "Physical",
         makesContact: true,
+        priority: 1,
         secondaries: true
     },
     Strength: {
@@ -580,6 +582,7 @@ var SV_PATCH = {
         type: "Rock",
         category: "Physical",
         willCrit: true,
+        priority: 1,
         secondaries: true
     },
     Earthquake: {
@@ -845,6 +848,7 @@ var SV_PATCH = {
         bp: 60,
         type: "Water",
         category: "Physical",
+        priority: 1,
         makesContact: true,
         willCrit: true,
         secondaries: true
@@ -896,6 +900,7 @@ var SV_PATCH = {
         type: "Normal",
         category: "Physical",
         makesContact: true,
+        priority: 1,
         secondaries: true
     },
     Slash: {
@@ -1085,6 +1090,7 @@ var SV_PATCH = {
         bp: 25,
         type: "Rock",
         category: "Physical",
+        priority: 1,
         multihit: [2, 5]
     },
     "Take Aim": {
@@ -1330,6 +1336,7 @@ var SV_PATCH = {
         bp: 80,
         type: "Normal",
         category: "Physical",
+        priority: 1,
         makesContact: true
     },
     "Ancient Power": {
@@ -1551,6 +1558,7 @@ var SV_PATCH = {
         type: "Fighting",
         category: "Physical",
         makesContact: true,
+        priority: 1,
         secondaries: true
     },
     "Power Glow": {
@@ -1636,6 +1644,7 @@ var SV_PATCH = {
         bp: 90,
         type: "Steel",
         category: "Physical",
+        priority: 1,
         makesContact: true,
         secondaries: true
     },
@@ -1981,7 +1990,8 @@ var SV_PATCH = {
         bp: 1,
         type: "Normal",
         category: "Physical",
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Power Trick": {
         bp: 0,
@@ -3133,7 +3143,8 @@ var SV_PATCH = {
         category: "Special",
         isPulse: true,
         isBullet: true,
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Psycho Break": {
         bp: 120,
@@ -3216,6 +3227,7 @@ var SV_PATCH = {
         bp: 40,
         type: "Fairy",
         category: "Physical",
+        priority: 1,
         makesContact: true,
         secondaries: true
     },
@@ -3278,7 +3290,8 @@ var SV_PATCH = {
         type: "Ghost",
         category: "Physical",
         willCrit: true,
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Brutal Swing": {
         bp: 120,
@@ -3374,6 +3387,7 @@ var SV_PATCH = {
         bp: 50,
         type: "Fire",
         category: "Physical",
+        priority: 1,
         makesContact: true,
         willCrit: true,
         secondaries: true
@@ -3549,6 +3563,7 @@ var SV_PATCH = {
         bp: 50,
         type: "Water",
         category: "Special",
+        priority: 1,
         willCrit: true,
         isPulse: true,
         isBullet: true
@@ -3574,6 +3589,7 @@ var SV_PATCH = {
         bp: 10,
         type: "Rock",
         category: "Special",
+        priority: 1,
         secondaries: true
     },
     "Magic Powder": {
@@ -3587,6 +3603,7 @@ var SV_PATCH = {
         category: "Physical",
         multihit: 2,
         willCrit: true,
+        priority: 1,
         isPulse: true
     },
     Teatime: {
@@ -3626,6 +3643,7 @@ var SV_PATCH = {
         bp: 50,
         type: "Fire",
         category: "Special",
+        priority: 1,
         willCrit: true,
         isPulse: true,
         isBullet: true
@@ -3684,7 +3702,8 @@ var SV_PATCH = {
         bp: 80,
         type: "Grass",
         category: "Physical",
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Soul Crush": {
         bp: 80,
@@ -3964,7 +3983,8 @@ var SV_PATCH = {
         target: "allAdjacentFoes",
         drain: [50, 100],
         isWind: true,
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Mystical Power": {
         bp: 100,
@@ -4001,7 +4021,8 @@ var SV_PATCH = {
         bp: 90,
         type: "Ice",
         category: "Physical",
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Victory Dance": {
         bp: 0,
@@ -4045,6 +4066,7 @@ var SV_PATCH = {
         type: "Fighting",
         category: "Physical",
         willCrit: true,
+        priority: 1,
         secondaries: true
     },
     "Infernal Parade": {
@@ -4066,6 +4088,7 @@ var SV_PATCH = {
         type: "Flying",
         category: "Special",
         target: "allAdjacentFoes",
+        priority: 1,
         isWind: true,
         secondaries: true
     },
@@ -4074,6 +4097,7 @@ var SV_PATCH = {
         type: "Electric",
         category: "Special",
         target: "allAdjacentFoes",
+        priority: 1,
         isWind: true,
         secondaries: true
     },
@@ -4083,6 +4107,7 @@ var SV_PATCH = {
         category: "Special",
         target: "allAdjacentFoes",
         isWind: true,
+        priority: 1,
         secondaries: true
     },
     "Lunar Blessing": {
@@ -4130,6 +4155,7 @@ var SV_PATCH = {
         type: "Water",
         category: "Physical",
         drain: [50, 100],
+        priority: 1,
         secondaries: true
     },
     "Jet Punch": {
@@ -4137,12 +4163,14 @@ var SV_PATCH = {
         type: "Water",
         category: "Physical",
         makesContact: true,
-        willCrit: true
+        willCrit: true,
+        priority: 1
     },
     "Spicy Extract": {
         bp: 10,
         type: "Grass",
         category: "Special",
+        priority: 1,
         secondaries: true
     },
     "Spin Out": {
@@ -4215,6 +4243,7 @@ var SV_PATCH = {
         bp: 50,
         type: "Dark",
         category: "Physical",
+        priority: 1,
         makesContact: true,
         willCrit: true,
         isSlicing: true,
@@ -4273,6 +4302,7 @@ var SV_PATCH = {
         bp: 1,
         type: "Dark",
         category: "Special",
+        priority: 1,
         secondaries: true
     },
     "Collision Course": {
@@ -4490,6 +4520,7 @@ var SV_PATCH = {
         type: "Electric",
         category: "Special",
         willCrit: true,
+        priority: 1,
         isSound: true
     },
     "Mighty Cleave": {
