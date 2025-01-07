@@ -155,6 +155,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Flying",
     category: "Special",
     isWind: true,
+    priority: 1,
   },
   "Wing Attack": {
     bp: 75,
@@ -308,6 +309,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     multihit: 2,
     isPulse: true,
     secondaries: true,
+    priority: 1,
   },
   "Pin Missile": {
     bp: 25,
@@ -373,6 +375,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fire",
     category: "Special",
     isPulse: true,
+    priority: 1,
   },
   Flamethrower: {
     bp: 90,
@@ -392,6 +395,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     isPulse: true,
     isBullet: true,
+    priority: 1,
   },
   "Hydro Pump": {
     bp: 120,
@@ -647,6 +651,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Normal",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   Teleport: {
     bp: 0,
@@ -785,6 +790,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Normal",
     category: "Special",
     target: "allAdjacentFoes",
+    priority: 1,
   },
   Amnesia: {
     bp: 0,
@@ -1009,6 +1015,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     target: "allAdjacentFoes",
     isWind: true,
+    priority: 1,
   },
   Protect: {
     bp: 0,
@@ -1020,6 +1027,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fighting",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   "Scary Face": {
     bp: 0,
@@ -1159,6 +1167,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Electric",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   "Fury Cutter": {
     bp: 40,
@@ -1305,6 +1314,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Dragon",
     category: "Special",
     target: "allAdjacentFoes",
+    priority: 1,
     isWind: true,
   },
   "Rain Dance": {
@@ -1385,6 +1395,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     makesContact: true,
     secondaries: true,
+    priority: 1,
   },
   Uproar: {
     bp: 120,
@@ -1651,6 +1662,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Ghost",
     category: "Special",
     makesContact: true,
+    priority: 1,
   },
   "Weather Ball": {
     bp: 50,
@@ -1756,6 +1768,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     makesContact: true,
     isSlicing: true,
+    priority: 1,
   },
   "Icicle Spear": {
     bp: 25,
@@ -1812,6 +1825,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     isPulse: true,
     isBullet: true,
     secondaries: true,
+    priority: 1,
   },
   "Poison Tail": {
     bp: 95,
@@ -1841,6 +1855,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Grass",
     category: "Special",
     isWind: true,
+    priority: 1,
   },
   "Calm Mind": {
     bp: 0,
@@ -1871,6 +1886,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 45,
     type: "Electric",
     category: "Special",
+    priority: 1,
   },
   "Water Pulse": {
     bp: 75,
@@ -1930,6 +1946,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 45,
     type: "Psychic",
     category: "Physical",
+    priority: 1,
   },
   Pluck: {
     bp: 60,
@@ -2027,6 +2044,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Dark",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   "Toxic Spikes": {
     bp: 0,
@@ -2168,6 +2186,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fighting",
     category: "Special",
     isPulse: true,
+    priority: 1,
   },
   "Focus Blast": {
     bp: 130,
@@ -2221,6 +2240,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Steel",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   Avalanche: {
     bp: 70,
@@ -2233,6 +2253,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 45,
     type: "Ice",
     category: "Physical",
+    priority: 1,
   },
   "Shadow Claw": {
     bp: 80,
@@ -2267,6 +2288,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Ghost",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   "Psycho Cut": {
     bp: 80,
@@ -2417,6 +2439,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Water",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   "Queen's Command": {
     bp: 80,
@@ -2587,6 +2610,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fire",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   Coil: {
     bp: 0,
@@ -2606,6 +2630,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     isPulse: true,
     isBullet: true,
+    priority: 1,
   },
   "Foul Play": {
     bp: 95,
@@ -3081,6 +3106,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fairy",
     category: "Special",
     isWind: true,
+    priority: 1,
   },
   Moonblast: {
     bp: 95,
@@ -3256,6 +3282,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Bug",
     category: "Physical",
     makesContact: true,
+    priority: 1,
     willCrit: true,
     isSlicing: true,
   },
@@ -3326,6 +3353,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     isPulse: true,
     isBullet: true,
+    priority: 1,
   },
   "Toxic Thread": {
     bp: 0,
@@ -3442,6 +3470,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Dark",
     category: "Special",
     target: "allAdjacent",
+    priority: 1,
     makesContact: true,
   },
   "Aurora Veil": {
@@ -3475,6 +3504,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Rock",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   Liquidation: {
     bp: 85,
@@ -3777,6 +3807,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Bug",
     category: "Physical",
     makesContact: true,
+    priority: 1,
     isSlicing: true,
   },
   "Burning Jealousy": {
@@ -4146,6 +4177,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fairy",
     category: "Physical",
     makesContact: true,
+    priority: 1,
   },
   "Ice Spinner": {
     bp: 60,
@@ -4333,6 +4365,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Psychic",
     category: "Special",
     isPulse: true,
+    priority: 1,
   },
   "Rage Fist": {
     bp: 50,

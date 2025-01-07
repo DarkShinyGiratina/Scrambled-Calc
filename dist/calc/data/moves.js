@@ -136,7 +136,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Flying",
         category: "Special",
-        isWind: true
+        isWind: true,
+        priority: 1
     },
     "Wing Attack": {
         bp: 75,
@@ -289,7 +290,8 @@ var SV_PATCH = {
         category: "Physical",
         multihit: 2,
         isPulse: true,
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Pin Missile": {
         bp: 25,
@@ -354,7 +356,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Fire",
         category: "Special",
-        isPulse: true
+        isPulse: true,
+        priority: 1
     },
     Flamethrower: {
         bp: 90,
@@ -373,7 +376,8 @@ var SV_PATCH = {
         type: "Water",
         category: "Special",
         isPulse: true,
-        isBullet: true
+        isBullet: true,
+        priority: 1
     },
     "Hydro Pump": {
         bp: 120,
@@ -628,7 +632,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Normal",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     Teleport: {
         bp: 0,
@@ -766,7 +771,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Normal",
         category: "Special",
-        target: "allAdjacentFoes"
+        target: "allAdjacentFoes",
+        priority: 1
     },
     Amnesia: {
         bp: 0,
@@ -990,7 +996,8 @@ var SV_PATCH = {
         type: "Ice",
         category: "Special",
         target: "allAdjacentFoes",
-        isWind: true
+        isWind: true,
+        priority: 1
     },
     Protect: {
         bp: 0,
@@ -1001,7 +1008,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Fighting",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Scary Face": {
         bp: 0,
@@ -1140,7 +1148,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Electric",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Fury Cutter": {
         bp: 40,
@@ -1287,6 +1296,7 @@ var SV_PATCH = {
         type: "Dragon",
         category: "Special",
         target: "allAdjacentFoes",
+        priority: 1,
         isWind: true
     },
     "Rain Dance": {
@@ -1366,7 +1376,8 @@ var SV_PATCH = {
         type: "Normal",
         category: "Physical",
         makesContact: true,
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     Uproar: {
         bp: 120,
@@ -1632,7 +1643,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Ghost",
         category: "Special",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Weather Ball": {
         bp: 50,
@@ -1737,7 +1749,8 @@ var SV_PATCH = {
         type: "Flying",
         category: "Physical",
         makesContact: true,
-        isSlicing: true
+        isSlicing: true,
+        priority: 1
     },
     "Icicle Spear": {
         bp: 25,
@@ -1793,7 +1806,8 @@ var SV_PATCH = {
         category: "Special",
         isPulse: true,
         isBullet: true,
-        secondaries: true
+        secondaries: true,
+        priority: 1
     },
     "Poison Tail": {
         bp: 95,
@@ -1822,7 +1836,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Grass",
         category: "Special",
-        isWind: true
+        isWind: true,
+        priority: 1
     },
     "Calm Mind": {
         bp: 0,
@@ -1852,7 +1867,8 @@ var SV_PATCH = {
     "Shock Wave": {
         bp: 45,
         type: "Electric",
-        category: "Special"
+        category: "Special",
+        priority: 1
     },
     "Water Pulse": {
         bp: 75,
@@ -1911,7 +1927,8 @@ var SV_PATCH = {
     "Think Fast": {
         bp: 45,
         type: "Psychic",
-        category: "Physical"
+        category: "Physical",
+        priority: 1
     },
     Pluck: {
         bp: 60,
@@ -2008,7 +2025,8 @@ var SV_PATCH = {
         bp: 70,
         type: "Dark",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Toxic Spikes": {
         bp: 0,
@@ -2149,7 +2167,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Fighting",
         category: "Special",
-        isPulse: true
+        isPulse: true,
+        priority: 1
     },
     "Focus Blast": {
         bp: 130,
@@ -2202,7 +2221,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Steel",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     Avalanche: {
         bp: 70,
@@ -2214,7 +2234,8 @@ var SV_PATCH = {
     "Ice Shard": {
         bp: 45,
         type: "Ice",
-        category: "Physical"
+        category: "Physical",
+        priority: 1
     },
     "Shadow Claw": {
         bp: 80,
@@ -2248,7 +2269,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Ghost",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Psycho Cut": {
         bp: 80,
@@ -2398,7 +2420,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Water",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Queen's Command": {
         bp: 80,
@@ -2568,7 +2591,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Fire",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     Coil: {
         bp: 0,
@@ -2587,7 +2611,8 @@ var SV_PATCH = {
         type: "Poison",
         category: "Special",
         isPulse: true,
-        isBullet: true
+        isBullet: true,
+        priority: 1
     },
     "Foul Play": {
         bp: 95,
@@ -3062,7 +3087,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Fairy",
         category: "Special",
-        isWind: true
+        isWind: true,
+        priority: 1
     },
     Moonblast: {
         bp: 95,
@@ -3238,6 +3264,7 @@ var SV_PATCH = {
         type: "Bug",
         category: "Physical",
         makesContact: true,
+        priority: 1,
         willCrit: true,
         isSlicing: true
     },
@@ -3307,7 +3334,8 @@ var SV_PATCH = {
         type: "Grass",
         category: "Physical",
         isPulse: true,
-        isBullet: true
+        isBullet: true,
+        priority: 1
     },
     "Toxic Thread": {
         bp: 0,
@@ -3424,6 +3452,7 @@ var SV_PATCH = {
         type: "Dark",
         category: "Special",
         target: "allAdjacent",
+        priority: 1,
         makesContact: true
     },
     "Aurora Veil": {
@@ -3456,7 +3485,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Rock",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     Liquidation: {
         bp: 85,
@@ -3759,6 +3789,7 @@ var SV_PATCH = {
         type: "Bug",
         category: "Physical",
         makesContact: true,
+        priority: 1,
         isSlicing: true
     },
     "Burning Jealousy": {
@@ -4127,7 +4158,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Fairy",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        priority: 1
     },
     "Ice Spinner": {
         bp: 60,
@@ -4314,7 +4346,8 @@ var SV_PATCH = {
         bp: 45,
         type: "Psychic",
         category: "Special",
-        isPulse: true
+        isPulse: true,
+        priority: 1
     },
     "Rage Fist": {
         bp: 50,
