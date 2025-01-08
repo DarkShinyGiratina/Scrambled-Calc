@@ -1219,7 +1219,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Lava Plume", "Scorching Sands", "Taunt", "Parting Shot"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {
