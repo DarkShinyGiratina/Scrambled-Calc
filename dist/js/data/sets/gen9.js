@@ -1171,7 +1171,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Air Slash", "Volt Switch", "Aura Sphere", "Weather Ball"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {
