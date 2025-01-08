@@ -3598,7 +3598,7 @@ var SETDEX_SV = {
 			moves: ["Combat Torque", "Gyro Ball", "Strength", "High Voltage"],
 			evs: {
 				at: 252,
-				sa: 252,,
+				sa: 252,
 			},
 			ivs: {
 				hp: 31,
