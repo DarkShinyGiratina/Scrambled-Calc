@@ -1333,7 +1333,6 @@ var SETDEX_SV = {
 			nature: "Serious",
 			moves: ["Blazing Torque", "Iron Head", "Psychic Noise", "Overdrive"],
 			evs: {
-				hp: 24,
 				at: 252,
 				sa: 252,
 			},
@@ -3432,7 +3431,6 @@ var SETDEX_SV = {
 			moves: ["Magical Torque", "Spin Out", "Headlong Rush", "Overheat"],
 			evs: {
 				at: 252,
-				hp: 80,
 				sa: 252,
 			},
 			ivs: {
@@ -3600,8 +3598,7 @@ var SETDEX_SV = {
 			moves: ["Combat Torque", "Gyro Ball", "Strength", "High Voltage"],
 			evs: {
 				at: 252,
-				sa: 252,
-				hp: 92,
+				sa: 252,,
 			},
 			ivs: {
 				hp: 31,

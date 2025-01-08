@@ -10629,7 +10629,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   "Segin Starmobile - Vanilla": {
     types: ["Dark", "Steel"],
     bs: {
-      hp: 249,
+      hp: 150,
       at: 100,
       df: 120,
       sa: 100,
@@ -10640,7 +10640,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   "Schedar Starmobile - Vanilla": {
     types: ["Fire", "Steel"],
     bs: {
-      hp: 255,
+      hp: 175,
       at: 120,
       df: 120,
       sa: 120,
@@ -10651,7 +10651,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   "Navi Starmobile - Vanilla": {
     types: ["Poison", "Steel"],
     bs: {
-      hp: 254,
+      hp: 200,
       at: 120,
       df: 120,
       sa: 120,
@@ -10662,7 +10662,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   "Ruchbah Starmobile - Vanilla": {
     types: ["Fairy", "Steel"],
     bs: {
-      hp: 255,
+      hp: 225,
       at: 120,
       df: 120,
       sa: 120,
@@ -10673,7 +10673,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   "Caph Starmobile - Vanilla": {
     types: ["Fighting", "Steel"],
     bs: {
-      hp: 255,
+      hp: 250,
       at: 120,
       df: 120,
       sa: 120,
