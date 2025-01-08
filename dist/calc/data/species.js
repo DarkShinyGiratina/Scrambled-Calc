@@ -10656,10 +10656,10 @@ var SV_PATCH = {
         },
         weightkg: 2.2
     },
-    "Segin Starmobile": {
+    "Segin Starmobile - Vanilla": {
         types: ["Dark", "Steel"],
         bs: {
-            hp: 150,
+            hp: 249,
             at: 100,
             df: 120,
             sa: 100,
@@ -10667,10 +10667,10 @@ var SV_PATCH = {
             sp: 20
         }
     },
-    "Schedar Starmobile": {
+    "Schedar Starmobile - Vanilla": {
         types: ["Fire", "Steel"],
         bs: {
-            hp: 175,
+            hp: 255,
             at: 120,
             df: 120,
             sa: 120,
@@ -10678,10 +10678,10 @@ var SV_PATCH = {
             sp: 20
         }
     },
-    "Navi Starmobile": {
+    "Navi Starmobile - Vanilla": {
         types: ["Poison", "Steel"],
         bs: {
-            hp: 200,
+            hp: 254,
             at: 120,
             df: 120,
             sa: 120,
@@ -10689,10 +10689,10 @@ var SV_PATCH = {
             sp: 20
         }
     },
-    "Ruchbah Starmobile": {
+    "Ruchbah Starmobile - Vanilla": {
         types: ["Fairy", "Steel"],
         bs: {
-            hp: 225,
+            hp: 255,
             at: 120,
             df: 120,
             sa: 120,
@@ -10700,10 +10700,10 @@ var SV_PATCH = {
             sp: 20
         }
     },
-    "Caph Starmobile": {
+    "Caph Starmobile - Vanilla": {
         types: ["Fighting", "Steel"],
         bs: {
-            hp: 250,
+            hp: 255,
             at: 120,
             df: 120,
             sa: 120,

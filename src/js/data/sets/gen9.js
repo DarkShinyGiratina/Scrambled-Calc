@@ -888,7 +888,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"Segin Starmobile": {
+	"Segin Starmobile - Vanilla": {
 		"Giacomo (Vanilla)": {
 			level: 24,
 			ability: "Filter",
@@ -1326,13 +1326,14 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"Schedar Starmobile": {
+	"Schedar Starmobile - Vanilla": {
 		"Mela (Vanilla)": {
 			level: 30,
 			ability: "Filter",
 			nature: "Serious",
 			moves: ["Blazing Torque", "Iron Head", "Psychic Noise", "Overdrive"],
 			evs: {
+				hp: 24,
 				at: 252,
 				sa: 252,
 			},
@@ -2134,7 +2135,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"Navi Starmobile": {
+	"Navi Starmobile - Vanilla": {
 		"Atticus (Vanilla)": {
 			level: 38,
 			ability: "Filter",
@@ -3423,7 +3424,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"Ruchbah Starmobile": {
+	"Ruchbah Starmobile - Vanilla": {
 		"Ortega (Vanilla)": {
 			level: 56,
 			ability: "Contrary",
@@ -3431,6 +3432,7 @@ var SETDEX_SV = {
 			moves: ["Magical Torque", "Spin Out", "Headlong Rush", "Overheat"],
 			evs: {
 				at: 252,
+				hp: 80,
 				sa: 252,
 			},
 			ivs: {
@@ -3590,7 +3592,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"Caph Starmobile": {
+	"Caph Starmobile - Vanilla": {
 		"Eri (Vanilla)": {
 			level: 60,
 			ability: "Battle Armor",
@@ -3599,6 +3601,7 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				sa: 252,
+				hp: 92,
 			},
 			ivs: {
 				hp: 31,
