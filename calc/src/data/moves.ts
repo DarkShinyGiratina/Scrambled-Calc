@@ -2151,7 +2151,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     isWind: true,
     secondaries: true,
   },
-  "X Scissor": {
+  "X-Scissor": {
     bp: 80,
     type: "Bug",
     category: "Physical",

@@ -2132,7 +2132,7 @@ var SV_PATCH = {
         isWind: true,
         secondaries: true
     },
-    "X Scissor": {
+    "X-Scissor": {
         bp: 80,
         type: "Bug",
         category: "Physical",
