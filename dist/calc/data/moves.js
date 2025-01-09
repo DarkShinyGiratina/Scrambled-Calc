@@ -1961,7 +1961,7 @@ var SV_PATCH = {
         type: "Steel",
         category: "Physical"
     },
-    "U-Turn": {
+    "U-turn": {
         bp: 75,
         type: "Bug",
         category: "Physical",

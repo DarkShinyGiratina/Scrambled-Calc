@@ -244,7 +244,7 @@ var SETDEX_SV = {
 			ability: "Swiftness",
 			item: "Silver Powder",
 			nature: "Naughty",
-			moves: ["Divebomb", "U-Turn", "Take Down", "Psychic Noise"],
+			moves: ["Divebomb", "U-turn", "Take Down", "Psychic Noise"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -553,7 +553,7 @@ var SETDEX_SV = {
 			ability: "Hustle",
 			item: "Sitrus Berry",
 			nature: "Jolly",
-			moves: ["Hoodwink", "U-Turn", "Stomping Tantrum", "Slack Off"],
+			moves: ["Hoodwink", "U-turn", "Stomping Tantrum", "Slack Off"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1924,7 +1924,7 @@ var SETDEX_SV = {
 			ability: "Sharpness",
 			item: "Life Orb",
 			nature: "Jolly",
-			moves: ["Aqua Cutter", "Psycho Cut", "Ceaseless Edge", "U-Turn"],
+			moves: ["Aqua Cutter", "Psycho Cut", "Ceaseless Edge", "U-turn"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2035,7 +2035,7 @@ var SETDEX_SV = {
 			ability: "Toxic Debris",
 			item: "Coba Berry",
 			nature: "Timid",
-			moves: ["U-Turn", "Venoshock", "Psychic Noise", "Stun Spore"],
+			moves: ["U-turn", "Venoshock", "Psychic Noise", "Stun Spore"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2405,7 +2405,7 @@ var SETDEX_SV = {
 			ability: "Elegance",
 			item: "Rindo Berry",
 			nature: "Jolly",
-			moves: ["Liquidation", "Brick Break", "Brave Bird", "U-Turn"],
+			moves: ["Liquidation", "Brick Break", "Brave Bird", "U-turn"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -3875,7 +3875,7 @@ var SETDEX_SV = {
 			ability: "Electric Surge",
 			item: "Focus Sash",
 			nature: "Hasty",
-			moves: ["Rising Voltage", "U-Turn", "Taunt", "Nuzzle"],
+			moves: ["Rising Voltage", "U-turn", "Taunt", "Nuzzle"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4566,7 +4566,7 @@ var SETDEX_SV = {
 			ability: "Fluffy",
 			item: "Mental Herb",
 			nature: "Careful",
-			moves: ["U-Turn", "Whirlwind", "Will-O-Wisp", "Stun Spore"],
+			moves: ["U-turn", "Whirlwind", "Will-O-Wisp", "Stun Spore"],
 			evs: {
 				hp: 252,
 				sd: 252,

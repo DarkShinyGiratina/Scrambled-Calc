@@ -1980,7 +1980,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Steel",
     category: "Physical",
   },
-  "U-Turn": {
+  "U-turn": {
     bp: 75,
     type: "Bug",
     category: "Physical",
