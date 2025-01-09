@@ -2751,7 +2751,7 @@ var SETDEX_SV = {
 			level: 45,
 			teraType: "Ghost",
 			ability: "Fur Coat",
-			item: "Assault Velt",
+			item: "Assault Vest",
 			nature: "Impish",
 			moves: ["Last Respects", "Wallop", "Pummel", "Bone Rush"],
 			evs: {
