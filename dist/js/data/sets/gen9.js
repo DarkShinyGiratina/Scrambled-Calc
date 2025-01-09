@@ -1220,7 +1220,7 @@ var SETDEX_SV = {
 			moves: ["Lava Plume", "Scorching Sands", "Taunt", "Parting Shot"],
 			evs: {
 				sp: 252,
-				sa: 252,
+				hp: 252,
 			},
 			ivs: {
 				hp: 31,
