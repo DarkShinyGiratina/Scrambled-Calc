@@ -2521,7 +2521,7 @@ var SETDEX_SV = {
 	Skeledirge: {
 		"Nemona (After Gym 5) (Vanilla)": {
 			level: 42,
-			teraType: "Ghost",
+			teraType: "Poison",
 			ability: "Appetite",
 			item: "Salac Berry",
 			nature: "Timid",
