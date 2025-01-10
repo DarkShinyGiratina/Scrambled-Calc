@@ -489,7 +489,7 @@ var SETDEX_SV = {
 			ability: "Hustle",
 			item: "Quick Claw",
 			nature: "Serious",
-			moves: ["Acrobatics", "Bug Biting", "Mega Drain", "Tailwind"],
+			moves: ["Acrobatics", "U-turn", "Mega Drain", "Tailwind"],
 			evs: {
 				sp: 252,
 				at: 252,
@@ -2119,7 +2119,7 @@ var SETDEX_SV = {
 			ability: "Battle Bond",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Water Pledge", "Dark Pulse", "Sludge Bomb", "Nasty Plot"],
+			moves: ["Surf", "Dark Pulse", "Sludge Bomb", "Nasty Plot"],
 			evs: {
 				sa: 252,
 				sp: 252,
