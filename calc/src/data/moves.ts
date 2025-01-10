@@ -2562,6 +2562,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     bp: 90,
     type: "Psychic",
     category: "Special",
+    overrideDefensiveStat: "def",
   },
   Venoshock: {
     bp: 70,
@@ -2900,6 +2901,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     isPulse: true,
     isBullet: true,
+    overrideDefensiveStat: "def",
   },
   "Tail Slap": {
     bp: 25,
@@ -2929,6 +2931,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     willCrit: true,
     isSlicing: true,
+    overrideDefensiveStat: "def",
   },
   "Absolute Zero": {
     bp: 80,

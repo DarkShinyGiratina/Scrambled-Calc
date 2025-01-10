@@ -2542,7 +2542,8 @@ var SV_PATCH = {
     Psyshock: {
         bp: 90,
         type: "Psychic",
-        category: "Special"
+        category: "Special",
+        overrideDefensiveStat: "def"
     },
     Venoshock: {
         bp: 70,
@@ -2880,7 +2881,8 @@ var SV_PATCH = {
         type: "Psychic",
         category: "Special",
         isPulse: true,
-        isBullet: true
+        isBullet: true,
+        overrideDefensiveStat: "def"
     },
     "Tail Slap": {
         bp: 25,
@@ -2909,7 +2911,8 @@ var SV_PATCH = {
         type: "Fairy",
         category: "Special",
         willCrit: true,
-        isSlicing: true
+        isSlicing: true,
+        overrideDefensiveStat: "def"
     },
     "Absolute Zero": {
         bp: 80,
