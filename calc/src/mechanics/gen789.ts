@@ -271,10 +271,10 @@ export function calculateSMSSSV(
     "G-Max Hydrosnipe",
     "Light That Burns the Sky",
     "Menacing Moonraze Maelstrom",
-    "Moongeist Beam",
+    "Spectral Beam",
     "Photon Geyser",
     "Searing Sunraze Smash",
-    "Sunsteel Strike"
+    "Meteor Impact"
   );
 
   if (

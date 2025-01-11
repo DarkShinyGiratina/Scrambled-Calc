@@ -2867,6 +2867,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     makesContact: true,
     willCrit: true,
     isSlicing: true,
+    ignoreDefensive: true,
   },
   "Razor Shell": {
     bp: 60,
@@ -3321,6 +3322,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     recoil: [33, 100],
     makesContact: true,
+    ignoreDefensive: true,
   },
   "Bubble Burst": {
     bp: 90,

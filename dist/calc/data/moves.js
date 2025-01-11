@@ -2847,7 +2847,8 @@ var SV_PATCH = {
         category: "Physical",
         makesContact: true,
         willCrit: true,
-        isSlicing: true
+        isSlicing: true,
+        ignoreDefensive: true
     },
     "Razor Shell": {
         bp: 60,
@@ -3301,7 +3302,8 @@ var SV_PATCH = {
         type: "Dark",
         category: "Physical",
         recoil: [33, 100],
-        makesContact: true
+        makesContact: true,
+        ignoreDefensive: true
     },
     "Bubble Burst": {
         bp: 90,
