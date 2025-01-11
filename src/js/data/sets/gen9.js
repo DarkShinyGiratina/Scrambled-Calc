@@ -2924,56 +2924,6 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"": {
-		"Carmine (Final)": {
-			level: 50,
-			ability: "",
-			nature: "",
-			moves: ["", "", "", ""],
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-		"Tulip (Vanilla)": {
-			level: 52,
-			teraType: "Medicham",
-			ability: "",
-			item: "Energy Shield",
-			nature: "Weakness Policy",
-			moves: ["Spe", "", "", ""],
-			evs: {
-				timid: 252,
-				sa: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-		Hassel: {
-			level: 100,
-			ability: "",
-			nature: "",
-			moves: ["", "", "", ""],
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-	},
 	Pawmot: {
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
@@ -3086,7 +3036,7 @@ var SETDEX_SV = {
 			ability: "Energy Shield",
 			item: "Babiri Berry",
 			nature: "Timid",
-			moves: ["Moonblast", "Dark Pulse", "Mystial Power", "Lunar Dance"],
+			moves: ["Moonblast", "Dark Pulse", "Mystical Power", "Lunar Dance"],
 			evs: {
 				hp: 252,
 				sp: 252,
