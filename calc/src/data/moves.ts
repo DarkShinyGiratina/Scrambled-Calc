@@ -747,7 +747,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   Detonate: {
     bp: 250,
     type: "Fire",
-    category: "Physical",
+    category: "Special",
     target: "allAdjacent",
     willCrit: true,
     isPulse: true,

@@ -9946,7 +9946,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 6,
   },
-  "Gimmighoul-Chest": {
+  Gimmighoul: {
     types: ["Ghost", "Steel"],
     bs: {
       hp: 52,
@@ -9958,9 +9958,9 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 5,
     nfe: true,
-    baseSpecies: "Gimmighoul",
+    otherFormes: ["Gimmighoul-Roaming"],
   },
-  Gimmighoul: {
+  "Gimmighoul-Roaming": {
     types: ["Ghost", "Bug"],
     bs: {
       hp: 45,
@@ -9972,7 +9972,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     },
     weightkg: 0.1,
     nfe: true,
-    otherFormes: ["Gimmighoul-Chest"],
+    baseSpecies: "Gimmighoul",
   },
   Gholdengo: {
     types: ["Steel", "Ghost"],

@@ -9976,7 +9976,7 @@ var SV_PATCH = {
         },
         weightkg: 6
     },
-    "Gimmighoul-Chest": {
+    Gimmighoul: {
         types: ["Ghost", "Steel"],
         bs: {
             hp: 52,
@@ -9988,9 +9988,9 @@ var SV_PATCH = {
         },
         weightkg: 5,
         nfe: true,
-        baseSpecies: "Gimmighoul"
+        otherFormes: ["Gimmighoul-Roaming"]
     },
-    Gimmighoul: {
+    "Gimmighoul-Roaming": {
         types: ["Ghost", "Bug"],
         bs: {
             hp: 45,
@@ -10002,7 +10002,7 @@ var SV_PATCH = {
         },
         weightkg: 0.1,
         nfe: true,
-        otherFormes: ["Gimmighoul-Chest"]
+        baseSpecies: "Gimmighoul"
     },
     Gholdengo: {
         types: ["Steel", "Ghost"],
