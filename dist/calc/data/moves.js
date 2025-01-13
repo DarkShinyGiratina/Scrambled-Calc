@@ -1128,7 +1128,7 @@ var SV_PATCH = {
         category: "Status"
     },
     Rollout: {
-        bp: 60,
+        bp: 100,
         type: "Rock",
         category: "Physical",
         makesContact: true,

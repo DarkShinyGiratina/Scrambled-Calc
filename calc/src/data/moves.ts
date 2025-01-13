@@ -1147,7 +1147,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Status",
   },
   Rollout: {
-    bp: 60,
+    bp: 100,
     type: "Rock",
     category: "Physical",
     makesContact: true,

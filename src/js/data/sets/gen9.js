@@ -2317,7 +2317,7 @@ var SETDEX_SV = {
 		"Larry (Vanilla)": {
 			level: 42,
 			ability: "Mega Launcher",
-			item: "Assault Vest",
+			item: "Yache Berry",
 			nature: "Modest",
 			moves: ["Aeroblast", "Boomburst", "Focus Blast", "Fire Blast"],
 			evs: {
