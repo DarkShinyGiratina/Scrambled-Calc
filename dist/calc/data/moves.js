@@ -270,7 +270,7 @@ var SV_PATCH = {
         makesContact: true,
         secondaries: true
     },
-    "Double Edge": {
+    "Double-Edge": {
         bp: 125,
         type: "Normal",
         category: "Physical",

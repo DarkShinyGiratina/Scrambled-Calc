@@ -1306,12 +1306,7 @@ var SETDEX_SV = {
 			ability: "Elegance",
 			item: "Focus Sash",
 			nature: "Jolly",
-			moves: [
-				"Trop Kick",
-				"Brick Break",
-				"Stomping Tantrum",
-				"Parting Shot",
-			],
+			moves: ["Bullet Seed", "Pummel", "Triple Axel", "Parting Shot"],
 			evs: {
 				sp: 252,
 				at: 252,
@@ -1625,7 +1620,7 @@ var SETDEX_SV = {
 			ability: "Levitate",
 			item: "Black Sludge",
 			nature: "Careful",
-			moves: ["Dire Claw", "Knock Off", "Taunt", "Parting Shot"],
+			moves: ["Dire Claw", "Glare", "Taunt", "Parting Shot"],
 			evs: {
 				hp: 252,
 				sd: 252,
@@ -1644,7 +1639,7 @@ var SETDEX_SV = {
 			ability: "Levitate",
 			item: "Assault Vest",
 			nature: "Jolly",
-			moves: ["Dire Claw", "Lash Out", "Drill Run", "Razor Shell"],
+			moves: ["Dire Claw", "Night Slash", "Drill Run", "Razor Shell"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1663,7 +1658,7 @@ var SETDEX_SV = {
 			ability: "Levitate",
 			item: "Focus Sash",
 			nature: "Jolly",
-			moves: ["Dire Claw", "Knock Off", "Taunt", "Parting Shot"],
+			moves: ["Dire Claw", "Night Slash", "Taunt", "Parting Shot"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2035,7 +2030,7 @@ var SETDEX_SV = {
 			ability: "Toxic Debris",
 			item: "Coba Berry",
 			nature: "Timid",
-			moves: ["U-turn", "Venoshock", "Psychic Noise", "Stun Spore"],
+			moves: ["U-turn", "Venoshock", "Sleep Powder", "Stun Spore"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2119,7 +2114,7 @@ var SETDEX_SV = {
 			ability: "Battle Bond",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Surf", "Dark Pulse", "Sludge Bomb", "Nasty Plot"],
+			moves: ["Water Pledge", "Dark Pulse", "Sludge Bomb", "Nasty Plot"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2908,7 +2903,7 @@ var SETDEX_SV = {
 			teraType: "Grass",
 			ability: "Embody Aspect (Teal)",
 			item: "Teal Mask",
-			nature: "Adamant",
+			nature: "Jolly",
 			moves: ["Kerfuffle", "Horn Leech", "Take Down", "Zen Headbutt"],
 			evs: {
 				hp: 252,
@@ -3631,7 +3626,7 @@ var SETDEX_SV = {
 			nature: "Careful",
 			moves: ["Strength", "Fissure", "Fissure", "Fissure"],
 			evs: {
-				"hp ": 252,
+				hp: 252,
 				sd: 252,
 			},
 			ivs: {
@@ -3650,7 +3645,7 @@ var SETDEX_SV = {
 			ability: "Rapid Fire",
 			item: "Chople Berry",
 			nature: "Careful",
-			moves: ["Stingerm Issile", "Take Aim", "Spike Cannon", "Icicle Spear"],
+			moves: ["Stinger Missile", "Take Aim", "Spike Cannon", "Icicle Spear"],
 			evs: {
 				hp: 252,
 				sd: 252,

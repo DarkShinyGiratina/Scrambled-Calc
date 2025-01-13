@@ -288,7 +288,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     makesContact: true,
     secondaries: true,
   },
-  "Double Edge": {
+  "Double-Edge": {
     bp: 125,
     type: "Normal",
     category: "Physical",
