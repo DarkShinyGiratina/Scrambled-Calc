@@ -2460,7 +2460,7 @@ var SETDEX_SV = {
 			ability: "Technician",
 			item: "Life Orb",
 			nature: "Jolly",
-			moves: ["Flower Trick", "Wallop", "Knock Off", "Psycho Cut"],
+			moves: ["Flower Trick", "Befuddle", "Lash Out", "Psycho Cut"],
 			evs: {
 				at: 252,
 				sp: 252,
