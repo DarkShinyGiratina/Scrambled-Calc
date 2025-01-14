@@ -1658,7 +1658,7 @@ var SETDEX_SV = {
 			ability: "Levitate",
 			item: "Focus Sash",
 			nature: "Jolly",
-			moves: ["Dire Claw", "Night Slash", "Taunt", "Parting Shot"],
+			moves: ["Dire Claw", "Lash Out", "Taunt", "Parting Shot"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2640,7 +2640,7 @@ var SETDEX_SV = {
 		"Ryme (Vanilla)": {
 			level: 45,
 			ability: "Snow Warning",
-			item: "Quick Claw",
+			item: "Mental Herb",
 			nature: "Timid",
 			moves: ["Blizzard", "Shadow Ball", "Dreamy Kiss", "Aurora Veil"],
 			evs: {
@@ -2660,10 +2660,10 @@ var SETDEX_SV = {
 	Hoopa: {
 		"Ryme (Vanilla)": {
 			level: 45,
-			ability: "Psychic Surge",
+			ability: "Prankster",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Psyshock", "Shadow Ball", "Dazzling Gleam", "Focus Blast"],
+			moves: ["Psyshock", "Shadow Ball", "Magic Powder", "Focus Blast"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2703,9 +2703,9 @@ var SETDEX_SV = {
 		"Ryme (Vanilla)": {
 			level: 45,
 			ability: "Energy Shield",
-			item: "Roseli Berry",
+			item: "White Herb",
 			nature: "Modest",
-			moves: ["Fiery Wrath", "Focus Blast", "Moonblast", "Parting Shot"],
+			moves: ["Twilight Cannon", "Focus Blast", "Moonblast", "Parting Shot"],
 			evs: {
 				hp: 252,
 				sa: 252,
@@ -2748,7 +2748,7 @@ var SETDEX_SV = {
 			ability: "Fur Coat",
 			item: "Assault Vest",
 			nature: "Impish",
-			moves: ["Last Respects", "Wallop", "Pummel", "Bone Rush"],
+			moves: ["Last Respects", "Bone Rush"],
 			evs: {
 				df: 252,
 				sd: 252,
