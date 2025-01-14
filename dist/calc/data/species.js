@@ -448,11 +448,11 @@ var SV_PATCH = {
         types: ["Fairy", "Fire"],
         bs: {
             hp: 73,
-            at: 76,
+            at: 58,
             df: 75,
-            sa: 81,
-            sd: 100,
-            sp: 100
+            sa: 119,
+            sd: 101,
+            sp: 109
         },
         weightkg: 19.9,
         otherFormes: ["Ninetales-Alola"]

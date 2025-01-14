@@ -1570,7 +1570,7 @@ var SETDEX_SV = {
 		},
 		"Carmine (Final)": {
 			level: 50,
-			ability: "Serene Grace",
+			ability: "Drought",
 			item: "Air Balloon",
 			nature: "Timid",
 			moves: [
