@@ -1468,7 +1468,7 @@ var SETDEX_SV = {
 			ability: "Technician",
 			item: "Focus Sash",
 			nature: "Naughty",
-			moves: ["Force Waves", "Quick Attack", "Fake Out", "Knock Off"],
+			moves: ["Force Waves", "Quick Attack", "Fake Out", "Fury Swipes"],
 			evs: {
 				sa: 252,
 				at: 252,
@@ -3890,7 +3890,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Dark Pulse", "Stored Power", "Aura Sphere", "Lunar Dance"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {
@@ -4360,7 +4360,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Fickle Beam", "Earth Power", "Fire Blast", "Sludge Bomb"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				sa: 252,
 			},
 			ivs: {

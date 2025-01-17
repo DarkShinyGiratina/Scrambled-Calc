@@ -811,6 +811,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Flying",
     category: "Physical",
     makesContact: true,
+    hasCrashDamage: true,
   },
   Glare: {
     bp: 0,
@@ -2512,6 +2513,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Ground",
     category: "Special",
     secondaries: true,
+    willCrit: true,
   },
   "Dark Void": {
     bp: 0,
@@ -4161,6 +4163,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Fighting",
     category: "Physical",
     makesContact: true,
+    hasCrashDamage: true,
   },
   "Last Respects": {
     bp: 50,

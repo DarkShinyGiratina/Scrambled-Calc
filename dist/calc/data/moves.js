@@ -791,7 +791,8 @@ var SV_PATCH = {
         bp: 130,
         type: "Flying",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        hasCrashDamage: true
     },
     Glare: {
         bp: 0,
@@ -2492,7 +2493,8 @@ var SV_PATCH = {
         bp: 80,
         type: "Ground",
         category: "Special",
-        secondaries: true
+        secondaries: true,
+        willCrit: true
     },
     "Dark Void": {
         bp: 0,
@@ -4141,7 +4143,8 @@ var SV_PATCH = {
         bp: 130,
         type: "Fighting",
         category: "Physical",
-        makesContact: true
+        makesContact: true,
+        hasCrashDamage: true
     },
     "Last Respects": {
         bp: 50,
