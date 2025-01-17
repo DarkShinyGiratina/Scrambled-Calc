@@ -1430,7 +1430,7 @@ var SV_PATCH = {
         type: "Dark",
         category: "Status"
     },
-    "Will O Wisp": {
+    "Will-O-Wisp": {
         bp: 0,
         type: "Fire",
         category: "Status"

@@ -1449,7 +1449,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Dark",
     category: "Status",
   },
-  "Will O Wisp": {
+  "Will-O-Wisp": {
     bp: 0,
     type: "Fire",
     category: "Status",
