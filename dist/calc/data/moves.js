@@ -3069,7 +3069,7 @@ var SV_PATCH = {
         category: "Status",
         isSound: true
     },
-    "Topsy Turvy": {
+    "Topsy-Turvy": {
         bp: 0,
         type: "Dark",
         category: "Status"

@@ -3088,7 +3088,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Status",
     isSound: true,
   },
-  "Topsy Turvy": {
+  "Topsy-Turvy": {
     bp: 0,
     type: "Dark",
     category: "Status",
