@@ -3163,7 +3163,7 @@ var SETDEX_SV = {
 			ability: "Slush Rush",
 			item: "Babiri Berry",
 			nature: "Jolly",
-			moves: ["Ice Hammer", "Knockout Punch", "Brtual Swing", "Strength"],
+			moves: ["Ice Hammer", "Knockout Punch", "Brutal Swing", "Strength"],
 			evs: {
 				at: 252,
 				sp: 252,
