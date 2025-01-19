@@ -2942,6 +2942,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Special",
     target: "allAdjacentFoes",
     isWind: true,
+    willCrit: true,
   },
   "Electro Assault": {
     bp: 140,

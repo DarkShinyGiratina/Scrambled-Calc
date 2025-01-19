@@ -2922,7 +2922,8 @@ var SV_PATCH = {
         type: "Ice",
         category: "Special",
         target: "allAdjacentFoes",
-        isWind: true
+        isWind: true,
+        willCrit: true
     },
     "Electro Assault": {
         bp: 140,
