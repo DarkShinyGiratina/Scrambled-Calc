@@ -1549,12 +1549,7 @@ var SETDEX_SV = {
 			ability: "Drought",
 			item: "Colbur Berry",
 			nature: "Timid",
-			moves: [
-				"Bitter Blaze",
-				"Infernal Parade",
-				"Dazzling Gleam",
-				"Hypnosis",
-			],
+			moves: ["Heat Wave", "Infernal Parade", "Dazzling Gleam", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,

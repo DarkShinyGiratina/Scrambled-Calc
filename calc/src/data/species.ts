@@ -9963,12 +9963,12 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   "Gimmighoul-Roaming": {
     types: ["Ghost", "Bug"],
     bs: {
-      hp: 45,
-      at: 30,
-      df: 25,
-      sa: 75,
-      sd: 45,
-      sp: 80,
+      hp: 52,
+      at: 60,
+      df: 45,
+      sa: 93,
+      sd: 61,
+      sp: 114,
     },
     weightkg: 0.1,
     nfe: true,
