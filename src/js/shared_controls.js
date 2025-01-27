@@ -277,7 +277,39 @@ $(".ability").bind("keyup change", function () {
 		$(this).closest(".poke-info").find(".alliesFainted").val("0");
 		$(this).closest(".poke-info").find(".alliesFainted").hide();
 	}
+
+	var boostedStat = $(this).closest(".poke-info").find(".boostedStat");
+
+	if (ability === "Protosynthesis" || ability === "Quark Drive") {
+		boostedStat.show();
+		autosetQP($(this).closest(".poke-info"));
+	} else {
+		boostedStat.val("");
+		boostedStat.hide();
+	}
 });
+
+function autosetQP(pokemon) {
+	var currentWeather = $("input:radio[name='weather']:checked").val();
+	var currentTerrain =
+		$("input:checkbox[name='terrain']:checked").val() || "No terrain";
+
+	var item = pokemon.find(".item").val();
+	var ability = pokemon.find(".ability").val();
+	var boostedStat = pokemon.find(".boostedStat").val();
+
+	if (!boostedStat || boostedStat === "auto") {
+		if (
+			item === "Booster Energy" ||
+			(ability === "Protosynthesis" && currentWeather === "Sun") ||
+			(ability === "Quark Drive" && currentTerrain === "Electric")
+		) {
+			pokemon.find(".boostedStat").val("auto");
+		} else {
+			pokemon.find(".boostedStat").val("");
+		}
+	}
+}
 
 $("#p1 .ability").bind("keyup change", function () {
 	autosetWeather($(this).val(), 0);
@@ -542,6 +574,7 @@ $(".set-selector").change(function () {
 			stickyMoves.clearStickyMove();
 		}
 		pokeObj.find(".teraToggle").prop("checked", false);
+		pokeObj.find(".boostedStat").val("");
 		pokeObj.find(".analysis").attr("href", smogonAnalysis(pokemonName));
 		pokeObj.find(".type1").val(pokemon.types[0]);
 		pokeObj.find(".type2").val(pokemon.types[1]);
@@ -1082,6 +1115,7 @@ function createPokemon(pokeInfo) {
 			isDynamaxed: isDynamaxed,
 			isSaltCure: pokeInfo.find(".saltcure").is(":checked"),
 			alliesFainted: parseInt(pokeInfo.find(".alliesFainted").val()),
+			boostedStat: pokeInfo.find(".boostedStat").val() || undefined,
 			teraType: teraType,
 			boosts: boosts,
 			curHP: curHP,

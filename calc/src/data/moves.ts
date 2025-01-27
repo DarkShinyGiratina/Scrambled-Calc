@@ -3007,7 +3007,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "High Voltage": {
     bp: 80,
     type: "Electric",
-    category: "Physical",
+    category: "Special",
     willCrit: true,
   },
   "Flying Press": {
@@ -4480,10 +4480,16 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     secondaries: true,
   },
   "Magical Torque": {
-    bp: 100,
+    bp: 85,
+    willCrit: true,
     type: "Fairy",
     category: "Physical",
     secondaries: true,
+  },
+  "120BP Heavy Slam": {
+    bp: 120,
+    type: "Steel",
+    category: "Physical",
   },
   "Twilight Cannon": {
     bp: 140,

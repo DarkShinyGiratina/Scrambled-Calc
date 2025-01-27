@@ -1565,7 +1565,7 @@ var SETDEX_SV = {
 		},
 		"Carmine (Final)": {
 			level: 50,
-			ability: "Drought",
+			ability: "Serene Grace",
 			item: "Air Balloon",
 			nature: "Timid",
 			moves: [
@@ -2129,7 +2129,12 @@ var SETDEX_SV = {
 			level: 38,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Noxious Torque", "Flash Cannon", "Earthquake", "Energy Ball"],
+			moves: [
+				"Noxious Torque",
+				"Flash Cannon",
+				"Headlong Rush",
+				"Energy Ball",
+			],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -3028,7 +3033,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: ["Moonblast", "Dark Pulse", "Mystical Power", "Lunar Dance"],
 			evs: {
-				hp: 252,
+				sa: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -3496,7 +3501,7 @@ var SETDEX_SV = {
 			nature: "Jolly",
 			moves: ["Kerfuffle", "Knockout Punch", "Seismic Fist", "Roar"],
 			evs: {
-				hp: 252,
+				at: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -3535,7 +3540,12 @@ var SETDEX_SV = {
 			level: 60,
 			ability: "Battle Armor",
 			nature: "Serious",
-			moves: ["Combat Torque", "Gyro Ball", "Strength", "High Voltage"],
+			moves: [
+				"Combat Torque",
+				"120BP Heavy Slam",
+				"Strength",
+				"High Voltage",
+			],
 			evs: {
 				at: 252,
 				sa: 252,
