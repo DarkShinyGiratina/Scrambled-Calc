@@ -5694,7 +5694,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Gothitelle: {
     types: ["Fairy", "Dark"],
     bs: {
-      hp: 70,
+      hp: 85,
       at: 55,
       df: 95,
       sa: 125,

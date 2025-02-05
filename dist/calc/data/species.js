@@ -5724,7 +5724,7 @@ var SV_PATCH = {
     Gothitelle: {
         types: ["Fairy", "Dark"],
         bs: {
-            hp: 70,
+            hp: 85,
             at: 55,
             df: 95,
             sa: 125,
