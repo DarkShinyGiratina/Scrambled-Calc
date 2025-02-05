@@ -4205,7 +4205,7 @@ var SV_PATCH = {
         makesContact: true,
         secondaries: true
     },
-    "Dragon' Blade": {
+    "Dragon's Blade": {
         bp: 80,
         type: "Dragon",
         category: "Physical",

@@ -1114,7 +1114,7 @@ var SV_PATCH = {
     Muk: {
         types: ["Poison"],
         bs: {
-            hp: 105,
+            hp: 110,
             at: 105,
             df: 80,
             sa: 95,
@@ -2125,11 +2125,11 @@ var SV_PATCH = {
         types: ["Water", "Fairy"],
         bs: {
             hp: 70,
-            at: 20,
-            df: 50,
-            sa: 20,
-            sd: 50,
-            sp: 40
+            at: 30,
+            df: 65,
+            sa: 50,
+            sd: 70,
+            sp: 65
         },
         weightkg: 8.5,
         nfe: true
@@ -4973,12 +4973,12 @@ var SV_PATCH = {
     "Rotom-Heat": {
         types: ["Electric", "Fire"],
         bs: {
-            hp: 60,
+            hp: 65,
             at: 40,
-            df: 102,
+            df: 107,
             sa: 125,
-            sd: 102,
-            sp: 121
+            sd: 107,
+            sp: 106
         },
         weightkg: 0.3,
         baseSpecies: "Rotom"
@@ -5012,11 +5012,11 @@ var SV_PATCH = {
     "Rotom-Fan": {
         types: ["Electric", "Flying"],
         bs: {
-            hp: 50,
+            hp: 60,
             at: 40,
             df: 102,
             sa: 125,
-            sd: 107,
+            sd: 102,
             sp: 121
         },
         weightkg: 0.3,
@@ -5500,7 +5500,7 @@ var SV_PATCH = {
             sp: 108
         },
         weightkg: 18,
-        otherFormes: ["Basculin-Blue-Striped", "Basculin-White-Striped"]
+        otherFormes: ["Basculin-Blue-Striped", "Basculin-White"]
     },
     "Basculin-Blue-Striped": {
         types: ["Water", "Dark"],
@@ -5515,7 +5515,7 @@ var SV_PATCH = {
         weightkg: 18,
         baseSpecies: "Basculin"
     },
-    "Basculin-White-Striped": {
+    "Basculin-White": {
         types: ["Water"],
         bs: {
             hp: 62,
@@ -8654,7 +8654,7 @@ var SV_PATCH = {
             at: 30,
             df: 95,
             sa: 65,
-            sd: 95,
+            sd: 75,
             sp: 20
         },
         weightkg: 3.8,

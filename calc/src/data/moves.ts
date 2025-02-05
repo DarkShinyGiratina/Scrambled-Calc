@@ -4224,7 +4224,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     makesContact: true,
     secondaries: true,
   },
-  "Dragon' Blade": {
+  "Dragon's Blade": {
     bp: 80,
     type: "Dragon",
     category: "Physical",

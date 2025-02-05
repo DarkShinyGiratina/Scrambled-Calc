@@ -151,6 +151,9 @@ var FLING_100 = new Set([
     "TR10",
     "TR31",
     "TR75",
+    "Flame Orb",
+    "Toxic Orb",
+    "Light Ball",
 ]);
 var FLING_90 = new Set([
     "Deep Sea Tooth",
@@ -243,10 +246,8 @@ var FLING_30 = new Set([
     "Cell Battery",
     "Charcoal",
     "Deep Sea Scale",
-    "Flame Orb",
     "King's Rock",
     "Life Orb",
-    "Light Ball",
     "Light Clay",
     "Magnet",
     "Metal Coat",
@@ -260,7 +261,6 @@ var FLING_30 = new Set([
     "Sweet Apple",
     "Tart Apple",
     "Throat Spray",
-    "Toxic Orb",
     "Twisted Spoon",
     "Dragon Scale",
     "Energy Powder",
