@@ -1586,9 +1586,9 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Normal",
     category: "Status",
   },
-  "Luster Purge": {
-    bp: 95,
-    type: "Psychic",
+  "Lustrous Power": {
+    bp: 120,
+    type: "Fairy",
     category: "Special",
     secondaries: true,
   },

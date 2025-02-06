@@ -204,7 +204,7 @@ var SETDEX_SV = {
 			ability: "Harvest",
 			item: "Sitrus Berry",
 			nature: "Calm",
-			moves: ["Infestation", "Mega Drain", "Leech Seed", "Silk Trap"],
+			moves: ["Infestation", "Mega Drain", "Leech Seed", "Draining Kiss"],
 			evs: {
 				hp: 252,
 				df: 252,
@@ -440,6 +440,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Kieran (Paradise Barrens)": {
+			level: 35,
+			ability: "Prankster",
+			item: "Eviolite",
+			nature: "Careful",
+			moves: ["Dire Claw", "Fire Fang", "Taunt", "Parting Shot"],
+			evs: {
+				hp: 252,
+				sd: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Volbeat: {
 		"Katy (Vanilla)": {
@@ -531,7 +550,7 @@ var SETDEX_SV = {
 			ability: "Liquid Veil",
 			item: "Mystic Water",
 			nature: "Modest",
-			moves: ["Bubble Beam", "Struggle Bug", "Electroweb", "Icy Wind"],
+			moves: ["Chilling Water", "Struggle Bug", "Aurora Beam", "Mega Drain"],
 			evs: {
 				hp: 252,
 				sa: 252,
@@ -663,7 +682,7 @@ var SETDEX_SV = {
 			ability: "Quick Feet",
 			item: "Flame Orb",
 			nature: "Modest",
-			moves: ["Mud Shower", "Giga Drain", "Venoshock", "Hex"],
+			moves: ["Mud Shower", "Giga Drain", "Venoshock", "Toxic"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -831,7 +850,7 @@ var SETDEX_SV = {
 			ability: "Tinted Lens",
 			item: "Silver Powder",
 			nature: "Adamant",
-			moves: ["Lash Out", "First Impression", "Bug Biting", "Parting Shot"],
+			moves: ["Lash Out", "First Impression", "Bug Biting"],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -1610,25 +1629,6 @@ var SETDEX_SV = {
 		},
 	},
 	Gliscor: {
-		"Kieran (Paradise Barrens)": {
-			level: 35,
-			ability: "Levitate",
-			item: "Black Sludge",
-			nature: "Careful",
-			moves: ["Dire Claw", "Glare", "Taunt", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
 		"Kieran (Loyalty Plaza)": {
 			level: 40,
 			ability: "Levitate",
@@ -1651,11 +1651,11 @@ var SETDEX_SV = {
 		"Kieran (Final)": {
 			level: 50,
 			ability: "Levitate",
-			item: "Focus Sash",
+			item: "Mental Herb",
 			nature: "Jolly",
-			moves: ["Dire Claw", "Lash Out", "Taunt", "Parting Shot"],
+			moves: ["Dire Claw", "Pummel", "Swords Dance", "Toxic Spikes"],
 			evs: {
-				at: 252,
+				ht: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -1793,7 +1793,7 @@ var SETDEX_SV = {
 			ability: "Sturdy",
 			item: "Weakness Policy",
 			nature: "Jolly",
-			moves: ["Jagged Edge", "Night Slash", "Cross Chop", "Laceration"],
+			moves: ["Jagged Edge", "Night Slash", "Soul Crush", "Rock Polish"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1812,7 +1812,7 @@ var SETDEX_SV = {
 			ability: "Sturdy",
 			item: "Red Card",
 			nature: "Jolly",
-			moves: ["Power Trip", "Howl", "", ""],
+			moves: ["Power Trip", "Rock Polish", "Roar", ""],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -1850,13 +1850,13 @@ var SETDEX_SV = {
 		},
 		"Kieran (Loyalty Plaza)": {
 			level: 40,
-			ability: "Contrary",
+			ability: "Sharpness",
 			item: "Tanga Berry",
-			nature: "Timid",
-			moves: ["Twilight Cannon", "Psycho Boost", "Hydro Cannon", "Hypnosis"],
+			nature: "Adamant",
+			moves: ["Night Slash", "Glare", "Psycho Cut", "Sacred Slash"],
 			evs: {
-				sa: 252,
-				sp: 252,
+				hp: 252,
+				at: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -1870,9 +1870,9 @@ var SETDEX_SV = {
 		"Kieran (Final)": {
 			level: 50,
 			ability: "Contrary",
-			item: "Choice Scarf",
+			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Twilight Cannon", "", "", ""],
+			moves: ["Twilight Cannon", "Psycho Boost", "Glare", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -1929,21 +1929,16 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Wugtrio: {
+	Ludicolo: {
 		"Kofu (Vanilla)": {
 			level: 36,
-			ability: "Expertise",
-			item: "Rindo Berry",
-			nature: "Jolly",
-			moves: [
-				"Triple Dive",
-				"Rock Slide",
-				"Stomping Tantrum",
-				"Zen Headbutt",
-			],
+			ability: "Drizzle",
+			item: "Damp Rock",
+			nature: "Modest",
+			moves: ["Revelation Dance", "Giga Drain", "Ice Beam", "Sing"],
 			evs: {
-				at: 252,
-				sp: 252,
+				sa: 252,
+				hp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -1961,7 +1956,7 @@ var SETDEX_SV = {
 			ability: "Anger Shell",
 			item: "Focus Sash",
 			nature: "Jolly",
-			moves: ["Aqua Cutter", "Night Slash", "Cross Chop", "Cross Poison"],
+			moves: ["Aqua Cutter", "Night Slash", "Dragon Dance", "Cross Poison"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2213,9 +2208,9 @@ var SETDEX_SV = {
 		"Larry (E4)": {
 			level: 100,
 			ability: "Intimidate",
-			item: "Focus Sash",
+			item: "Mental Herb",
 			nature: "Jolly",
-			moves: ["Final Gambit", "Endeavor", "Parting Shot", "Whirlwind"],
+			moves: ["Final Gambit", "Glare", "Parting Shot", "Whirlwind"],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -2699,48 +2694,6 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Spiritomb: {
-		"Ryme (Vanilla)": {
-			level: 45,
-			ability: "Energy Shield",
-			item: "White Herb",
-			nature: "Modest",
-			moves: ["Twilight Cannon", "Focus Blast", "Moonblast", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-	},
-	Chandelure: {
-		"Ryme (Vanilla)": {
-			level: 45,
-			ability: "Levitate",
-			item: "Colbur Berry",
-			nature: "Timid",
-			moves: ["Heat Wave", "Infernal Parade", "Energy Ball", "Thunder"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-	},
 	Houndstone: {
 		"Ryme (Vanilla)": {
 			level: 45,
@@ -2767,9 +2720,14 @@ var SETDEX_SV = {
 		"Titan Donphan (Vanilla)": {
 			level: 47,
 			ability: "Filter",
-			item: "Assault Vest",
+			item: "Lum Berry",
 			nature: "Adamant",
-			moves: ["Brutal Blade", "Precipice Blades", "Jagged Edge", "Zing Zap"],
+			moves: [
+				"Brutal Blade",
+				"Precipice Blades",
+				"Jagged Edge",
+				"Shift Gear",
+			],
 			evs: {
 				hp: 252,
 				at: 252,
@@ -2788,17 +2746,17 @@ var SETDEX_SV = {
 		"Titan Donphan (Vanilla)": {
 			level: 47,
 			ability: "Resilient",
-			item: "Assault Vest",
+			item: "Lum Berry",
 			nature: "Adamant",
 			moves: [
 				"Brutal Bash",
 				"Precipice Blades",
 				"Jagged Edge",
-				"Temper Flare",
+				"Dragon Dance",
 			],
 			evs: {
 				at: 252,
-				sd: 252,
+				hp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -2814,12 +2772,12 @@ var SETDEX_SV = {
 		"Kieran (Final)": {
 			level: 50,
 			ability: "Dark Aura",
-			item: "Quick Claw",
-			nature: "Calm",
-			moves: ["Doom Desire", "Roar", "Hypnosis", "Parting Shot"],
+			item: "Roseli Berry",
+			nature: "Timid",
+			moves: ["Fiery Wrath", "Earth Power", "Moonblast", "Lunar Dance"],
 			evs: {
 				hp: 252,
-				sd: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -3389,12 +3347,12 @@ var SETDEX_SV = {
 		},
 	},
 	Dondozo: {
-		"Titans Dondozo and Tatsugiri (Vanila)": {
+		"Titans Dondozo and Tatsugiri (Vanilla)": {
 			level: 58,
-			ability: "Appetite",
-			item: "Apicot Berry",
+			ability: "Brute Force",
+			item: "Choice Band",
 			nature: "Adamant",
-			moves: ["Outrage", "Gunk Shot", "Earthquake", "Engorge"],
+			moves: ["Outrage", "Liquidation", "", ""],
 			evs: {
 				hp: 252,
 				at: 252,
@@ -3410,10 +3368,10 @@ var SETDEX_SV = {
 		},
 	},
 	Tatsugiri: {
-		"Titans Dondozo and Tatsugiri (Vanila)": {
+		"Titans Dondozo and Tatsugiri (Vanilla)": {
 			level: 58,
 			ability: "Contrary",
-			item: "Assault Vest",
+			item: "Ability Shield",
 			nature: "Bold",
 			moves: ["Hydro Cannon", "Draco Meteor", "", ""],
 			evs: {
@@ -3518,9 +3476,9 @@ var SETDEX_SV = {
 		"Eri (Vanilla)": {
 			level: 60,
 			ability: "Unburden",
-			item: "Sitrus Berry",
+			item: "Focus Sash",
 			nature: "Careful",
-			moves: ["Pummel", "Tail Slap", "Fury Swipes", "Belly Drum"],
+			moves: ["Retaliate", "Close Combat", "Shadow Punch", "Victory Dance"],
 			evs: {
 				hp: 252,
 				sd: 252,
@@ -3950,16 +3908,16 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Excadrill: {
+	Clodsire: {
 		Rika: {
 			level: 100,
-			ability: "Sharpness",
-			item: "Focus Sash",
-			nature: "Jolly",
-			moves: ["Laceration", "Drill Run", "Jagged Edge", "Taunt"],
+			ability: "Oblivious",
+			item: "Passho Berry",
+			nature: "Impish",
+			moves: ["Barb Barrage", "Flip Turn", "Haze", "Toxic Spikes"],
 			evs: {
-				at: 252,
-				sp: 252,
+				hp: 252,
+				df: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -3996,7 +3954,7 @@ var SETDEX_SV = {
 		Rika: {
 			level: 100,
 			ability: "Rough Skin",
-			item: "Yache Berry",
+			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Earthquake", "Dragon Claw", "Temper Flare", "Dragon Dance"],
 			evs: {
@@ -4017,7 +3975,7 @@ var SETDEX_SV = {
 		Rika: {
 			level: 100,
 			ability: "Shell Armor",
-			item: "White Herb",
+			item: "Yache Berry",
 			nature: "Jolly",
 			moves: ["Wood Hammer", "Megaton Kick", "Strength", "Shell Smash"],
 			evs: {
@@ -4077,13 +4035,13 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Bronzong: {
+	Klefki: {
 		Poppy: {
 			level: 100,
-			ability: "Levitate",
+			ability: "Prankster",
 			item: "Mental Herb",
 			nature: "Bold",
-			moves: ["Steel Beam", "Steel Beam", "Thunder Wave", "Hypnosis"],
+			moves: ["Steel Beam", "Steel Beam", "Thunder Wave", "Dreamy Kiss"],
 			evs: {
 				hp: 252,
 				df: 252,
@@ -4208,9 +4166,9 @@ var SETDEX_SV = {
 		"Larry (E4)": {
 			level: 100,
 			ability: "Hustle",
-			item: "Liechi Berry",
+			item: "Focus Sash",
 			nature: "Jolly",
-			moves: ["Megaton Kick", "Drill Peck", "Endure", "Temper Flare"],
+			moves: ["Megaton Kick", "Drill Peck", "Swords Dance", "Temper Flare"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -4249,13 +4207,13 @@ var SETDEX_SV = {
 	Archaludon: {
 		Hassel: {
 			level: 100,
-			ability: "Mega Launcher",
-			item: "Quick Claw",
-			nature: "Calm",
-			moves: ["Steel Beam", "Drakonic Beam", "Steel Beam", "Thunder Wave"],
+			ability: "Sturdy",
+			item: "Red Card",
+			nature: "Modest",
+			moves: ["Flash Cannon", "Dragon Pulse", "Focus Blast", "Shift Gear"],
 			evs: {
-				hp: 252,
-				sd: 252,
+				sa: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -4271,7 +4229,7 @@ var SETDEX_SV = {
 		Hassel: {
 			level: 100,
 			ability: "Multiscale",
-			item: "Red Card",
+			item: "Roseli Berry",
 			nature: "Jolly",
 			moves: ["Dragon Claw", "Sacred Slash", "Poison Jab", "Dragon Dance"],
 			evs: {
@@ -4315,12 +4273,7 @@ var SETDEX_SV = {
 			ability: "Mega Launcher",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: [
-				"Shadow Ball",
-				"Dragon Energy",
-				"Dragon Pulse",
-				"Destiny Bond",
-			],
+			moves: ["Shadow Ball", "Thunder Wave", "Dragon Pulse", "Destiny Bond"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4361,7 +4314,7 @@ var SETDEX_SV = {
 			level: 100,
 			teraType: "Dragon",
 			ability: "Sheer Force",
-			item: "Roseli Berry",
+			item: "Haban Berry",
 			nature: "Timid",
 			moves: ["Fickle Beam", "Earth Power", "Fire Blast", "Sludge Bomb"],
 			evs: {
@@ -4424,9 +4377,9 @@ var SETDEX_SV = {
 		Geeta: {
 			level: 100,
 			ability: "Energy Shield",
-			item: "Weakness Policy",
+			item: "Colbur Berry",
 			nature: "Modest",
-			moves: ["Inferno", "Psystrike", "Energy Ball", "Agility"],
+			moves: ["Inferno", "Psystrike", "Lustrous Power", "Agility"],
 			evs: {
 				sp: 252,
 				sa: 252,
@@ -4470,7 +4423,7 @@ var SETDEX_SV = {
 			nature: "Timid",
 			moves: [
 				"Land's Wrath",
-				"Moonblast",
+				"Lustrous Power",
 				"Mystical Power",
 				"Mystical Power",
 			],
@@ -4491,11 +4444,11 @@ var SETDEX_SV = {
 	Glimmora: {
 		Geeta: {
 			level: 100,
-			teraType: "Ice",
+			teraType: "Grass",
 			ability: "Energy Shield",
-			item: "Power Herb",
+			item: "Coba Berry",
 			nature: "Timid",
-			moves: ["Freeze-Dry", "Earth Power", "Meteor Beam", "Rock Polish"],
+			moves: ["Petal Dance", "Power Gem", "", ""],
 			evs: {
 				sp: 252,
 				sa: 252,
@@ -4579,7 +4532,7 @@ var SETDEX_SV = {
 			ability: "Protosynthesis",
 			item: "Booster Energy",
 			nature: "Timid",
-			moves: ["Eternal Beam", "Astral Storm", "Destiny Bond", "Hypnosis"],
+			moves: ["Lustrous Power", "Astral Storm", "Destiny Bond", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4620,7 +4573,7 @@ var SETDEX_SV = {
 			level: 100,
 			teraType: "Fire",
 			ability: "Orichalcum Pulse",
-			item: "Air Balloon",
+			item: "Roseli Berry",
 			nature: "Jolly",
 			moves: ["Outrage", "Collision Course", "Raging Fury", "Victory Dance"],
 			evs: {
@@ -4643,7 +4596,7 @@ var SETDEX_SV = {
 			ability: "Ruthless",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Misty Explosion", "Will-O-Wisp", "Destiny Bond", "Hypnosis"],
+			moves: ["Misty Explosion", "Thunder Wave", "Destiny Bond", "Hypnosis"],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -4754,7 +4707,7 @@ var SETDEX_SV = {
 			ability: "Hadron Engine",
 			item: "Life Orb",
 			nature: "Timid",
-			moves: ["Short Circuit", "Dragon's Fury", "Energy Ball", "Overheat"],
+			moves: ["Thunder", "Dragon's Fury", "Energy Ball", "Overheat"],
 			evs: {
 				sa: 252,
 				sp: 252,
