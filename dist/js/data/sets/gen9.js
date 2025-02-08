@@ -1655,7 +1655,7 @@ var SETDEX_SV = {
 			nature: "Jolly",
 			moves: ["Dire Claw", "Pummel", "Swords Dance", "Toxic Spikes"],
 			evs: {
-				ht: 252,
+				hp: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -1855,7 +1855,7 @@ var SETDEX_SV = {
 			nature: "Adamant",
 			moves: ["Night Slash", "Glare", "Psycho Cut", "Sacred Slash"],
 			evs: {
-				hp: 252,
+				sp: 252,
 				at: 252,
 			},
 			ivs: {
