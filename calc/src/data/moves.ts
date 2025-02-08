@@ -3420,7 +3420,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     secondaries: true,
   },
   "Power Trip": {
-    bp: 60,
+    bp: 80,
     type: "Dark",
     category: "Physical",
     makesContact: true,
