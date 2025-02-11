@@ -3417,7 +3417,7 @@ var SETDEX_SV = {
 			nature: "Jolly",
 			moves: ["Thunderous Kick", "Volt Tackle", "Divebomb", "Parting Shot"],
 			evs: {
-				hp: 252,
+				at: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -3480,8 +3480,8 @@ var SETDEX_SV = {
 			nature: "Careful",
 			moves: ["Retaliate", "Close Combat", "Shadow Punch", "Victory Dance"],
 			evs: {
-				hp: 252,
-				sd: 252,
+				sp: 252,
+				at: 252,
 			},
 			ivs: {
 				hp: 31,

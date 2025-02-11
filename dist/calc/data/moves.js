@@ -3258,7 +3258,8 @@ var SV_PATCH = {
         type: "Ground",
         category: "Physical",
         target: "allAdjacentFoes",
-        secondaries: true
+        secondaries: true,
+        willCrit: true
     },
     "Dragon Ascent": {
         bp: 140,

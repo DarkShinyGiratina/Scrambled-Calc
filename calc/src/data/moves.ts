@@ -3278,6 +3278,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     target: "allAdjacentFoes",
     secondaries: true,
+    willCrit: true,
   },
   "Dragon Ascent": {
     bp: 140,
