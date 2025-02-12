@@ -1855,7 +1855,7 @@ var SETDEX_SV = {
 			nature: "Adamant",
 			moves: ["Night Slash", "Glare", "Psycho Cut", "Sacred Slash"],
 			evs: {
-				sp: 252,
+				hp: 252,
 				at: 252,
 			},
 			ivs: {
