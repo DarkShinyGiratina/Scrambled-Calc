@@ -2952,6 +2952,7 @@ var SETDEX_SV = {
 			level: 100,
 			ability: "Multiscale",
 			item: "Red Card",
+			teraType: "Dragon",
 			nature: "Jolly",
 			moves: ["Outrage", "Iron Tail", "Roar", "Dragon Dance"],
 			evs: {
