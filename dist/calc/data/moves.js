@@ -4117,7 +4117,8 @@ var SV_PATCH = {
         target: "allAdjacentFoes",
         isWind: true,
         priority: 1,
-        secondaries: true
+        secondaries: true,
+        isPulse: true
     },
     "Lunar Blessing": {
         bp: 0,

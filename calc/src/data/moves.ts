@@ -4137,6 +4137,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     isWind: true,
     priority: 1,
     secondaries: true,
+    isPulse: true,
   },
   "Lunar Blessing": {
     bp: 0,

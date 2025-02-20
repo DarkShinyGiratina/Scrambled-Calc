@@ -96,7 +96,7 @@ var SETDEX_SV = {
 		"Carmine (Entering Kitakami)": {
 			level: 11,
 			ability: "Swift Swim",
-			item: "Red Card",
+			item: "Damp Rock",
 			nature: "Modest",
 			moves: ["Chilling Water", "Air Cutter", "Mud Shot", "Rain Dance"],
 			evs: {
@@ -134,15 +134,53 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Poochyena: {
+	"Morpeko-Hangry": {
 		"Carmine (Entering Kitakami)": {
 			level: 11,
-			ability: "Intimidate",
-			item: "Quick Claw",
-			nature: "Adamant",
-			moves: ["Headbutt", "Thief", "Hoodwink", "Work Up"],
+			ability: "Berserk",
+			item: "Leftovers",
+			nature: "Timid",
+			moves: ["Dismal Cry", "Rising Voltage", "Slack Off", ""],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Carmine (Mossui)": {
+			level: 32,
+			ability: "Hustle",
+			item: "Liechi Berry",
+			nature: "Jolly",
+			moves: ["Aura Wheel", "Zing Zap", "Endure", "Ice Fang"],
 			evs: {
 				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Carmine (Final)": {
+			level: 50,
+			ability: "Moody",
+			item: "Starf Berry",
+			nature: "Jolly",
+			moves: ["Power Trip", "Engorge", "Protect", ""],
+			evs: {
+				hp: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -466,7 +504,12 @@ var SETDEX_SV = {
 			ability: "Prankster",
 			item: "Clear Amulet",
 			nature: "Timid",
-			moves: ["Electroweb", "Struggle Bug", "Icy Wind", "Nuzzle"],
+			moves: [
+				"Rising Voltage",
+				"Struggle Bug",
+				"Mega Drain",
+				"Thunder Wave",
+			],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -1036,26 +1079,6 @@ var SETDEX_SV = {
 			ability: "Hustle",
 			item: "Focus Sash",
 			nature: "Adamant",
-			moves: ["Yawn", "Close Combat", "Jaw Lock", "Retaliate"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-		"Nemona (Champion)": {
-			level: 100,
-			teraType: "Normal",
-			ability: "Sturdy",
-			item: "Silk Scarf",
-			nature: "Adamant",
 			moves: ["Extreme Speed", "Night Slash", "Drill Run", "Howl"],
 			evs: {
 				at: 252,
@@ -1160,7 +1183,7 @@ var SETDEX_SV = {
 		"Iono (Vanilla)": {
 			level: 27,
 			ability: "Levitate",
-			item: "Assault Vest",
+			item: "Expert Belt",
 			nature: "Modest",
 			moves: [
 				"Flash Cannon",
@@ -1405,7 +1428,7 @@ var SETDEX_SV = {
 		"Carmine (Mossui)": {
 			level: 32,
 			ability: "Serene Grace",
-			item: "Assault Vest",
+			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Air Slash", "Water Pledge", "Ice Beam", "Mud Shower"],
 			evs: {
@@ -1441,51 +1464,11 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Mightyena: {
-		"Carmine (Mossui)": {
-			level: 32,
-			ability: "Quick Feet",
-			item: "Toxic Orb",
-			nature: "Adamant",
-			moves: ["Facade", "Lash Out", "Yawn", "Parting Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-		"Carmine (Final)": {
-			level: 50,
-			ability: "Guts",
-			item: "Flame Orb",
-			nature: "Jolly",
-			moves: ["Facade", "Lash Out", "Roar", "Roar"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-	},
 	Mienshao: {
 		"Carmine (Mossui)": {
 			level: 32,
 			ability: "Technician",
-			item: "Focus Sash",
+			item: "Life Orb",
 			nature: "Naughty",
 			moves: ["Force Waves", "Quick Attack", "Fake Out", "Fury Swipes"],
 			evs: {
@@ -1525,7 +1508,7 @@ var SETDEX_SV = {
 		"Carmine (Mossui)": {
 			level: 32,
 			ability: "Sharpness",
-			item: "Life Orb",
+			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Leaf Blade", "X-Scissor", "Cross Chop", "Psycho Cut"],
 			evs: {
@@ -2041,7 +2024,7 @@ var SETDEX_SV = {
 			ability: "Unburden",
 			item: "Quick Claw",
 			nature: "Adamant",
-			moves: ["Dire Claw", "Cross Chop", "Aqua Cutter", "Night Slash"],
+			moves: ["Dire Claw", "Cross Chop", "Bulk Up", "Night Slash"],
 			evs: {
 				hp: 252,
 				at: 252,
@@ -2449,6 +2432,48 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Azelf: {
+		"Nemona (Champion)": {
+			level: 100,
+			ability: "Speed Boost",
+			item: "Roseli Berry",
+			nature: "Timid",
+			moves: ["Focus Blast", "Psychic", "Cosmic Power", "Hypnosis"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Minior-Pink": {
+		"Nemona (Champion)": {
+			level: 100,
+			ability: "Psychic Surge",
+			item: "Life Orb",
+			nature: "Timid",
+			moves: ["Lustrous Power", "Power Gem", "Earth Power", "Hypnosis"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Meowscarada: {
 		"Nemona (After Gym 5) (Vanilla)": {
 			level: 42,
@@ -2472,11 +2497,11 @@ var SETDEX_SV = {
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
 			ability: "Dazzling",
-			item: "Life Orb",
-			nature: "Timid",
-			moves: ["Seed Flare", "Dark Pulse", "Hypnosis", "Dazzling Gleam"],
+			item: "Liechi Berry",
+			nature: "Jolly",
+			moves: ["Flower Trick", "Lash Out", "Hoodwink", "Endure"],
 			evs: {
-				sa: 252,
+				at: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -2491,9 +2516,9 @@ var SETDEX_SV = {
 		"Nemona (Champion)": {
 			level: 100,
 			ability: "Dazzling",
-			item: "Leppa Berry",
+			item: "Tanga Berry",
 			nature: "Timid",
-			moves: ["Chloroblast", "Dark Pulse", "Grass Pledge", "Dazzling Gleam"],
+			moves: ["Seed Flare", "Dark Pulse", "Nasty Plot", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2897,25 +2922,6 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
-		"Nemona (Champion)": {
-			level: 100,
-			ability: "Galvanize",
-			item: "Air Balloon",
-			nature: "Jolly",
-			moves: ["Retaliate", "Brutal Bash", "Ice Punch", "Smelling Salts"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
 	},
 	"Kommo-o": {
 		"Nemona (Before Gym 7) (Vanilla)": {
@@ -2947,9 +2953,9 @@ var SETDEX_SV = {
 			ability: "Multiscale",
 			item: "Red Card",
 			nature: "Jolly",
-			moves: ["Arcane Fangs", "Iron Tail", "Blaze Kick", "Dragon Dance"],
+			moves: ["Outrage", "Iron Tail", "Roar", "Dragon Dance"],
 			evs: {
-				at: 252,
+				hp: 252,
 				sp: 252,
 			},
 			ivs: {
@@ -3496,7 +3502,7 @@ var SETDEX_SV = {
 	"Caph Starmobile - Vanilla": {
 		"Eri (Vanilla)": {
 			level: 60,
-			ability: "Battle Armor",
+			ability: "Scrappy",
 			nature: "Serious",
 			moves: [
 				"Combat Torque",
@@ -4039,9 +4045,9 @@ var SETDEX_SV = {
 		Poppy: {
 			level: 100,
 			ability: "Prankster",
-			item: "Mental Herb",
+			item: "Life Orb",
 			nature: "Bold",
-			moves: ["Steel Beam", "Steel Beam", "Thunder Wave", "Dreamy Kiss"],
+			moves: ["Steel Beam", "Lustrous Power", "Thunder Wave", "Dreamy Kiss"],
 			evs: {
 				hp: 252,
 				df: 252,
@@ -4490,7 +4496,7 @@ var SETDEX_SV = {
 			ability: "Wind Rider",
 			item: "Focus Sash",
 			nature: "Adamant",
-			moves: ["Dragon Claw", "Laceration", "Tailwind", "Night Slash"],
+			moves: ["Outrage", "Laceration", "Tailwind", "Night Slash"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -4643,7 +4649,7 @@ var SETDEX_SV = {
 			ability: "Mega Launcher",
 			item: "Quick Claw",
 			nature: "Timid",
-			moves: ["Steel Beam", "Dark Pulse", "Steel Beam", "Aeroblast"],
+			moves: ["Steel Beam", "Dark Pulse", "Flash Cannon", "Aeroblast"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -4664,7 +4670,7 @@ var SETDEX_SV = {
 			ability: "Energy Shield",
 			item: "Red Card",
 			nature: "Jolly",
-			moves: ["Crunch", "Zing Zap", "Ice Punch", "Dragon Dance"],
+			moves: ["Power Trip", "Zing Zap", "Ice Punch", "Dragon Dance"],
 			evs: {
 				at: 252,
 				sp: 252,
