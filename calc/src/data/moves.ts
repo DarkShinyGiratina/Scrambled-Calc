@@ -2431,7 +2431,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     secondaries: true,
   },
   "Charge Beam": {
-    bp: 50,
+    bp: 40,
     type: "Electric",
     category: "Special",
     isPulse: true,
@@ -4502,7 +4502,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     isBullet: true,
   },
   "Matcha Gotcha": {
-    bp: 80,
+    bp: 60,
     type: "Grass",
     category: "Special",
     target: "allAdjacentFoes",

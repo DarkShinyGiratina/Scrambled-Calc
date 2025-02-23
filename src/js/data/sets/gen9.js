@@ -143,7 +143,7 @@ var SETDEX_SV = {
 			moves: ["Dismal Cry", "Rising Voltage", "Slack Off", ""],
 			evs: {
 				hp: 252,
-				sa: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,

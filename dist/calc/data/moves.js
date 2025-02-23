@@ -2412,7 +2412,7 @@ var SV_PATCH = {
         secondaries: true
     },
     "Charge Beam": {
-        bp: 50,
+        bp: 40,
         type: "Electric",
         category: "Special",
         isPulse: true,
@@ -4483,7 +4483,7 @@ var SV_PATCH = {
         isBullet: true
     },
     "Matcha Gotcha": {
-        bp: 80,
+        bp: 60,
         type: "Grass",
         category: "Special",
         target: "allAdjacentFoes",
