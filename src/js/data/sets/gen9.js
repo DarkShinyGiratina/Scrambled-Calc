@@ -2438,7 +2438,7 @@ var SETDEX_SV = {
 			ability: "Speed Boost",
 			item: "Roseli Berry",
 			nature: "Timid",
-			moves: ["Focus Blast", "Psychic", "Cosmic Power", "Hypnosis"],
+			moves: ["Focus Blast", "Psystrike", "Cosmic Power", "Hypnosis"],
 			evs: {
 				sa: 252,
 				sp: 252,
