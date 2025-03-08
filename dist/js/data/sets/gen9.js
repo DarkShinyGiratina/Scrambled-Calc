@@ -3986,7 +3986,7 @@ var SETDEX_SV = {
 			nature: "Jolly",
 			moves: ["Wood Hammer", "Megaton Kick", "Strength", "Shell Smash"],
 			evs: {
-				at: 252,
+				hp: 252,
 				sp: 252,
 			},
 			ivs: {
