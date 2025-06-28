@@ -10634,7 +10634,18 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       df: 120,
       sa: 100,
       sd: 100,
-      sp: 20,
+      sp: 1,
+    },
+  },
+  "Segin Starmobile - Reverse": {
+    types: ["Dark", "Steel"],
+    bs: {
+      hp: 225,
+      at: 120,
+      df: 120,
+      sa: 100,
+      sd: 100,
+      sp: 1,
     },
   },
   "Schedar Starmobile - Vanilla": {
@@ -10645,10 +10656,21 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       df: 120,
       sa: 120,
       sd: 100,
-      sp: 20,
+      sp: 1,
     },
   },
-  "Navi Starmobile - Vanilla": {
+  "Schedar Starmobile - Reverse": {
+    types: ["Fire", "Steel"],
+    bs: {
+      hp: 200,
+      at: 120,
+      df: 120,
+      sa: 120,
+      sd: 100,
+      sp: 1,
+    },
+  },
+  "Navi Starmobile": {
     types: ["Poison", "Steel"],
     bs: {
       hp: 200,
@@ -10656,7 +10678,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       df: 120,
       sa: 120,
       sd: 100,
-      sp: 20,
+      sp: 1,
     },
   },
   "Ruchbah Starmobile - Vanilla": {
@@ -10667,7 +10689,18 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       df: 120,
       sa: 120,
       sd: 100,
-      sp: 20,
+      sp: 1,
+    },
+  },
+  "Ruchbah Starmobile - Reverse": {
+    types: ["Fairy", "Steel"],
+    bs: {
+      hp: 175,
+      at: 120,
+      df: 120,
+      sa: 120,
+      sd: 100,
+      sp: 1,
     },
   },
   "Caph Starmobile - Vanilla": {
@@ -10678,7 +10711,18 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       df: 120,
       sa: 120,
       sd: 100,
-      sp: 20,
+      sp: 1,
+    },
+  },
+  "Caph Starmobile - Reverse": {
+    types: ["Fighting", "Steel"],
+    bs: {
+      hp: 150,
+      at: 120,
+      df: 100,
+      sa: 80,
+      sd: 80,
+      sp: 1,
     },
   },
 };
