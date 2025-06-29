@@ -696,7 +696,7 @@ var SETDEX_SV = {
 	Volcarona: {
 		"Katy (Reverse)": {
 			level: 60,
-			teraType: "Bug"
+			teraType: "Bug",
 			ability: "Drought",
 			item: "Occa Berry",
 			nature: "Timid",
