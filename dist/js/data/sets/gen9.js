@@ -531,7 +531,7 @@ var SETDEX_SV = {
 			ability: "Electric Surge",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Thunder", "U-Turn", "Nuzzle", "Sticky Web"],
+			moves: ["Thunder", "U-turn", "Nuzzle", "Sticky Web"],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -696,6 +696,7 @@ var SETDEX_SV = {
 	Volcarona: {
 		"Katy (Reverse)": {
 			level: 60,
+			teraType: "Bug",
 			ability: "Drought",
 			item: "Occa Berry",
 			nature: "Timid",
@@ -1201,27 +1202,6 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Lokix: {
-		"Giacomo (Reverse)": {
-			level: 52,
-			ability: "Tinted Lens",
-			item: "Life Orb",
-			nature: "Adamant",
-			moves: ["Ceaseless Edge", "Wicked Blow", "First Impression", ""],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-	},
 	Krookodile: {
 		"Giacomo (Reverse)": {
 			level: 52,
@@ -1305,6 +1285,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Tinted Lens",
+			item: "Life Orb",
+			nature: "Adamant",
+			moves: ["Ceaseless Edge", "Wicked Blow", "First Impression", ""],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Pawniard: {
 		"Giacomo (Vanilla)": {
@@ -1353,7 +1352,7 @@ var SETDEX_SV = {
 			level: 24,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Wicked Torque", "Iron Head", "Psychic Noise", "Overdrive"],
+			moves: ["Wicked Torque (Vanilla)", "Iron Head", "Psychic Noise", "Overdrive"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -1373,7 +1372,7 @@ var SETDEX_SV = {
 			level: 52,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Wicked Torque", "Heavy Slam", "Earthquake", "High Voltage"],
+			moves: ["Wicked Torque (Reverse)", "Heavy Slam", "Earthquake", "High Voltage"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -2149,7 +2148,7 @@ var SETDEX_SV = {
 			level: 30,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Blazing Torque", "Iron Head", "Psychic Noise", "Overdrive"],
+			moves: ["Blazing Torque (Vanilla)", "Iron Head", "Psychic Noise", "Overdrive"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -2169,7 +2168,7 @@ var SETDEX_SV = {
 			level: 45,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Blazing Torque", "Heavy Slam", "Earthquake", "High Voltage"],
+			moves: ["Blazing Torque (Reverse)", "Heavy Slam", "Earthquake", "High Voltage"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -2783,7 +2782,7 @@ var SETDEX_SV = {
 			moves: ["Revelation Dance", "Seed Flare", "Ice Beam", "Teeter Dance"],
 			evs: {
 				hp: 252,
-				sa: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -2993,7 +2992,7 @@ var SETDEX_SV = {
 			ability: "Intimidate",
 			item: "Quick Claw",
 			nature: "Jolly",
-			moves: ["Barb Barrage", "U-Turn", "Sticky Web", "Toxic Spikes"],
+			moves: ["Barb Barrage", "U-turn", "Sticky Web", "Toxic Spikes"],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -3285,7 +3284,7 @@ var SETDEX_SV = {
 		"Larry (Reverse)": {
 			level: 33,
 			ability: "Adaptability",
-			item: "Menatl Herb",
+			item: "Mental Herb",
 			nature: "Adamant",
 			moves: ["Whiplash", "Arcane Fangs", "Glare", "Shed Tail"],
 			evs: {
@@ -5124,7 +5123,7 @@ var SETDEX_SV = {
 			level: 56,
 			ability: "Contrary",
 			nature: "Serious",
-			moves: ["Magical Torque", "Spin Out", "Headlong Rush", "Overheat"],
+			moves: ["Magical Torque (Vanilla)", "Spin Out", "Headlong Rush", "Overheat"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -5144,7 +5143,7 @@ var SETDEX_SV = {
 			level: 27,
 			ability: "Transistor",
 			nature: "Serious",
-			moves: ["Magical Torque", "Iron Head", "Overdrive", "Earthquake"],
+			moves: ["Magical Torque (Reverse)", "Iron Head", "Overdrive", "Earthquake"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -5392,7 +5391,7 @@ var SETDEX_SV = {
 			ability: "Scrappy",
 			nature: "Serious",
 			moves: [
-				"Combat Torque",
+				"Combat Torque (Vanilla)",
 				"120BP Heavy Slam",
 				"Strength",
 				"High Voltage",
@@ -5479,7 +5478,7 @@ var SETDEX_SV = {
 			level: 22,
 			ability: "Headstrong",
 			nature: "Serious",
-			moves: ["Combat Torque", "Spin Out", "", ""],
+			moves: ["Combat Torque (Reverse)", "Spin Out", "", ""],
 			evs: {
 				at: 252,
 				sa: 252,
