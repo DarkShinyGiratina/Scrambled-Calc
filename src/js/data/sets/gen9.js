@@ -531,7 +531,7 @@ var SETDEX_SV = {
 			ability: "Electric Surge",
 			item: "Focus Sash",
 			nature: "Timid",
-			moves: ["Thunder", "U-Turn", "Nuzzle", "Sticky Web"],
+			moves: ["Thunder", "U-turn", "Nuzzle", "Sticky Web"],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -2991,7 +2991,7 @@ var SETDEX_SV = {
 			ability: "Intimidate",
 			item: "Quick Claw",
 			nature: "Jolly",
-			moves: ["Barb Barrage", "U-Turn", "Sticky Web", "Toxic Spikes"],
+			moves: ["Barb Barrage", "U-turn", "Sticky Web", "Toxic Spikes"],
 			evs: {
 				hp: 252,
 				sp: 252,
