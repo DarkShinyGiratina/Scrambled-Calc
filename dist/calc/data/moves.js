@@ -823,7 +823,8 @@ var SV_PATCH = {
         type: "Flying",
         category: "Physical",
         willCrit: true,
-        secondaries: true
+        secondaries: true,
+        makesContact: true
     },
     Transform: {
         bp: 0,
@@ -3003,7 +3004,8 @@ var SV_PATCH = {
         bp: 100,
         type: "Poison",
         category: "Special",
-        secondaries: true
+        secondaries: true,
+        isSound: true
     },
     "Sticky Web": {
         bp: 0,

@@ -1404,7 +1404,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     nfe: true,
   },
   Seadra: {
-    types: ["Water", "Dragon"],
+    types: ["Water", "Poison"],
     bs: {
       hp: 65,
       at: 60,
@@ -7175,12 +7175,12 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Dartrix: {
     types: ["Grass", "Flying"],
     bs: {
-      hp: 73,
+      hp: 68,
       at: 77,
       df: 65,
       sa: 77,
       sd: 75,
-      sp: 98,
+      sp: 78,
     },
     weightkg: 16,
     nfe: true,
@@ -10410,7 +10410,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       at: 120,
       df: 84,
       sa: 60,
-      sd: 96,
+      sd: 121,
       sp: 110,
     },
     weightkg: 39.8,

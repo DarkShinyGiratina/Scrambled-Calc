@@ -843,6 +843,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     willCrit: true,
     secondaries: true,
+    makesContact: true,
   },
   Transform: {
     bp: 0,
@@ -3023,6 +3024,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Poison",
     category: "Special",
     secondaries: true,
+    isSound: true,
   },
   "Sticky Web": {
     bp: 0,
