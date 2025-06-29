@@ -1201,27 +1201,6 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	Lokix: {
-		"Giacomo (Reverse)": {
-			level: 52,
-			ability: "Tinted Lens",
-			item: "Life Orb",
-			nature: "Adamant",
-			moves: ["Ceaseless Edge", "Wicked Blow", "First Impression", ""],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
-			ivs: {
-				hp: 31,
-				at: 31,
-				df: 31,
-				sa: 31,
-				sd: 31,
-				sp: 31,
-			},
-		},
-	},
 	Krookodile: {
 		"Giacomo (Reverse)": {
 			level: 52,
@@ -1295,6 +1274,25 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				hp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Tinted Lens",
+			item: "Life Orb",
+			nature: "Adamant",
+			moves: ["Ceaseless Edge", "Wicked Blow", "First Impression", ""],
+			evs: {
+				at: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
