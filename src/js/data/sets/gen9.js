@@ -498,6 +498,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// KATY
 	Volbeat: {
 		"Katy (Vanilla)": {
 			level: 13,
@@ -524,6 +525,69 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Galvantula: {
+		"Katy (Reverse)": {
+			level: 60,
+			ability: "Electric Surge",
+			item: "Focus Sash",
+			nature: "Timid",
+			moves: ["Thunder", "U-Turn", "Nuzzle", "Sticky Web"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Masquerain: {
+		"Katy (Reverse)": {
+			level: 60,
+			ability: "Drizzle",
+			item: "Charti Berry",
+			nature: "Timid",
+			moves: ["Hydro Pump", "Bug Buzz", "Blizzard", "Mesmer-Eyes"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Forretress: {
+		"Katy (Reverse)": {
+			level: 60,
+			ability: "Rapid Fire",
+			item: "Red Card",
+			nature: "Brave",
+			moves: ["Spike Cannon", "Pin Missile", "Mud Bomber", "Take Aim"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Cutiefly: {
 		"Katy (Vanilla)": {
 			level: 13,
@@ -531,6 +595,27 @@ var SETDEX_SV = {
 			item: "Petaya Berry",
 			nature: "Modest",
 			moves: ["Draining Kiss", "Siphon", "Extrasensory", "Endure"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Ribombee: {
+		"Katy (Reverse)": {
+			level: 60,
+			ability: "Fairy Aura",
+			item: "Life Orb",
+			nature: "Timid",
+			moves: ["Lustrous Power", "Bug Buzz", "Focus Blast", "Psychic"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -566,6 +651,27 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Heracross: {
+		"Katy (Reverse)": {
+			level: 60,
+			ability: "Technician",
+			item: "Coba Berry",
+			nature: "Jolly",
+			moves: ["Pin Missile", "Pummel", "Rock Blast", "First Impression"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Larvesta: {
 		"Katy (Vanilla)": {
 			level: 13,
@@ -576,6 +682,27 @@ var SETDEX_SV = {
 			evs: {
 				hp: 252,
 				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Volcarona: {
+		"Katy (Reverse)": {
+			level: 60,
+			ability: "Drought",
+			item: "Occa Berry",
+			nature: "Timid",
+			moves: ["Revelation Dance", "Fiery Dance", "Land's Wrath", "Quiver Dance"],
+			evs: {
+				sa: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -630,6 +757,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// KLAWF
 	Klawf: {
 		"Titan Klawf (Vanilla)": {
 			level: 15,
@@ -650,7 +778,27 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Titan Klawf (Reverse)": {
+			level: 58,
+			ability: "Tough Claws",
+			item: "Focus Sash",
+			nature: "Adamant",
+			moves: ["Fury Cutter", "", "", ""],
+			evs: {
+				at: 252,
+				hp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
+	// BRASSIUS
 	Gloom: {
 		"Brassius (Vanilla)": {
 			level: 18,
@@ -692,6 +840,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Brassius (Reverse)": {
+			level: 57,
+			ability: "Drizzle",
+			item: "Assault Vest",
+			nature: "Bold",
+			moves: ["Parabolic Charge", "Mega Drain", "Dazzling Gleam", "Electro Shot"],
+			evs: {
+				hp: 252,
+				df: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Smeargle: {
 		"Brassius (Vanilla)": {
@@ -708,6 +875,25 @@ var SETDEX_SV = {
 			evs: {
 				sa: 252,
 				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Brassius (Reverse)": {
+			level: 57,
+			ability: "Prankster",
+			item: "Focus Sash",
+			nature: "Bold",
+			moves: ["Guillotine", "Parting Shot", "Destiny Bond", "Nuzzle"],
+			evs: {
+				hp: 252,
+				df: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -783,6 +969,92 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Gogoat: {
+		"Brassius (Reverse)": {
+			level: 57,
+			ability: "Grassy Surge",
+			item: "Tanga Berry",
+			nature: "Jolly",
+			moves: ["Wood Hammer", "Strength", "Megaton Kick", "Swords Dance"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Lilligant-Hisui": {
+		"Brassius (Reverse)": {
+			level: 57,
+			ability: "Hustle",
+			item: "Coba Berry",
+			nature: "Jolly",
+			moves: ["Bullet Seed", "Pummel", "Triple Axel", "Victory Dance"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Vileplume: {
+		"Brassius (Reverse)": {
+			level: 57,
+			ability: "Prankster",
+			item: "Red Card",
+			nature: "Modest",
+			moves: ["Seed Flare", "Sludge Bomb", "Earth Power", "Sleep Powder"],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Zarude: {
+		"Brassius (Reverse)": {
+			level: 57,
+			teraType: "Grass",
+			ability: "Unburden",
+			item: "Quick Claw",
+			nature: "Adamant",
+			moves: ["Power Whip", "Power Trip", "Rock Slide", "Swords Dance"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// KIERAN (DIPPLIN)
 	Dipplin: {
 		"Kieran (Dreaded Den)": {
 			level: 20,
@@ -824,6 +1096,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// BOMBIRDIER
 	Bombirdier: {
 		"Titan Bombirdier (Vanilla)": {
 			level: 22,
@@ -834,6 +1107,47 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				hp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Titan Bombirdier (Reverse)": {
+			level: 54,
+			ability: "Technician",
+			item: "Focus Sash",
+			nature: "Adamant",
+			moves: ["Power Trip", "", "", ""],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// GIACOMO
+	Skuntank: {
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Prankster",
+			item: "Shuca Berry",
+			nature: "Calm",
+			moves: ["Detonate", "Toxic Spikes", "Parting Shot", "Will-O-Wisp"],
+			evs: {
+				sd: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -866,6 +1180,48 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Luxray: {
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Ruthless",
+			item: "Focus Sash",
+			nature: "Timid",
+			moves: ["High Voltage", "Night Daze", "Mesmer-Eyes", "Roar"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Krookodile: {
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Sheer Force",
+			item: "Roseli Berry",
+			nature: "Jolly",
+			moves: ["Brutal Swing", "Earthquake", "Gunk Shot", "Dragon Dance"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Noibat: {
 		"Giacomo (Vanilla)": {
 			level: 24,
@@ -873,6 +1229,27 @@ var SETDEX_SV = {
 			item: "Sky Plate",
 			nature: "Modest",
 			moves: ["Air Slash", "Dragon Breath", "Heat Wave", "Parting Shot"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Noivern: {
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Amplifier",
+			item: "Throat Spray",
+			nature: "Timid",
+			moves: ["Drakonic Voice", "Aeroblast", "Focus Blast", "Whirlwind"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -897,6 +1274,25 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				hp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Tinted Lens",
+			item: "Life Orb",
+			nature: "Adamant",
+			moves: ["Ceaseless Edge", "Wicked Blow", "First Impression", ""],
+			evs: {
+				at: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -970,9 +1366,49 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	"Segin Starmobile - Reverse": {
+		"Giacomo (Reverse)": {
+			level: 52,
+			ability: "Filter",
+			nature: "Serious",
+			moves: ["Wicked Torque", "Heavy Slam", "Earthquake", "High Voltage"],
+			evs: {
+				at: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// NEMONA 2
 	Quaxwell: {
 		"Nemona 2 (Vanilla)": {
 			level: 26,
+			ability: "Torrent",
+			item: "Quick Claw",
+			nature: "Jolly",
+			moves: ["Flip Turn", "Dual Wingbeat", "Stomping Tantrum", "Taunt"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona 2 (Reverse)": {
+			level: 29,
 			ability: "Torrent",
 			item: "Quick Claw",
 			nature: "Jolly",
@@ -1011,10 +1447,48 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Nemona 2 (Reverse)": {
+			level: 29,
+			ability: "Appetite",
+			item: "Petaya Berry",
+			nature: "Modest",
+			moves: ["Fire Pledge", "Alluring Voice", "Yawn", "Substitute"],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Pawmo: {
 		"Nemona 2 (Vanilla)": {
 			level: 26,
+			ability: "Fluffy",
+			item: "Assault Vest",
+			nature: "Adamant",
+			moves: ["Circle Throw", "Thunder Punch", "Ice Punch", "Seed Bomb"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona 2 (Reverse)": {
+			level: 29,
 			ability: "Fluffy",
 			item: "Assault Vest",
 			nature: "Adamant",
@@ -1053,6 +1527,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Nemona 2 (Reverse)": {
+			level: 29,
+			ability: "Multiscale",
+			item: "Dragon Fang",
+			nature: "Jolly",
+			moves: ["Laceration", "Dragon Claw", "Cross Chop", "Night Slash"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Lycanroc: {
 		"Nemona 2 (Vanilla)": {
@@ -1074,8 +1567,46 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Nemona 2 (Reverse)": {
+			level: 29,
+			ability: "Intimidate",
+			item: "Air Balloon",
+			nature: "Adamant",
+			moves: ["Jaw Lock", "Body Slam", "Fire Fang", "Stomping Tantrum"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
+			ability: "Hustle",
+			item: "Focus Sash",
+			nature: "Adamant",
+			moves: ["Extreme Speed", "Night Slash", "Drill Run", "Howl"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona (Before Gym 7) (Reverse)": {
+			level: 56,
 			ability: "Hustle",
 			item: "Focus Sash",
 			nature: "Adamant",
@@ -1115,7 +1646,28 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Nemona 2 (Reverse)": {
+			level: 29,
+			teraType: "Fighting",
+			ability: "Technician",
+			item: "Coba Berry",
+			nature: "Jolly",
+			moves: ["Bullet Seed", "Pummel", "Wallop", "Fury Swipes"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
+	// IONO
 	Pachirisu: {
 		"Iono (Vanilla)": {
 			level: 27,
@@ -1253,6 +1805,134 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	"Rotom-Fan": {
+		"Iono (Reverse)": {
+			level: 47,
+			ability: "Wind Rider",
+			item: "Quick Claw",
+			nature: "Timid",
+			moves: ["Hurricane", "Thunder", "Thunder Wave", "Whirlwind"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Rotom-Mow": {
+		"Iono (Reverse)": {
+			level: 47,
+			ability: "Grassy Surge",
+			item: "Life Orb",
+			nature: "Timid",
+			moves: ["Seed Flare", "Thunder", "Psychic Noise", "Parting Shot"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Rotom-Heat": {
+		"Iono (Reverse)": {
+			level: 47,
+			ability: "Levitate",
+			item: "Assault Vest",
+			nature: "Timid",
+			moves: ["Inferno", "Thunder", "Dazzling Gleam", "Energy Ball"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Rotom-Frost": {
+		"Iono (Reverse)": {
+			level: 47,
+			ability: "Levitate",
+			item: "Charti Berry",
+			nature: "Timid",
+			moves: ["Blizzard", "Thunder", "Focus Blast", "Nasty Plot"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Rotom-Wash": {
+		"Iono (Reverse)": {
+			level: 47,
+			ability: "Levitate",
+			item: "Rindo Berry",
+			nature: "Timid",
+			moves: ["Hydro Steam", "Thunder", "Thunder Wave", "Parting Shot"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Rotom: {
+		"Iono (Reverse)": {
+			level: 47,
+			teraType: "Electric",
+			ability: "Swiftness",
+			item: "Focus Sash",
+			nature: "Timid",
+			moves: ["Short Circuit", "Shadow Ball", "Focus Blast", "Energy Ball"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// MELA
 	Magmar: {
 		"Mela (Vanilla)": {
 			level: 30,
@@ -1274,6 +1954,27 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Charizard: {
+		"Mela (Reverse)": {
+			level: 45,
+			ability: "Drought",
+			item: "Quick Claw",
+			nature: "Timid",
+			moves: ["Inferno", "Dragon's Fury", "Roar", "Parting Shot"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Houndoom: {
 		"Mela (Vanilla)": {
 			level: 30,
@@ -1281,6 +1982,25 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Modest",
 			moves: ["Flamethrower", "Dark Pulse", "Sunny Day", "Parting Shot"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Mela (Reverse)": {
+			level: 45,
+			ability: "Ruthless",
+			item: "Charti Berry",
+			nature: "Timid",
+			moves: ["Doom Desire", "Heat Wave", "Night Daze", "Roar"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -1320,6 +2040,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Mela (Reverse)": {
+			level: 45,
+			ability: "Multiscale",
+			item: "Air Balloon",
+			nature: "Timid",
+			moves: ["Inferno", "Sludge Bomb", "Scorching Sands","Nasty Plot"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Pyroar: {
 		"Mela (Vanilla)": {
@@ -1331,6 +2070,27 @@ var SETDEX_SV = {
 			evs: {
 				sp: 252,
 				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Talonflame: {
+		"Mela (Reverse)": {
+			level: 45,
+			ability: "Reckless",
+			item: "Life Orb",
+			nature: "Jolly",
+			moves: ["Divebomb", "Flare Blitz", "Megaton Kick", "Close Combat"],
+			evs: {
+				at: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -1362,6 +2122,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Mela (Reverse)": {
+			level: 45,
+			ability: "Elegance",
+			item: "Focus Sash",
+			nature: "Jolly",
+			moves: ["Close Combat", "Power Whip", "Ice Spinner", "Dreamy Kiss"],
+			evs: {
+				sp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	"Schedar Starmobile - Vanilla": {
 		"Mela (Vanilla)": {
@@ -1369,6 +2148,26 @@ var SETDEX_SV = {
 			ability: "Filter",
 			nature: "Serious",
 			moves: ["Blazing Torque", "Iron Head", "Psychic Noise", "Overdrive"],
+			evs: {
+				at: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Schedar Starmobile - Reverse": {
+		"Mela (Reverse)": {
+			level: 45,
+			ability: "Filter",
+			nature: "Serious",
+			moves: ["Blazing Torque", "Heavy Slam", "Earthquake", "High Voltage"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -1590,6 +2389,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// ORTHWORM
 	Orthworm: {
 		"Titan Orthworm (Vanilla)": {
 			level: 33,
@@ -1597,6 +2397,25 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Careful",
 			moves: ["Iron Tail", "Drill Run", "Stone Edge", "Coil"],
+			evs: {
+				hp: 252,
+				sd: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Titan Orthworm (Reverse)": {
+			level: 38,
+			ability: "Subterranean",
+			item: "Mental Herb",
+			nature: "Careful",
+			moves: ["Iron Tail", "Fissure", "Stone Edge", "Coil"],
 			evs: {
 				hp: 252,
 				sd: 252,
@@ -1870,6 +2689,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// KOFU
 	Qwilfish: {
 		"Kofu (Vanilla)": {
 			level: 36,
@@ -1912,6 +2732,27 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	"Samurott-Hisui": {
+		"Kofu (Reverse)": {
+			level: 42,
+			ability: "Sharpness",
+			item: "Quick Claw",
+			nature: "Adamant",
+			moves: ["Ceaseless Edge", "Razor Shell", "Taunt", "Parting Shot"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Ludicolo: {
 		"Kofu (Vanilla)": {
 			level: 36,
@@ -1922,6 +2763,25 @@ var SETDEX_SV = {
 			evs: {
 				sa: 252,
 				hp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Kofu (Reverse)": {
+			level: 42,
+			ability: "Drizzle",
+			item: "Tanga Berry",
+			nature: "Timid",
+			moves: ["Revelation Dance", "Seed Flare", "Ice Beam", "Teeter Dance"],
+			evs: {
+				hp: 252,
+				sa: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -1997,6 +2857,92 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Empoleon: {
+		"Kofu (Reverse)": {
+			level: 42,
+			ability: "Sharpness",
+			item: "Shuca Berry",
+			nature: "Adamant",
+			moves: ["Aqua Cutter", "Laceration", "Drill Run", "X-Scissor"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Gyarados: {
+		"Kofu (Reverse)": {
+			level: 42,
+			ability: "Intimidate",
+			item: "Wacan Berry",
+			nature: "Jolly",
+			moves: ["Divebomb", "Aqua Tail", "Earthquake", "Dragon Dance"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Bruxish: {
+		"Kofu (Reverse)": {
+			level: 42,
+			ability: "Psychic Surge",
+			item: "Focus Sash",
+			nature: "Jolly",
+			moves: ["Psychic Fangs", "Aqua Tail", "Lunge", "Dreamy Kiss"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Slowbro-Galar": {
+		"Kofu (Reverse)": {
+			level: 42,
+			teraType: "Water",
+			ability: "Mega Launcher",
+			item: "Assault Vest",
+			nature: "Modest",
+			moves: ["Psystrike", "Sludge Bomb", "Hydro Pump", "Focus Blast"],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// ATTICUS
 	Venomoth: {
 		"Atticus (Vanilla)": {
 			level: 38,
@@ -2039,6 +2985,48 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Ariados: {
+		"Atticus (Reverse)": {
+			level: 36,
+			ability: "Intimidate",
+			item: "Quick Claw",
+			nature: "Jolly",
+			moves: ["Barb Barrage", "U-Turn", "Sticky Web", "Toxic Spikes"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Haunter: {
+		"Atticus (Reverse)": {
+			level: 36,
+			ability: "Merciless",
+			item: "Focus Sash",
+			nature: "Timid",
+			moves: ["Venoshock", "Hex", "Aura Sphere", "Nasty Plot"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Seviper: {
 		"Atticus (Vanilla)": {
 			level: 38,
@@ -2046,6 +3034,25 @@ var SETDEX_SV = {
 			item: "Shell Bell",
 			nature: "Jolly",
 			moves: ["Cross Poison", "Night Slash", "Leaf Blade", "Swords Dance"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Atticus (Reverse)": {
+			level: 36,
+			ability: "Multiscale",
+			item: "Shuca Berry",
+			nature: "Jolly",
+			moves: ["Cross Poison", "Night Slash", "Sacred Slash", "Swords Dance"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2067,6 +3074,25 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Jolly",
 			moves: ["Dire Claw", "Ice Punch", "Cross Chop", "Shadow Claw"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Atticus (Reverse)": {
+			level: 36,
+			ability: "Permafrost",
+			item: "Occa Berry",
+			nature: "Jolly",
+			moves: ["Dire Claw", "Ice Punch", "Seismic Fist", "Psycho Cut"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2102,9 +3128,53 @@ var SETDEX_SV = {
 			},
 		},
 	},
-	"Navi Starmobile - Vanilla": {
+	Shiftry: {
+		"Atticus (Reverse)": {
+			level: 36,
+			ability: "Ruthless",
+			item: "Life Orb",
+			nature: "Jolly",
+			moves: ["Leaf Blade", "Night Slash", "Sacred Slash", "Psycho Cut"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Navi Starmobile": {
 		"Atticus (Vanilla)": {
 			level: 38,
+			ability: "Filter",
+			nature: "Serious",
+			moves: [
+				"Noxious Torque",
+				"Flash Cannon",
+				"Headlong Rush",
+				"Energy Ball",
+			],
+			evs: {
+				at: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Atticus (Reverse)": {
+			level: 36,
 			ability: "Filter",
 			nature: "Serious",
 			moves: [
@@ -2168,6 +3238,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// LARRY
 	Staraptor: {
 		"Larry (Vanilla)": {
 			level: 42,
@@ -2208,6 +3279,48 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Cyclizar: {
+		"Larry (Reverse)": {
+			level: 33,
+			ability: "Adaptability",
+			item: "Menatl Herb",
+			nature: "Adamant",
+			moves: ["Whiplash", "Arcane Fangs", "Glare", "Shed Tail"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Dunsparce: {
+		"Larry (Reverse)": {
+			level: 33,
+			ability: "Simple",
+			item: "Eviolite",
+			nature: "Careful",
+			moves: ["Rapid Spin", "Drill Run", "Ice Spinner", "Coil"],
+			evs: {
+				hp: 252,
+				sd: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Dudunsparce: {
 		"Larry (Vanilla)": {
 			level: 42,
@@ -2218,6 +3331,27 @@ var SETDEX_SV = {
 			evs: {
 				hp: 252,
 				sd: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Vigoroth: {
+		"Larry (Reverse)": {
+			level: 33,
+			ability: "Hustle",
+			item: "Focus Sash",
+			nature: "Jolly",
+			moves: ["Icicle Crash", "Retaliate", "Cross Chop", "Shadow Claw"],
+			evs: {
+				at: 252,
+				sp: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -2290,6 +3424,25 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Larry (Reverse)": {
+			level: 33,
+			ability: "Unburden",
+			item: "Quick Claw",
+			nature: "Adamant",
+			moves: ["Seed Bomb", "Body Slam", "Brick Break", "Brutal Swing"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
 	Toucannon: {
 		"Larry (Vanilla)": {
@@ -2320,6 +3473,25 @@ var SETDEX_SV = {
 			evs: {
 				hp: 252,
 				df: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Larry (Reverse)": {
+			level: 33,
+			ability: "Mega Launcher",
+			item: "Assault Vest",
+			nature: "Modest",
+			moves: ["Feather Ball", "Flash Cannon", "Aura Sphere", "Flamethrower"],
+			evs: {
+				hp: 252,
+				sa: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -2371,9 +3543,30 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Larry (Reverse)": {
+			level: 33,
+			teraType: "Normal",
+			ability: "Amplifier",
+			item: "Throat Spray",
+			nature: "Timid",
+			moves: ["Hyper Voice", "Psychic Noise", "Air Slash", "Aura Sphere"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
+	// NEMONA GYM 5 / GYM 7 / CHAMP
 	Quaquaval: {
-		"Nemona (After Gym 5) (Vanilla)": {
+		"Nemona (After Gym 5)": {
 			level: 42,
 			ability: "Elegance",
 			item: "Rindo Berry",
@@ -2394,6 +3587,26 @@ var SETDEX_SV = {
 		},
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
+			teraType: "Ice",
+			ability: "Elegance",
+			item: "Chople Berry",
+			nature: "Jolly",
+			moves: ["Aqua Step", "Brick Break", "Tera Blast", "Swords Dance"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona (Before Gym 7) (Reverse)": {
+			level: 56,
 			teraType: "Ice",
 			ability: "Elegance",
 			item: "Chople Berry",
@@ -2475,12 +3688,12 @@ var SETDEX_SV = {
 		},
 	},
 	Meowscarada: {
-		"Nemona (After Gym 5) (Vanilla)": {
+		"Nemona (After Gym 5)": {
 			level: 42,
 			ability: "Technician",
 			item: "Life Orb",
 			nature: "Jolly",
-			moves: ["Flower Trick", "Befuddle", "Lash Out", "Psycho Cut"],
+			moves: ["Flower Trick", "Lash Out", "Psycho Cut", "Befuddle"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2496,6 +3709,25 @@ var SETDEX_SV = {
 		},
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
+			ability: "Dazzling",
+			item: "Liechi Berry",
+			nature: "Jolly",
+			moves: ["Flower Trick", "Lash Out", "Hoodwink", "Endure"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona (Before Gym 7) (Reverse)": {
+			level: 56,
 			ability: "Dazzling",
 			item: "Liechi Berry",
 			nature: "Jolly",
@@ -2534,13 +3766,13 @@ var SETDEX_SV = {
 		},
 	},
 	Skeledirge: {
-		"Nemona (After Gym 5) (Vanilla)": {
+		"Nemona (After Gym 5)": {
 			level: 42,
 			teraType: "Poison",
 			ability: "Appetite",
 			item: "Salac Berry",
 			nature: "Timid",
-			moves: ["Belch", "Torch Song", "Engorge", "Shadow Ball"],
+			moves: ["Belch", "Torch Song", "Shadow Ball", "Engorge"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -2556,6 +3788,25 @@ var SETDEX_SV = {
 		},
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
+			ability: "Appetite",
+			item: "Salac Berry",
+			nature: "Timid",
+			moves: ["Shadow Ball", "Torch Song", "Engorge", "Focus Blast"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona (Before Gym 7) (Reverse)": {
+			level: 56,
 			ability: "Appetite",
 			item: "Salac Berry",
 			nature: "Timid",
@@ -2593,6 +3844,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// TITAL LOYAL 3
 	Okidogi: {
 		"Titan Loyal 3": {
 			level: 43,
@@ -2656,6 +3908,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// RYME
 	Froslass: {
 		"Ryme (Vanilla)": {
 			level: 45,
@@ -2698,6 +3951,48 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Banette: {
+		"Ryme (Reverse)": {
+			level: 30,
+			ability: "Prankster",
+			item: "Mental Herb",
+			nature: "Impish",
+			moves: ["Screech", "Fake Out", "", ""],
+			evs: {
+				hp: 252,
+				df: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Lampent: {
+		"Ryme (Reverse)": {
+			level: 30,
+			ability: "Levitate",
+			item: "Colbur Berry",
+			nature: "Timid",
+			moves: ["Mystical Fire", "Shadow Ball", "Thunderbolt", "Aura Sphere"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Mimikyu: {
 		"Ryme (Vanilla)": {
 			level: 45,
@@ -2705,6 +4000,25 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Shadow Claw", "Play Rough", "Psycho Cut", "X-Scissor"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Ryme (Reverse)": {
+			level: 30,
+			ability: "Disguise",
+			item: "Rocky Helmet",
+			nature: "Jolly",
+			moves: ["Shadow Punch", "Hoodwink", "Drain Punch", "Seed Bomb"],
 			evs: {
 				at: 252,
 				sp: 252,
@@ -2740,7 +4054,28 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Ryme (Reverse)": {
+			level: 30,
+			teraType: "Ghost",
+			ability: "Fur Coat",
+			item: "Assault Vest",
+			nature: "Impish",
+			moves: ["Last Respects", "Bone Rush"],
+			evs: {
+				df: 252,
+				sd: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
+	// QUAKING EARTH TITANS
 	"Iron Treads": {
 		"Titan Donphan (Vanilla)": {
 			level: 47,
@@ -2752,6 +4087,30 @@ var SETDEX_SV = {
 				"Precipice Blades",
 				"Jagged Edge",
 				"Shift Gear",
+			],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Titan Donphan (Reverse)": {
+			level: 24,
+			ability: "Filter",
+			item: "Clear Amulet",
+			nature: "Adamant",
+			moves: [
+				"Iron Head",
+				"Stomping Tantrum",
+				"Thunder Fang",
+				"Jagged Edge",
 			],
 			evs: {
 				hp: 252,
@@ -2782,6 +4141,30 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				hp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Titan Donphan (Reverse)": {
+			level: 24,
+			ability: "Resilient",
+			item: "Clear Amulet",
+			nature: "Adamant",
+			moves: [
+				"Brick Break",
+				"Stomping Tantrum",
+				"Fire Fang",
+				"Jagged Edge",
+			],
+			evs: {
+				hp: 252,
+				at: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -2902,9 +4285,29 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// NEMONA (PAWMOT & KOMMO-O)
 	Pawmot: {
 		"Nemona (Before Gym 7) (Vanilla)": {
 			level: 52,
+			ability: "Fluffy",
+			item: "Quick Claw",
+			nature: "Calm",
+			moves: ["Force Waves", "Volt Switch", "Nuzzle", "Dreamy Kiss"],
+			evs: {
+				hp: 252,
+				sd: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Nemona (Before Gym 7) (Reverse)": {
+			level: 56,
 			ability: "Fluffy",
 			item: "Quick Claw",
 			nature: "Calm",
@@ -2948,6 +4351,30 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Nemona (Before Gym 7) (Reverse)": {
+			level: 56,
+			ability: "Bulletproof",
+			item: "Lum Berry",
+			nature: "Timid",
+			moves: [
+				"Drakonic Voice",
+				"Flash Cannon",
+				"Fire Blast",
+				"Clangorous Soul",
+			],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 		"Nemona (Champion)": {
 			level: 100,
 			ability: "Multiscale",
@@ -2969,6 +4396,7 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	// TULIP
 	Delphox: {
 		"Tulip (Vanilla)": {
 			level: 52,
@@ -3087,6 +4515,133 @@ var SETDEX_SV = {
 			item: "Colbur Berry",
 			nature: "Timid",
 			moves: ["Blizzard", "Psystrike", "Focus Blast", "Shadow Ball"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Flittle: {
+		"Tulip (Reverse)": {
+			level: 18,
+			ability: "Psychic Surge",
+			item: "Red Card",
+			nature: "Timid",
+			moves: ["Extrasensory", "Scorching Sands", "Mystical Fire", "Dazzling Gleam"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Meditite: {
+		"Tulip (Reverse)": {
+			level: 18,
+			ability: "Pure Power",
+			item: "Mind Plate",
+			nature: "Hasty",
+			moves: ["Drain Punch", "Extrasensory", "Poison Jab", "Shadow Punch"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Espurr: {
+		"Tulip (Reverse)": {
+			level: 18,
+			ability: "Sheer Force",
+			item: "Silk Scarf",
+			nature: "Timid",
+			moves: ["Tera Blast", "Extrasensory", "Mystical Fire", "Dazzling Gleam"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Gothorita: {
+		"Tulip (Reverse)": {
+			level: 18,
+			ability: "Energy Shield",
+			item: "Sitrus Berry",
+			nature: "Modest",
+			moves: ["Dismal Cry", "Draining Kiss", "Encore", "Disable"],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Kirlia: {
+		"Tulip (Reverse)": {
+			level: 18,
+			ability: "Pixilate",
+			item: "Expert Belt",
+			nature: "Timid",
+			moves: ["Serenade", "Extrasensory", "Mystical Fire", "Water Pulse"],
+			evs: {
+				sa: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Braixen: {
+		"Tulip (Reverse)": {
+			level: 18,
+			teraType: "Psychic",
+			ability: "Magician",
+			item: "Throat Spray",
+			nature: "Hasty",
+			moves: ["Fire Pledge", "Psychic Noise", "Alluring Voice", "Dismal Cry"],
 			evs: {
 				sa: 252,
 				sp: 252,
@@ -3228,6 +4783,134 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Seel: {
+		"Grusha (Reverse)": {
+			level: 13,
+			ability: "Permafrost",
+			item: "Sitrus Berry",
+			nature: "Bold",
+			moves: ["Freeze-Dry", "Whirlpool", "Yawn", "Snowscape"],
+			evs: {
+				hp: 252,
+				df: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Vulpix-Alola": {
+		"Grusha (Reverse)": {
+			level: 13,
+			ability: "Snow Warning",
+			item: "Icy Rock",
+			nature: "Timid",
+			moves: ["Aurora Beam", "Disarming Voice", "Chilling Water", "Aurora Veil"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Swinub: {
+		"Grusha (Reverse)": {
+			level: 12,
+			ability: "Thick Fat",
+			item: "Quick Claw",
+			nature: "Adamant",
+			moves: ["Ice Fang", "Stomping Tantrum", "Smack Down", "Yawn"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Snover: {
+		"Grusha (Reverse)": {
+			level: 13,
+			ability: "Snow Warning",
+			item: "Occa Berry",
+			nature: "Modest",
+			moves: ["Aurora Beam", "Mega Drain", "Water Pulse", "Aurora Veil"],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Growlithe: {
+		"Grusha (Reverse)": {
+			level: 13,
+			ability: "Refrigerate",
+			item: "Charcoal",
+			nature: "Rash",
+			moves: ["Fire Spin", "Headbutt", "Thunder Fang", "Hoodwink"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Cetoddle: {
+		"Grusha (Reverse)": {
+			level: 13,
+			teraType: "Ice",
+			ability: "Slush Rush",
+			item: "Clear Amulet",
+			nature: "Jolly",
+			moves: ["Ice Fang", "Liquidation", "Brick Break", "Snowscape"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// ORTEGA
 	Morgrem: {
 		"Ortega (Vanilla)": {
 			level: 56,
@@ -3270,6 +4953,48 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Misdreavus: {
+		"Ortega (Reverse)": {
+			level: 27,
+			ability: "Energy Shield",
+			item: "Sitrus Berry",
+			nature: "Timid",
+			moves: ["Hex", "Alluring Voice", "Will-O-Wisp", "Parting Shot"],
+			evs: {
+				hp: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Azumarill: {
+		"Ortega (Reverse)": {
+			level: 27,
+			ability: "Huge Power",
+			item: "Quick Claw",
+			nature: "Adamant",
+			moves: ["Liquidation", "Hoodwink", "Ice Punch", "Zen Headbutt"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Oinkologne: {
 		"Ortega (Vanilla)": {
 			level: 56,
@@ -3280,6 +5005,25 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Ortega (Reverse)": {
+			level: 27,
+			ability: "Thick Fat",
+			item: "Babiri Berry",
+			nature: "Adamant",
+			moves: ["Hoodwink", "Stomping Tantrum", "Rock Slide", "Slack Off"],
+			evs: {
+				hp: 252,
+				at: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -3312,6 +5056,27 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Wigglytuff: {
+		"Ortega (Reverse)": {
+			level: 27,
+			ability: "Fluffy",
+			item: "Assault Vest",
+			nature: "Modest",
+			moves: ["Serenade", "Dazzling Gleam", "Flamethrower", "Aura Sphere"],
+			evs: {
+				hp: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Delibird: {
 		"Ortega (Vanilla)": {
 			level: 56,
@@ -3322,6 +5087,25 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Ortega (Reverse)": {
+			level: 27,
+			ability: "Permafrost",
+			item: "Eviolite",
+			nature: "Modest",
+			moves: ["Freeze-Dry", "Alluring Voice", "Water Pulse", "Dreamy Kiss"],
+			evs: {
+				hp: 252,
+				sa: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -3353,6 +5137,27 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	"Ruchbah Starmobile - Reverse": {
+		"Ortega (Reverse)": {
+			level: 27,
+			ability: "Transistor",
+			nature: "Serious",
+			moves: ["Magical Torque", "Iron Head", "Overdrive", "Earthquake"],
+			evs: {
+				at: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	// DONDOGIRI
 	Dondozo: {
 		"Titans Dondozo and Tatsugiri (Vanilla)": {
 			level: 58,
@@ -3363,6 +5168,25 @@ var SETDEX_SV = {
 			evs: {
 				hp: 252,
 				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Titans Dondozo and Tatsugiri (Reverse)": {
+			level: 15,
+			ability: "Appetite",
+			item: "Leftovers",
+			nature: "Careful",
+			moves: ["Dive", "Arcane Fangs", "Poison Fang", "Tickle"],
+			evs: {
+				hp: 252,
+				sd: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -3394,7 +5218,27 @@ var SETDEX_SV = {
 				sp: 31,
 			},
 		},
+		"Titans Dondozo and Tatsugiri (Reverse)": {
+			level: 15,
+			ability: "Camouflage",
+			item: "Rocky Helmet",
+			nature: "Bold",
+			moves: ["Brine", "Dragon Breath", "Sludge Bomb", ""],
+			evs: {
+				hp: 252,
+				df: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
 	},
+	// ERI
 	Annihilape: {
 		"Eri (Vanilla)": {
 			level: 60,
@@ -3458,6 +5302,27 @@ var SETDEX_SV = {
 			},
 		},
 	},
+	Scraggy: {
+		"Eri (Reverse)": {
+			level: 22,
+			ability: "Prankster",
+			item: "Roseli Berry",
+			nature: "Adamant",
+			moves: ["Drain Punch", "Crunch", "Glare", "Parting Shot"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
 	Granbull: {
 		"Eri (Vanilla)": {
 			level: 60,
@@ -3468,6 +5333,25 @@ var SETDEX_SV = {
 			evs: {
 				at: 252,
 				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+		"Eri (Reverse)": {
+			level: 22,
+			ability: "Intimidate",
+			item: "Coba Berry",
+			nature: "Adamant",
+			moves: ["Drain Punch", "Hoodwink", "Jaw Lock", "Stomping Tantrum"],
+			evs: {
+				hp: 252,
+				at: 252,
 			},
 			ivs: {
 				hp: 31,
@@ -3511,6 +5395,89 @@ var SETDEX_SV = {
 				"Strength",
 				"High Voltage",
 			],
+			evs: {
+				at: 252,
+				sa: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Croagunk: {
+		"Eri (Reverse)": {
+			level: 22,
+			ability: "Instinct",
+			item: "Poison Barb",
+			nature: "Hasty",
+			moves: ["Brick Break", "Sludge Bomb", "Throat Chop", "Parting Shot"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Pignite: {
+		"Eri (Reverse)": {
+			level: 22,
+			ability: "Appetite",
+			item: "Sitrus Berry",
+			nature: "Adamant",
+			moves: ["Circle Throw", "Fire Punch", "Thunder Punch", "Shadow Punch"],
+			evs: {
+				hp: 252,
+				at: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	Kubfu: {
+		"Eri (Reverse)": {
+			level: 22,
+			ability: "Defiant",
+			item: "Eviolite",
+			nature: "Jolly",
+			moves: ["Cross Chop", "Shadow Punch", "Ice Punch", "Poison Jab"],
+			evs: {
+				at: 252,
+				sp: 252,
+			},
+			ivs: {
+				hp: 31,
+				at: 31,
+				df: 31,
+				sa: 31,
+				sd: 31,
+				sp: 31,
+			},
+		},
+	},
+	"Caph Starmobile - Reverse": {
+		"Eri (Reverse)": {
+			level: 22,
+			ability: "Headstrong",
+			nature: "Serious",
+			moves: ["Combat Torque", "Spin Out", "", ""],
 			evs: {
 				at: 252,
 				sa: 252,
