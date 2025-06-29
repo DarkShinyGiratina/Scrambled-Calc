@@ -3762,7 +3762,7 @@ var SV_PATCH = {
         secondaries: true
     },
     "Scale Shot": {
-        bp: 15,
+        bp: 25,
         type: "Dragon",
         category: "Physical",
         multihit: [2, 5],
