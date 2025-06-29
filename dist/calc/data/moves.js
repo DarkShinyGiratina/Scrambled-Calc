@@ -1159,12 +1159,13 @@ var SV_PATCH = {
         priority: 1
     },
     "Fury Cutter": {
-        bp: 40,
+        bp: 60,
         type: "Bug",
         category: "Physical",
         makesContact: true,
         isSlicing: true,
-        secondaries: true
+        secondaries: true,
+        willCrit: true
     },
     "Steel Wingbeat": {
         bp: 45,
@@ -4437,17 +4438,31 @@ var SV_PATCH = {
         makesContact: true,
         isSlicing: true
     },
-    "Blazing Torque": {
+    "Blazing Torque (Vanilla)": {
         bp: 85,
         type: "Fire",
         category: "Physical",
         secondaries: true
     },
-    "Wicked Torque": {
+    "Blazing Torque (Reverse)": {
+        bp: 85,
+        type: "Fire",
+        category: "Physical",
+        secondaries: true,
+        willCrit: true
+    },
+    "Wicked Torque (Vanilla)": {
         bp: 85,
         type: "Dark",
         category: "Physical",
         secondaries: true
+    },
+    "Wicked Torque (Reverse)": {
+        bp: 85,
+        type: "Dark",
+        category: "Physical",
+        secondaries: true,
+        willCrit: true
     },
     "Noxious Torque": {
         bp: 85,
@@ -4456,15 +4471,28 @@ var SV_PATCH = {
         willCrit: true,
         secondaries: true
     },
-    "Combat Torque": {
-        bp: 100,
+    "Combat Torque (Vanilla)": {
+        bp: 85,
+        type: "Fighting",
+        category: "Physical",
+        secondaries: true,
+        willCrit: true
+    },
+    "Combat Torque (Reverse)": {
+        bp: 85,
         type: "Fighting",
         category: "Physical",
         secondaries: true
     },
-    "Magical Torque": {
+    "Magical Torque (Vanilla)": {
         bp: 85,
         willCrit: true,
+        type: "Fairy",
+        category: "Physical",
+        secondaries: true
+    },
+    "Magical Torque (Reverse)": {
+        bp: 85,
         type: "Fairy",
         category: "Physical",
         secondaries: true
