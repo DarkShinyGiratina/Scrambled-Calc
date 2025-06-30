@@ -4790,7 +4790,7 @@ var SETDEX_SV = {
 			ability: "Permafrost",
 			item: "Sitrus Berry",
 			nature: "Bold",
-			moves: ["Freeze-Dry", "Whirlpool", "Yawn", "Snowscape"],
+			moves: ["Freeze-Dry", "Whirlpool", "Yawn", "Encore"],
 			evs: {
 				hp: 252,
 				df: 252,
@@ -4896,7 +4896,7 @@ var SETDEX_SV = {
 			ability: "Slush Rush",
 			item: "Clear Amulet",
 			nature: "Jolly",
-			moves: ["Ice Fang", "Liquidation", "Brick Break", "Snowscape"],
+			moves: ["Ice Fang", "Liquidation", "Brick Break", "Hoodwink"],
 			evs: {
 				hp: 252,
 				sp: 252,

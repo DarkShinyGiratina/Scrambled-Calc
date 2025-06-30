@@ -480,7 +480,8 @@ var SV_PATCH = {
         type: "Rock",
         category: "Physical",
         recoil: [33, 100],
-        makesContact: true
+        makesContact: true,
+        secondaries: true
     },
     Siphon: {
         bp: 45,
