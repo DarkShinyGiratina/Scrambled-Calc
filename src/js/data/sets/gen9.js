@@ -4828,7 +4828,7 @@ var SETDEX_SV = {
 	},
 	Swinub: {
 		"Grusha (Reverse)": {
-			level: 12,
+			level: 13,
 			ability: "Thick Fat",
 			item: "Quick Claw",
 			nature: "Adamant",

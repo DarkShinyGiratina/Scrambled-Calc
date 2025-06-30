@@ -6613,7 +6613,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     weightkg: 8.4,
     nfe: true,
   },
-  "Vivillon-Snowy": {
+  "Vivillon-Tundra": {
     types: ["Ice", "Bug"],
     bs: {
       hp: 80,
@@ -6624,9 +6624,9 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 99,
     },
     weightkg: 17,
-    otherFormes: ["Vivillon-Sunny", "Vivillon-Rainy", "Vivillon-Sandy"],
+    otherFormes: ["Vivillon-Sun", "Vivillon-Marine", "Vivillon-Sandstorm"],
   },
-  "Vivillon-Rainy": {
+  "Vivillon-Marine": {
     types: ["Water", "Bug"],
     bs: {
       hp: 80,
@@ -6637,9 +6637,9 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 99,
     },
     weightkg: 17,
-    baseSpecies: "Vivillon-Snowy",
+    baseSpecies: "Vivillon-Tundra",
   },
-  "Vivillon-Sandy": {
+  "Vivillon-Sandstorm": {
     types: ["Rock", "Bug"],
     bs: {
       hp: 80,
@@ -6650,9 +6650,9 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 99,
     },
     weightkg: 17,
-    baseSpecies: "Vivillon-Snowy",
+    baseSpecies: "Vivillon-Tundra",
   },
-  "Vivillon-Sunny": {
+  "Vivillon-Sun": {
     types: ["Fire", "Bug"],
     bs: {
       hp: 80,
@@ -6663,7 +6663,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       sp: 99,
     },
     weightkg: 17,
-    baseSpecies: "Vivillon-Snowy",
+    baseSpecies: "Vivillon-Tundra",
   },
   Litleo: {
     types: ["Fire", "Normal"],
@@ -8853,7 +8853,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
       at: 130,
       df: 105,
       sa: 63,
-      sd: 60,
+      sd: 75,
       sp: 97,
     },
     weightkg: 105,
