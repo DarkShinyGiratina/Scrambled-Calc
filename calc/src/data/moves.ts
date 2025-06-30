@@ -500,6 +500,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     category: "Physical",
     recoil: [33, 100],
     makesContact: true,
+    secondaries: true,
   },
   Siphon: {
     bp: 45,
