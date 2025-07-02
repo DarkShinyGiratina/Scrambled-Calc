@@ -4895,7 +4895,7 @@ var SETDEX_SV = {
 			teraType: "Ice",
 			ability: "Slush Rush",
 			item: "Clear Amulet",
-			nature: "Jolly",
+			nature: "Adamant",
 			moves: ["Ice Fang", "Liquidation", "Brick Break", "Hoodwink"],
 			evs: {
 				hp: 252,
