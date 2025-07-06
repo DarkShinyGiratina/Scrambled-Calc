@@ -1372,7 +1372,7 @@ var SETDEX_SV = {
 			level: 52,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Wicked Torque (Reverse)", "Heavy Slam", "Earthquake", "High Voltage"],
+			moves: ["Wicked Torque (Reverse)", "120BP Heavy Slam", "Earthquake", "High Voltage"],
 			evs: {
 				at: 252,
 				sa: 252,
@@ -2168,7 +2168,7 @@ var SETDEX_SV = {
 			level: 45,
 			ability: "Filter",
 			nature: "Serious",
-			moves: ["Blazing Torque (Reverse)", "Heavy Slam", "Earthquake", "High Voltage"],
+			moves: ["Blazing Torque (Reverse)", "120BP Heavy Slam", "Earthquake", "High Voltage"],
 			evs: {
 				at: 252,
 				sa: 252,
