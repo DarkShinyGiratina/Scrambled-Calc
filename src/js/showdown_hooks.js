@@ -87,6 +87,12 @@ function get_box() {
 				.replace(".", "")
 				.replace("’", "")
 				.replace("-totem", "");
+
+			// Handle starmobile cases
+			if (pok_name.includes("starmobile")) {
+				pok_name = "revavroom";
+			}
+
 			var pok = `<img class="trainer-pok left-side" src="./img/pokesprite/${pok_name}.png" data-id="${
 				names[i].split("[")[0]
 			}">`;
@@ -112,6 +118,12 @@ function get_trainer_preview(poks) {
 			.replace(".", "")
 			.replace("’", "")
 			.replace("-totem", "");
+
+		// Handle starmobile cases
+		if (pok_name.includes("starmobile")) {
+			pok_name = "revavroom";
+		}
+
 		var pok_html = `<img class="trainer-pok right-side" src="./img/pokesprite/${pok_name}.png" data-id="${
 			poks[i].split("[")[0]
 		}">`;
