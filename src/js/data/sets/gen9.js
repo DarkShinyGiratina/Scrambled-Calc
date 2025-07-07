@@ -3894,7 +3894,7 @@ var SETDEX_SV = {
 			ability: "Toxic Chain",
 			item: "Black Sludge",
 			nature: "Modest",
-			moves: ["Alluring Voice", "Venoshock", "Psychic", "Heat Wave"],
+			moves: ["Dazzling Gleam", "Venoshock", "Psychic", "Heat Wave"],
 			evs: {
 				hp: 252,
 				sa: 252,
