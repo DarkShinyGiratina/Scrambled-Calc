@@ -916,6 +916,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     multihit: 3,
     isPulse: true,
     isBullet: true,
+    secondaries: true
   },
   "Super Fang": {
     bp: 1,

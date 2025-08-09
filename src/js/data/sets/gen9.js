@@ -119,7 +119,7 @@ var SETDEX_SV = {
 			ability: "Liquid Veil",
 			item: "Mystic Water",
 			nature: "Bold",
-			moves: ["Leaf Flurry", "Spook", "Chilling Water", "Sweet Scent"],
+			moves: ["Leaf Flurry", "Spook", "Chilling Water", "Rehydrate"],
 			evs: {
 				sa: 252,
 				hp: 252,
@@ -784,7 +784,7 @@ var SETDEX_SV = {
 			ability: "Tough Claws",
 			item: "Focus Sash",
 			nature: "Adamant",
-			moves: ["Fury Cutter", "", "", ""],
+			moves: ["Fury Cutter", "Crabhammer", "", ""],
 			evs: {
 				at: 252,
 				hp: 252,
@@ -3285,7 +3285,7 @@ var SETDEX_SV = {
 			level: 33,
 			ability: "Adaptability",
 			item: "Mental Herb",
-			nature: "Adamant",
+			nature: "Jolly",
 			moves: ["Whiplash", "Arcane Fangs", "Glare", "Shed Tail"],
 			evs: {
 				at: 252,
