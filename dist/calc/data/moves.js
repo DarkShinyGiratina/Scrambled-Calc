@@ -896,7 +896,8 @@ var SV_PATCH = {
         category: "Special",
         multihit: 3,
         isPulse: true,
-        isBullet: true
+        isBullet: true,
+        secondaries: true
     },
     "Super Fang": {
         bp: 1,

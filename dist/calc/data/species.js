@@ -10259,8 +10259,8 @@ var SV_PATCH = {
     Koraidon: {
         types: ["Fighting", "Dragon"],
         bs: {
-            hp: 100,
-            at: 135,
+            hp: 135,
+            at: 150,
             df: 115,
             sa: 85,
             sd: 100,
