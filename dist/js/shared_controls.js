@@ -1089,7 +1089,7 @@ function createPokemon(pokeInfo) {
 		var ability = pokeInfo.find(".ability").val();
 		var item = pokeInfo.find(".item").val();
 		var isDynamaxed = pokeInfo.find(".max").prop("checked");
-		var teraType = pokeInfo.find(".teraType").val()
+		var teraType = pokeInfo.find(".teraToggle").is(":checked")
 			? pokeInfo.find(".teraType").val()
 			: undefined;
 		pokeInfo.isDynamaxed = isDynamaxed;
