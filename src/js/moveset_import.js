@@ -23,7 +23,7 @@ function ExportPokemon(pokeInfo) {
 	finalText +=
 		pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	finalText +=
-		pokemon.teraType && gen > 8 ? "Tera Type: " + pokemon.teraType : "";
+		gen > 8 ? "Tera Type: " + pokemon.teraType + "\n" : "";
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
 	if (gen > 2) {
 		var EVs_Array = [];
