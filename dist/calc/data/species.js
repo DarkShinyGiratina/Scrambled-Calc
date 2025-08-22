@@ -4486,23 +4486,23 @@ var SV_PATCH = {
     Stunky: {
         types: ["Poison", "Dark"],
         bs: {
-            hp: 63,
-            at: 63,
-            df: 56,
-            sa: 63,
-            sd: 56,
-            sp: 74
+            hp: 69,
+            at: 52,
+            df: 47,
+            sa: 69,
+            sd: 54,
+            sp: 84
         },
         weightkg: 19.2
     },
     Skuntank: {
         types: ["Poison", "Dark"],
         bs: {
-            hp: 103,
-            at: 93,
-            df: 81,
-            sa: 93,
-            sd: 81,
+            hp: 109,
+            at: 72,
+            df: 67,
+            sa: 109,
+            sd: 84,
             sp: 84
         },
         weightkg: 38.0
@@ -5200,11 +5200,11 @@ var SV_PATCH = {
         types: ["Grass"],
         bs: {
             hp: 43,
-            at: 40,
+            at: 45,
             df: 49,
-            sa: 60,
-            sd: 65,
-            sp: 73
+            sa: 45,
+            sd: 70,
+            sp: 78
         },
         weightkg: 8.1,
         nfe: true
@@ -5214,10 +5214,10 @@ var SV_PATCH = {
         bs: {
             hp: 63,
             at: 60,
-            df: 69,
-            sa: 70,
-            sd: 75,
-            sp: 103
+            df: 64,
+            sa: 60,
+            sd: 85,
+            sp: 108
         },
         weightkg: 16,
         nfe: true
@@ -6026,11 +6026,11 @@ var SV_PATCH = {
     Cubchoo: {
         types: ["Ice"],
         bs: {
-            hp: 55,
+            hp: 60,
             at: 70,
-            df: 40,
-            sa: 60,
-            sd: 40,
+            df: 65,
+            sa: 50,
+            sd: 65,
             sp: 40
         },
         weightkg: 8.5,
