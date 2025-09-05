@@ -218,7 +218,7 @@ var SETDEX_SV = {
 		"Carmine (Entering Kitakami)": {
 			level: 11,
 			ability: "Drought",
-			item: "Timid",
+			item: "Heat Rock",
 			nature: "Timid",
 			moves: ["Fire Spin", "Extrasensory", "Disarming Voice", "Morning Sun"],
 			evs: {

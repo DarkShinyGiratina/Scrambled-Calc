@@ -651,7 +651,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             break;
         case "Stored Power":
         case "Power Trip":
-            basePower = 20 + 20 * (0, util_2.countBoosts)(gen, attacker.boosts);
+            basePower = 80 + 20 * (0, util_2.countBoosts)(gen, attacker.boosts);
             desc.moveBP = basePower;
             break;
         case "Acrobatics":
