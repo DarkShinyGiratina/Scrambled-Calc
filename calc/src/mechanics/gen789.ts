@@ -1111,7 +1111,7 @@ export function calculateBasePowerSMSSSV(
       break;
     case "Stored Power":
     case "Power Trip":
-      basePower = 20 + 20 * countBoosts(gen, attacker.boosts);
+      basePower = 80 + 20 * countBoosts(gen, attacker.boosts);
       desc.moveBP = basePower;
       break;
     case "Acrobatics":
