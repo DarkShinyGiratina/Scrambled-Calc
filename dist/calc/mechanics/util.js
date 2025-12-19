@@ -600,7 +600,7 @@ function getStabMod(pokemon, move, desc) {
     if (pokemon.hasOriginalType(move.type)) {
         stabMod += 2048;
     }
-    else if (pokemon.hasAbility("Versatility", "Libero") && !pokemon.teraType) {
+    else if (pokemon.hasAbility("Versatility", "Hammer Time") && !pokemon.teraType) {
         stabMod += 2048;
         desc.attackerAbility = pokemon.ability;
     }

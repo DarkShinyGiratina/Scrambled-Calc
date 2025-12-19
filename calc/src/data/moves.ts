@@ -242,7 +242,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Steel",
     category: "Physical",
     multihit: [2, 5],
-    makesContact: true,
+    makesContact: false,
     isPulse: true,
     isBullet: true,
   },
@@ -3697,7 +3697,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     willCrit: true,
   },
   "Aura Wheel": {
-    bp: 120,
+    bp: 110,
     type: "Electric",
     category: "Physical",
     secondaries: true,
@@ -4538,7 +4538,7 @@ const SV_PATCH: { [name: string]: DeepPartial<MoveData> } = {
     type: "Grass",
     category: "Special",
     target: "allAdjacentFoes",
-    drain: [50, 100],
+    drain: [100, 100],
     secondaries: true,
   },
   "Syrup Bomb": {

@@ -7466,7 +7466,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     baseSpecies: "Oricorio",
   },
   Cutiefly: {
-    types: ["Bug", "Fairy"],
+    types: ["Fairy", "Bug"],
     bs: {
       hp: 38,
       at: 20,
@@ -7479,7 +7479,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     nfe: true,
   },
   Ribombee: {
-    types: ["Bug", "Fairy"],
+    types: ["Fairy", "Bug"],
     bs: {
       hp: 63,
       at: 30,
@@ -9436,7 +9436,7 @@ const SV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     baseSpecies: "Palafin",
   },
   Smoliv: {
-    types: ["Grass", "Normal"],
+    types: ["Normal", "Grass"],
     bs: {
       hp: 43,
       at: 33,

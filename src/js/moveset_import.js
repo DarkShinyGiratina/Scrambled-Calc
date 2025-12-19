@@ -15,7 +15,7 @@ function placeBsBtn() {
 }
 
 function ExportPokemon(pokeInfo) {
-	var pokemon = createPokemon(pokeInfo);
+	var pokemon = createPokemonForceTeraType(pokeInfo);
 	var EV_counter = 0;
 	var finalText = "";
 	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";

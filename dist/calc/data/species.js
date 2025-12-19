@@ -7496,7 +7496,7 @@ var SV_PATCH = {
         baseSpecies: "Oricorio"
     },
     Cutiefly: {
-        types: ["Bug", "Fairy"],
+        types: ["Fairy", "Bug"],
         bs: {
             hp: 38,
             at: 20,
@@ -7509,7 +7509,7 @@ var SV_PATCH = {
         nfe: true
     },
     Ribombee: {
-        types: ["Bug", "Fairy"],
+        types: ["Fairy", "Bug"],
         bs: {
             hp: 63,
             at: 30,
@@ -9466,7 +9466,7 @@ var SV_PATCH = {
         baseSpecies: "Palafin"
     },
     Smoliv: {
-        types: ["Grass", "Normal"],
+        types: ["Normal", "Grass"],
         bs: {
             hp: 43,
             at: 33,

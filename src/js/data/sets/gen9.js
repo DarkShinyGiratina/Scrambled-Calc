@@ -178,7 +178,7 @@ var SETDEX_SV = {
 			ability: "Moody",
 			item: "Starf Berry",
 			nature: "Jolly",
-			moves: ["Power Trip", "Engorge", "Protect", ""],
+			moves: ["Power Trip", "Engorge", "Detect", ""],
 			evs: {
 				hp: 252,
 				sp: 252,
@@ -6439,7 +6439,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Slither Wing": {
-		"Ai Sada (Vanilla)": {
+		"AI Sada": {
 			level: 100,
 			ability: "Fluffy",
 			item: "Mental Herb",
@@ -6460,7 +6460,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Roaring Moon": {
-		"Ai Sada (Vanilla)": {
+		"AI Sada": {
 			level: 100,
 			ability: "Wind Rider",
 			item: "Focus Sash",
@@ -6481,7 +6481,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Scream Tail": {
-		"Ai Sada (Vanilla)": {
+		"AI Sada": {
 			level: 100,
 			ability: "Pixilate",
 			item: "Throat Spray",
@@ -6502,7 +6502,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Flutter Mane": {
-		"Ai Sada (Vanilla)": {
+		"AI Sada": {
 			level: 100,
 			ability: "Protosynthesis",
 			item: "Booster Energy",
@@ -6523,7 +6523,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Sandy Shocks": {
-		"Ai Sada (Vanilla)": {
+		"AI Sada": {
 			level: 100,
 			ability: "Galvanize",
 			item: "Quick Claw",
@@ -6544,9 +6544,8 @@ var SETDEX_SV = {
 		},
 	},
 	Koraidon: {
-		"Ai Sada (Vanilla)": {
+		"AI Sada": {
 			level: 100,
-			teraType: "Fire",
 			ability: "Orichalcum Pulse",
 			item: "Roseli Berry",
 			nature: "Jolly",
@@ -6566,7 +6565,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Iron Valiant": {
-		"Ai Turo (Vanilla)": {
+		"AI Turo": {
 			level: 100,
 			ability: "Ruthless",
 			item: "Focus Sash",
@@ -6587,7 +6586,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Iron Moth": {
-		"Ai Turo (Vanilla)": {
+		"AI Turo": {
 			level: 100,
 			ability: "Energy Shield",
 			item: "Air Balloon",
@@ -6613,7 +6612,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Iron Jugulis": {
-		"Ai Turo (Vanilla)": {
+		"AI Turo": {
 			level: 100,
 			ability: "Mega Launcher",
 			item: "Quick Claw",
@@ -6634,7 +6633,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Iron Thorns": {
-		"Ai Turo (Vanilla)": {
+		"AI Turo": {
 			level: 100,
 			ability: "Energy Shield",
 			item: "Red Card",
@@ -6655,7 +6654,7 @@ var SETDEX_SV = {
 		},
 	},
 	"Iron Hands": {
-		"Ai Turo (Vanilla)": {
+		"AI Turo": {
 			level: 100,
 			ability: "Filter",
 			item: "Weakness Policy",
@@ -6676,9 +6675,8 @@ var SETDEX_SV = {
 		},
 	},
 	Miraidon: {
-		"Ai Turo (Vanilla)": {
+		"AI Turo": {
 			level: 100,
-			teraType: "Electric",
 			ability: "Hadron Engine",
 			item: "Life Orb",
 			nature: "Timid",

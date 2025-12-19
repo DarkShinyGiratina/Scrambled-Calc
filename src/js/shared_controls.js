@@ -1162,6 +1162,17 @@ function createPokemon(pokeInfo) {
 	}
 }
 
+function createPokemonForceTeraType(pokeInfo) {
+	var teraSetting = false;
+	if (!(typeof pokeInfo === "string")) {
+		teraSetting = pokeInfo.find(".teraToggle").is(":checked");
+		pokeInfo.find(".teraToggle").prop("checked", true);
+	}
+	var returnMon = createPokemon(pokeInfo);
+	pokeInfo.find(".teraToggle").prop("checked", teraSetting);
+	return returnMon;
+}
+
 function getGender(gender) {
 	if (!gender || gender === "genderless" || gender === "N") return "N";
 	if (gender.toLowerCase() === "male" || gender === "M") return "M";

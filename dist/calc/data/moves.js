@@ -224,7 +224,7 @@ var SV_PATCH = {
         type: "Steel",
         category: "Physical",
         multihit: [2, 5],
-        makesContact: true,
+        makesContact: false,
         isPulse: true,
         isBullet: true
     },
@@ -3678,7 +3678,7 @@ var SV_PATCH = {
         willCrit: true
     },
     "Aura Wheel": {
-        bp: 120,
+        bp: 110,
         type: "Electric",
         category: "Physical",
         secondaries: true
@@ -4519,7 +4519,7 @@ var SV_PATCH = {
         type: "Grass",
         category: "Special",
         target: "allAdjacentFoes",
-        drain: [50, 100],
+        drain: [100, 100],
         secondaries: true
     },
     "Syrup Bomb": {
