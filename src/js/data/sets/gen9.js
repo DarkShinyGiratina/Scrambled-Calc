@@ -13,10 +13,6 @@ var SETDEX_SV = {
 				"Dragon Ascent",
 				"Spectral Beam",
 			],
-			evs: {
-				sa: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -99,10 +95,6 @@ var SETDEX_SV = {
 			item: "Damp Rock",
 			nature: "Modest",
 			moves: ["Chilling Water", "Air Cutter", "Mud Shot", "Rain Dance"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -120,10 +112,6 @@ var SETDEX_SV = {
 			item: "Mystic Water",
 			nature: "Bold",
 			moves: ["Leaf Flurry", "Spook", "Chilling Water", "Rehydrate"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -141,10 +129,6 @@ var SETDEX_SV = {
 			item: "Leftovers",
 			nature: "Timid",
 			moves: ["Dismal Cry", "Rising Voltage", "Slack Off", ""],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -160,10 +144,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Jolly",
 			moves: ["Aura Wheel", "Zing Zap", "Endure", "Ice Fang"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -179,10 +159,6 @@ var SETDEX_SV = {
 			item: "Starf Berry",
 			nature: "Jolly",
 			moves: ["Power Trip", "Engorge", "Detect", ""],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -200,10 +176,6 @@ var SETDEX_SV = {
 			item: "Petaya Berry",
 			nature: "Modest",
 			moves: ["Swift", "Vacuum Wave", "Dismal Cry", "Endure"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -221,10 +193,6 @@ var SETDEX_SV = {
 			item: "Heat Rock",
 			nature: "Timid",
 			moves: ["Fire Spin", "Extrasensory", "Disarming Voice", "Morning Sun"],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -243,10 +211,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Calm",
 			moves: ["Infestation", "Mega Drain", "Leech Seed", "Draining Kiss"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -264,10 +228,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Modest",
 			moves: ["Infestation", "Gust", "Ancient Power", "Vacuum Wave"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -283,10 +243,6 @@ var SETDEX_SV = {
 			item: "Silver Powder",
 			nature: "Naughty",
 			moves: ["Divebomb", "U-turn", "Take Down", "Psychic Noise"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -304,10 +260,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Adamant",
 			moves: ["Accelerock", "Quick Attack", "Befuddle", "Stealth Rock"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -323,10 +275,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Adamant",
 			moves: ["Smack Down", "Headbutt", "Work Up", "Stomping Tantrum"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -344,10 +292,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Modest",
 			moves: ["Dismal Cry", "Mind Pulse", "Chilling Water", "Mega Drain"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -363,10 +307,6 @@ var SETDEX_SV = {
 			item: "Tanga Berry",
 			nature: "Modest",
 			moves: ["Dismal Cry", "Extrasensory", "Water Pulse", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -384,10 +324,6 @@ var SETDEX_SV = {
 			item: "Salac Berry",
 			nature: "Adamant",
 			moves: ["Headbutt", "Thief", "Hoodwink", "Work Up"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -403,10 +339,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Adamant",
 			moves: ["Headbutt", "Stomping Tantrum", "Hoodwink", "Night Slash"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -424,10 +356,6 @@ var SETDEX_SV = {
 			item: "Lum Berry",
 			nature: "Modest",
 			moves: ["Mega Drain", "Dragon Breath", "Molt", "Defense Curl"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -446,10 +374,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Jolly",
 			moves: ["Wrap", "Bulldoze", "Roost", "Toxic"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -465,10 +389,6 @@ var SETDEX_SV = {
 			item: "Expert Belt",
 			nature: "Jolly",
 			moves: ["Poison Jab", "Wing Attack", "Brick Break", "Crunch"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -484,10 +404,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Careful",
 			moves: ["Dire Claw", "Fire Fang", "Taunt", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -511,10 +427,6 @@ var SETDEX_SV = {
 				"Mega Drain",
 				"Thunder Wave",
 			],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -532,10 +444,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Thunder", "U-turn", "Nuzzle", "Sticky Web"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -553,10 +461,6 @@ var SETDEX_SV = {
 			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Hydro Pump", "Bug Buzz", "Blizzard", "Mesmer-Eyes"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -574,10 +478,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Brave",
 			moves: ["Spike Cannon", "Pin Missile", "Mud Bomber", "Take Aim"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -595,10 +495,6 @@ var SETDEX_SV = {
 			item: "Petaya Berry",
 			nature: "Modest",
 			moves: ["Draining Kiss", "Siphon", "Extrasensory", "Endure"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -616,10 +512,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Timid",
 			moves: ["Lustrous Power", "Bug Buzz", "Focus Blast", "Psychic"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -637,10 +529,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Serious",
 			moves: ["Acrobatics", "U-turn", "Mega Drain", "Tailwind"],
-			evs: {
-				sp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -658,10 +546,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Jolly",
 			moves: ["Pin Missile", "Pummel", "Rock Blast", "First Impression"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -679,10 +563,6 @@ var SETDEX_SV = {
 			item: "Expert Belt",
 			nature: "Modest",
 			moves: ["Fire Spin", "Infestation", "Mega Drain", "Sand Tomb"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -701,10 +581,6 @@ var SETDEX_SV = {
 			item: "Occa Berry",
 			nature: "Timid",
 			moves: ["Revelation Dance", "Fiery Dance", "Land's Wrath", "Quiver Dance"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -722,10 +598,6 @@ var SETDEX_SV = {
 			item: "Mystic Water",
 			nature: "Modest",
 			moves: ["Chilling Water", "Struggle Bug", "Aurora Beam", "Mega Drain"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -744,10 +616,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Jolly",
 			moves: ["Hoodwink", "U-turn", "Stomping Tantrum", "Slack Off"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -766,10 +634,6 @@ var SETDEX_SV = {
 			item: "Clear Amulet",
 			nature: "Adamant",
 			moves: ["Smack Down", "Leech Life", "Razor Shell", "Stomping Tantrum"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -785,10 +649,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Adamant",
 			moves: ["Fury Cutter", "Crabhammer", "", ""],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -807,10 +667,6 @@ var SETDEX_SV = {
 			item: "Black Sludge",
 			nature: "Sassy",
 			moves: ["Venoshock", "Mega Drain", "Taunt", "Drain Punch"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -828,10 +684,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Modest",
 			moves: ["Volt Switch", "Mega Drain", "Dazzling Gleam", "Pollen Puff"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -847,10 +699,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Bold",
 			moves: ["Parabolic Charge", "Mega Drain", "Dazzling Gleam", "Electro Shot"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -873,10 +721,6 @@ var SETDEX_SV = {
 				"Alluring Voice",
 				"Psychic Noise",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -892,10 +736,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Bold",
 			moves: ["Guillotine", "Parting Shot", "Destiny Bond", "Nuzzle"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -913,10 +753,6 @@ var SETDEX_SV = {
 			item: "Flame Orb",
 			nature: "Modest",
 			moves: ["Mud Shower", "Giga Drain", "Venoshock", "Toxic"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -934,10 +770,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Adamant",
 			moves: ["Branch Leech", "Shadow Sneak", "Rock Tomb", "Leech Life"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -956,10 +788,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Hasty",
 			moves: ["Razor Leaf", "Pluck", "Work Up", "Vacuum Wave"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -977,10 +805,6 @@ var SETDEX_SV = {
 			item: "Tanga Berry",
 			nature: "Jolly",
 			moves: ["Wood Hammer", "Strength", "Megaton Kick", "Swords Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -998,10 +822,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Jolly",
 			moves: ["Bullet Seed", "Pummel", "Triple Axel", "Victory Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1019,10 +839,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Modest",
 			moves: ["Seed Flare", "Sludge Bomb", "Earth Power", "Sleep Powder"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1041,10 +857,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Power Whip", "Power Trip", "Rock Slide", "Swords Dance"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1064,10 +876,6 @@ var SETDEX_SV = {
 			item: "Black Sludge",
 			nature: "Modest",
 			moves: ["Pollen Puff", "Dragon Breath", "Water Pulse", "Acid Reflux"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1083,10 +891,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Calm",
 			moves: ["Siphon", "Mud Shot", "Iron Defense", "Acid Reflux"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1105,10 +909,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Adamant",
 			moves: ["Lash Out", "Pluck", "Smart Strike", "Smack Down"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1124,10 +924,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Adamant",
 			moves: ["Power Trip", "", "", ""],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1146,10 +942,6 @@ var SETDEX_SV = {
 			item: "Shuca Berry",
 			nature: "Calm",
 			moves: ["Detonate", "Toxic Spikes", "Parting Shot", "Will-O-Wisp"],
-			evs: {
-				sd: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1167,10 +959,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Adamant",
 			moves: ["Lash Out", "Spark", "Parting Shot", "Glare"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1188,10 +976,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["High Voltage", "Night Daze", "Mesmer-Eyes", "Roar"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1209,10 +993,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Jolly",
 			moves: ["Brutal Swing", "Earthquake", "Gunk Shot", "Dragon Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1230,10 +1010,6 @@ var SETDEX_SV = {
 			item: "Sky Plate",
 			nature: "Modest",
 			moves: ["Air Slash", "Dragon Breath", "Heat Wave", "Parting Shot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1251,10 +1027,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Timid",
 			moves: ["Drakonic Voice", "Aeroblast", "Focus Blast", "Whirlwind"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1272,10 +1044,6 @@ var SETDEX_SV = {
 			item: "Silver Powder",
 			nature: "Adamant",
 			moves: ["Lash Out", "First Impression", "Bug Biting"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1291,10 +1059,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Adamant",
 			moves: ["Ceaseless Edge", "Wicked Blow", "First Impression", ""],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1312,10 +1076,6 @@ var SETDEX_SV = {
 			item: "Expert Belt",
 			nature: "Jolly",
 			moves: ["Laceration", "Night Slash", "Aqua Cutter", "Psycho Cut"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1333,10 +1093,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Jolly",
 			moves: ["Stomping Tantrum", "Crunch", "Poison Fang", "Work Up"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1353,10 +1109,6 @@ var SETDEX_SV = {
 			ability: "Filter",
 			nature: "Serious",
 			moves: ["Wicked Torque (Vanilla)", "Iron Head", "Psychic Noise", "Overdrive"],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1373,10 +1125,6 @@ var SETDEX_SV = {
 			ability: "Filter",
 			nature: "Serious",
 			moves: ["Wicked Torque (Reverse)", "120BP Heavy Slam", "Earthquake", "High Voltage"],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1395,10 +1143,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Jolly",
 			moves: ["Flip Turn", "Dual Wingbeat", "Stomping Tantrum", "Taunt"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1414,10 +1158,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Jolly",
 			moves: ["Flip Turn", "Dual Wingbeat", "Stomping Tantrum", "Taunt"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1435,10 +1175,6 @@ var SETDEX_SV = {
 			item: "Petaya Berry",
 			nature: "Modest",
 			moves: ["Fire Pledge", "Yawn", "Alluring Voice", "Substitute"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1454,10 +1190,6 @@ var SETDEX_SV = {
 			item: "Petaya Berry",
 			nature: "Modest",
 			moves: ["Fire Pledge", "Alluring Voice", "Yawn", "Substitute"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1475,10 +1207,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Adamant",
 			moves: ["Circle Throw", "Thunder Punch", "Ice Punch", "Seed Bomb"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1494,10 +1222,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Adamant",
 			moves: ["Circle Throw", "Thunder Punch", "Ice Punch", "Seed Bomb"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1515,10 +1239,6 @@ var SETDEX_SV = {
 			item: "Dragon Fang",
 			nature: "Jolly",
 			moves: ["Laceration", "Dragon Claw", "Cross Chop", "Night Slash"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1534,10 +1254,6 @@ var SETDEX_SV = {
 			item: "Dragon Fang",
 			nature: "Jolly",
 			moves: ["Laceration", "Dragon Claw", "Cross Chop", "Night Slash"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1555,10 +1271,6 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Adamant",
 			moves: ["Jaw Lock", "Body Slam", "Fire Fang", "Stomping Tantrum"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1574,10 +1286,6 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Adamant",
 			moves: ["Jaw Lock", "Body Slam", "Fire Fang", "Stomping Tantrum"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1593,10 +1301,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Adamant",
 			moves: ["Extreme Speed", "Night Slash", "Drill Run", "Howl"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1612,10 +1316,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Adamant",
 			moves: ["Extreme Speed", "Night Slash", "Drill Run", "Howl"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1634,10 +1334,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Jolly",
 			moves: ["Bullet Seed", "Pummel", "Wallop", "Fury Swipes"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1654,10 +1350,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Jolly",
 			moves: ["Bullet Seed", "Pummel", "Wallop", "Fury Swipes"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1676,10 +1368,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Bold",
 			moves: ["Serenade", "Volt Switch", "Nuzzle", "Taunt"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1697,10 +1385,6 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Timid",
 			moves: ["Freeze-Dry", "Volt Switch", "Water Pulse", "Aurora Veil"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1718,10 +1402,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Timid",
 			moves: ["Fire Pledge", "Volt Switch", "Alluring Voice", "Magnet Rise"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1744,10 +1424,6 @@ var SETDEX_SV = {
 				"Weather Ball",
 				"Dazzling Gleam",
 			],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1765,10 +1441,6 @@ var SETDEX_SV = {
 			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Air Slash", "Volt Switch", "Aura Sphere", "Weather Ball"],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1792,10 +1464,6 @@ var SETDEX_SV = {
 				"Aura Sphere",
 				"Ice Beam",
 			],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1813,10 +1481,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Hurricane", "Thunder", "Thunder Wave", "Whirlwind"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1834,10 +1498,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Timid",
 			moves: ["Seed Flare", "Thunder", "Psychic Noise", "Parting Shot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1855,10 +1515,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Timid",
 			moves: ["Inferno", "Thunder", "Dazzling Gleam", "Energy Ball"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1876,10 +1532,6 @@ var SETDEX_SV = {
 			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Blizzard", "Thunder", "Focus Blast", "Nasty Plot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1897,10 +1549,6 @@ var SETDEX_SV = {
 			item: "Rindo Berry",
 			nature: "Timid",
 			moves: ["Hydro Steam", "Thunder", "Thunder Wave", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1919,10 +1567,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Short Circuit", "Shadow Ball", "Focus Blast", "Energy Ball"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1941,10 +1585,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Timid",
 			moves: ["Lava Plume", "Scorching Sands", "Taunt", "Parting Shot"],
-			evs: {
-				sp: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1962,10 +1602,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Inferno", "Dragon's Fury", "Roar", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -1983,10 +1619,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Modest",
 			moves: ["Flamethrower", "Dark Pulse", "Sunny Day", "Parting Shot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2002,10 +1634,6 @@ var SETDEX_SV = {
 			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Doom Desire", "Heat Wave", "Night Daze", "Roar"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2028,10 +1656,6 @@ var SETDEX_SV = {
 				"Scorching Sands",
 				"Parting Shot",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2047,10 +1671,6 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Timid",
 			moves: ["Inferno", "Sludge Bomb", "Scorching Sands","Nasty Plot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2068,10 +1688,6 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Naive",
 			moves: ["Fire Pledge", "Slash", "Yawn", "Parting Shot"],
-			evs: {
-				sp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2089,10 +1705,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Divebomb", "Flare Blitz", "Megaton Kick", "Close Combat"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2110,10 +1722,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Bullet Seed", "Pummel", "Triple Axel", "Parting Shot"],
-			evs: {
-				sp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2129,10 +1737,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Close Combat", "Power Whip", "Ice Spinner", "Dreamy Kiss"],
-			evs: {
-				sp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2149,10 +1753,6 @@ var SETDEX_SV = {
 			ability: "Filter",
 			nature: "Serious",
 			moves: ["Blazing Torque (Vanilla)", "Iron Head", "Psychic Noise", "Overdrive"],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2169,10 +1769,6 @@ var SETDEX_SV = {
 			ability: "Filter",
 			nature: "Serious",
 			moves: ["Blazing Torque (Reverse)", "120BP Heavy Slam", "Earthquake", "High Voltage"],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2190,10 +1786,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Bold",
 			moves: ["Matcha Gotcha", "Hex", "Taunt", "Parting Shot"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2210,10 +1802,6 @@ var SETDEX_SV = {
 			item: "White Herb",
 			nature: "Timid",
 			moves: ["Seed Flare", "Shadow Ball", "Hydro Pump", "Shell Smash"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2231,10 +1819,6 @@ var SETDEX_SV = {
 			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Air Slash", "Water Pledge", "Ice Beam", "Mud Shower"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2250,10 +1834,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Air Slash", "Revelation Dance", "Ice Beam", "Whirlwind"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2271,10 +1851,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Naughty",
 			moves: ["Force Waves", "Quick Attack", "Fake Out", "Fury Swipes"],
-			evs: {
-				sa: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2290,10 +1866,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Pummel", "Tail Slap", "Fury Swipes", "Fake Out"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2311,10 +1883,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Leaf Blade", "X-Scissor", "Cross Chop", "Psycho Cut"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2330,10 +1898,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Jolly",
 			moves: ["Leaf Blade", "Psycho Cut", "Cross Chop", "Sticky Web"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2352,10 +1916,6 @@ var SETDEX_SV = {
 			item: "Colbur Berry",
 			nature: "Timid",
 			moves: ["Heat Wave", "Infernal Parade", "Dazzling Gleam", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2376,10 +1936,6 @@ var SETDEX_SV = {
 				"Scorching Sands",
 				"Hypnosis",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2398,10 +1954,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Careful",
 			moves: ["Iron Tail", "Drill Run", "Stone Edge", "Coil"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2417,10 +1969,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Careful",
 			moves: ["Iron Tail", "Fissure", "Stone Edge", "Coil"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2438,10 +1986,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Jolly",
 			moves: ["Dire Claw", "Night Slash", "Drill Run", "Razor Shell"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2457,10 +2001,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Jolly",
 			moves: ["Dire Claw", "Pummel", "Swords Dance", "Toxic Spikes"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2478,10 +2018,6 @@ var SETDEX_SV = {
 			item: "Flame Orb",
 			nature: "Jolly",
 			moves: ["Facade", "Shadow Claw", "Cross Chop", "Parting Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2497,10 +2033,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Adamant",
 			moves: ["Retaliate", "Shadow Claw", "Cross Chop", "Parting Shot"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2518,10 +2050,6 @@ var SETDEX_SV = {
 			item: "Silver Powder",
 			nature: "Modest",
 			moves: ["Bug Buzz", "Dragon Breath"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2538,10 +2066,6 @@ var SETDEX_SV = {
 			item: "Silver Powder",
 			nature: "Modest",
 			moves: ["Bug Buzz", "Substitute", "Dragon Pulse", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2557,10 +2081,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Timid",
 			moves: ["Bug Buzz", "Drakonic Voice", "Substitute", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2578,10 +2098,6 @@ var SETDEX_SV = {
 			item: "Salac Berry",
 			nature: "Adamant",
 			moves: ["Jagged Edge", "Night Slash", "Acrobatics", "Cross Chop"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2597,10 +2113,6 @@ var SETDEX_SV = {
 			item: "Weakness Policy",
 			nature: "Jolly",
 			moves: ["Jagged Edge", "Night Slash", "Soul Crush", "Rock Polish"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2616,10 +2128,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Jolly",
 			moves: ["Power Trip", "Rock Polish", "Roar", ""],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2638,10 +2146,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Adamant",
 			moves: ["Aqua Cutter", "Psycho Cut", "Leaf Blade", "X-Scissor"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2657,10 +2161,6 @@ var SETDEX_SV = {
 			item: "Tanga Berry",
 			nature: "Adamant",
 			moves: ["Night Slash", "Glare", "Psycho Cut", "Sacred Slash"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2676,10 +2176,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Twilight Cannon", "Psycho Boost", "Glare", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2698,10 +2194,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Careful",
 			moves: ["Flip Turn", "Barb Barrage", "Taunt", "Destiny Bond"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2719,10 +2211,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Aqua Cutter", "Psycho Cut", "Ceaseless Edge", "U-turn"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2740,10 +2228,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Ceaseless Edge", "Razor Shell", "Taunt", "Parting Shot"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2761,10 +2245,6 @@ var SETDEX_SV = {
 			item: "Damp Rock",
 			nature: "Modest",
 			moves: ["Revelation Dance", "Giga Drain", "Ice Beam", "Sing"],
-			evs: {
-				sa: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2780,10 +2260,6 @@ var SETDEX_SV = {
 			item: "Tanga Berry",
 			nature: "Timid",
 			moves: ["Revelation Dance", "Seed Flare", "Ice Beam", "Teeter Dance"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2801,10 +2277,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Aqua Cutter", "Night Slash", "Dragon Dance", "Cross Poison"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2822,10 +2294,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Adamant",
 			moves: ["Liquidation", "Divebomb", "Drill Run", "Endure"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2844,10 +2312,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Adamant",
 			moves: ["Razor Shell", "Cross Chop", "Avalanche", "Night Slash"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2865,10 +2329,6 @@ var SETDEX_SV = {
 			item: "Shuca Berry",
 			nature: "Adamant",
 			moves: ["Aqua Cutter", "Laceration", "Drill Run", "X-Scissor"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2886,10 +2346,6 @@ var SETDEX_SV = {
 			item: "Wacan Berry",
 			nature: "Jolly",
 			moves: ["Divebomb", "Aqua Tail", "Earthquake", "Dragon Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2907,10 +2363,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Psychic Fangs", "Aqua Tail", "Lunge", "Dreamy Kiss"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2929,10 +2381,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Modest",
 			moves: ["Psystrike", "Sludge Bomb", "Hydro Pump", "Focus Blast"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2951,10 +2399,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Timid",
 			moves: ["U-turn", "Venoshock", "Sleep Powder", "Stun Spore"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2972,10 +2416,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Dire Claw", "Cross Chop", "Bulk Up", "Night Slash"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -2993,10 +2433,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Jolly",
 			moves: ["Barb Barrage", "U-turn", "Sticky Web", "Toxic Spikes"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3014,10 +2450,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Venoshock", "Hex", "Aura Sphere", "Nasty Plot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3035,10 +2467,6 @@ var SETDEX_SV = {
 			item: "Shell Bell",
 			nature: "Jolly",
 			moves: ["Cross Poison", "Night Slash", "Leaf Blade", "Swords Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3054,10 +2482,6 @@ var SETDEX_SV = {
 			item: "Shuca Berry",
 			nature: "Jolly",
 			moves: ["Cross Poison", "Night Slash", "Sacred Slash", "Swords Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3075,10 +2499,6 @@ var SETDEX_SV = {
 			item: "Air Balloon",
 			nature: "Jolly",
 			moves: ["Dire Claw", "Ice Punch", "Cross Chop", "Shadow Claw"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3094,10 +2514,6 @@ var SETDEX_SV = {
 			item: "Occa Berry",
 			nature: "Jolly",
 			moves: ["Dire Claw", "Ice Punch", "Seismic Fist", "Psycho Cut"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3115,10 +2531,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Water Pledge", "Dark Pulse", "Sludge Bomb", "Nasty Plot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3136,10 +2548,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Leaf Blade", "Night Slash", "Sacred Slash", "Psycho Cut"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3161,10 +2569,6 @@ var SETDEX_SV = {
 				"Headlong Rush",
 				"Energy Ball",
 			],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3184,10 +2588,6 @@ var SETDEX_SV = {
 				"Headlong Rush",
 				"Energy Ball",
 			],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3205,10 +2605,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Modest",
 			moves: ["Fickle Beam", "Earth Power", "Sticky Web", "Sludge Bomb"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3225,10 +2621,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Bold",
 			moves: ["Fickle Beam", "Earth Power", "Body Press", "Sludge Bomb"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3247,10 +2639,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Divebomb", "Close Combat", "Taunt", "Parting Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3266,10 +2654,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Jolly",
 			moves: ["Final Gambit", "Glare", "Parting Shot", "Whirlwind"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3287,10 +2671,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Jolly",
 			moves: ["Whiplash", "Arcane Fangs", "Glare", "Shed Tail"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3308,10 +2688,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Careful",
 			moves: ["Rapid Spin", "Drill Run", "Ice Spinner", "Coil"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3329,10 +2705,6 @@ var SETDEX_SV = {
 			item: "Toxic Orb",
 			nature: "Careful",
 			moves: ["Facade", "Drill Run", "Avalanche", "Coil"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3350,10 +2722,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Icicle Crash", "Retaliate", "Cross Chop", "Shadow Claw"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3371,10 +2739,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Impish",
 			moves: ["Avalanche", "Retaliate", "Yawn", "Earthquake"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3392,10 +2756,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Seed Bomb", "Retaliate", "Take Down", "Hell Thrust"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3412,10 +2772,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Jolly",
 			moves: ["Acrobatics", "Branch Leech", "Drain Punch", "Belly Drum"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3431,10 +2787,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Seed Bomb", "Body Slam", "Brick Break", "Brutal Swing"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3452,10 +2804,6 @@ var SETDEX_SV = {
 			item: "Yache Berry",
 			nature: "Modest",
 			moves: ["Aeroblast", "Boomburst", "Focus Blast", "Fire Blast"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3471,10 +2819,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Relaxed",
 			moves: ["Tri Attack", "Fury Pecks", "Pummel", "Take Aim"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3490,10 +2834,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Modest",
 			moves: ["Feather Ball", "Flash Cannon", "Aura Sphere", "Flamethrower"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3512,10 +2852,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Timid",
 			moves: ["Boomburst", "Psychic Noise", "Aeroblast", "Aura Sphere"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3531,10 +2867,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Timid",
 			moves: ["Aeroblast", "Psychic Noise", "Heat Wave", "Sing"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3551,10 +2883,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Timid",
 			moves: ["Hyper Voice", "Psychic Noise", "Air Slash", "Aura Sphere"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3573,10 +2901,6 @@ var SETDEX_SV = {
 			item: "Rindo Berry",
 			nature: "Jolly",
 			moves: ["Liquidation", "Brick Break", "Brave Bird", "U-turn"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3593,10 +2917,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Jolly",
 			moves: ["Aqua Step", "Brick Break", "Tera Blast", "Swords Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3613,10 +2933,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Jolly",
 			moves: ["Aqua Step", "Brick Break", "Tera Blast", "Swords Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3632,10 +2948,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Aqua Step", "Close Combat", "Divebomb", "Victory Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3653,10 +2965,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Timid",
 			moves: ["Focus Blast", "Psystrike", "Cosmic Power", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3674,10 +2982,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Timid",
 			moves: ["Lustrous Power", "Power Gem", "Earth Power", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3695,10 +2999,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Flower Trick", "Lash Out", "Psycho Cut", "Befuddle"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3714,10 +3014,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Jolly",
 			moves: ["Flower Trick", "Lash Out", "Hoodwink", "Endure"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3733,10 +3029,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Jolly",
 			moves: ["Flower Trick", "Lash Out", "Hoodwink", "Endure"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3752,10 +3044,6 @@ var SETDEX_SV = {
 			item: "Tanga Berry",
 			nature: "Timid",
 			moves: ["Seed Flare", "Dark Pulse", "Nasty Plot", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3774,10 +3062,6 @@ var SETDEX_SV = {
 			item: "Salac Berry",
 			nature: "Timid",
 			moves: ["Belch", "Torch Song", "Shadow Ball", "Engorge"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3793,10 +3077,6 @@ var SETDEX_SV = {
 			item: "Salac Berry",
 			nature: "Timid",
 			moves: ["Shadow Ball", "Torch Song", "Engorge", "Focus Blast"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3812,10 +3092,6 @@ var SETDEX_SV = {
 			item: "Salac Berry",
 			nature: "Timid",
 			moves: ["Shadow Ball", "Torch Song", "Engorge", "Focus Blast"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3831,10 +3107,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Bold",
 			moves: ["Fire Spin", "Curse", "Sing", "Will-O-Wisp"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3853,10 +3125,6 @@ var SETDEX_SV = {
 			item: "Black Sludge",
 			nature: "Adamant",
 			moves: ["Knockout Punch", "Poison Fang", "Payback", "Seismic Fist"],
-			evs: {
-				at: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3874,10 +3142,6 @@ var SETDEX_SV = {
 			item: "Black Sludge",
 			nature: "Modest",
 			moves: ["Psystrike", "Malignant Chain", "Focus Blast", "Dark Pulse"],
-			evs: {
-				df: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3895,10 +3159,6 @@ var SETDEX_SV = {
 			item: "Black Sludge",
 			nature: "Modest",
 			moves: ["Dazzling Gleam", "Venoshock", "Psychic", "Heat Wave"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3917,10 +3177,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Timid",
 			moves: ["Blizzard", "Shadow Ball", "Dreamy Kiss", "Aurora Veil"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3938,10 +3194,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Psyshock", "Shadow Ball", "Magic Powder", "Focus Blast"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3959,10 +3211,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Impish",
 			moves: ["Screech", "Fake Out", "", ""],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -3980,10 +3228,6 @@ var SETDEX_SV = {
 			item: "Colbur Berry",
 			nature: "Timid",
 			moves: ["Mystical Fire", "Shadow Ball", "Thunderbolt", "Aura Sphere"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4001,10 +3245,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Shadow Claw", "Play Rough", "Psycho Cut", "X-Scissor"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4020,10 +3260,6 @@ var SETDEX_SV = {
 			item: "Rocky Helmet",
 			nature: "Jolly",
 			moves: ["Shadow Punch", "Hoodwink", "Drain Punch", "Seed Bomb"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4042,10 +3278,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Impish",
 			moves: ["Last Respects", "Bone Rush"],
-			evs: {
-				df: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4062,10 +3294,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Impish",
 			moves: ["Last Respects", "Bone Rush"],
-			evs: {
-				df: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4089,10 +3317,6 @@ var SETDEX_SV = {
 				"Jagged Edge",
 				"Shift Gear",
 			],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4113,10 +3337,6 @@ var SETDEX_SV = {
 				"Thunder Fang",
 				"Jagged Edge",
 			],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4139,10 +3359,6 @@ var SETDEX_SV = {
 				"Jagged Edge",
 				"Dragon Dance",
 			],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4163,10 +3379,6 @@ var SETDEX_SV = {
 				"Fire Fang",
 				"Jagged Edge",
 			],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4184,10 +3396,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Timid",
 			moves: ["Fiery Wrath", "Earth Power", "Moonblast", "Lunar Dance"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4206,10 +3414,6 @@ var SETDEX_SV = {
 			item: "Hearthflame Mask",
 			nature: "Jolly",
 			moves: ["Ivy Cudgel", "Horn Leech", "Stomping Tantrum", "Soul Crush"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4228,10 +3432,6 @@ var SETDEX_SV = {
 			item: "Wellspring Mask",
 			nature: "Jolly",
 			moves: ["Ivy Cudgel", "Horn Leech", "Ice Hammer", "Dreamy Kiss"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4250,10 +3450,6 @@ var SETDEX_SV = {
 			item: "Cornerstone Mask",
 			nature: "Jolly",
 			moves: ["Ivy Cudgel", "Horn Leech", "Body Press", "Stomping Tantrum"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4272,10 +3468,6 @@ var SETDEX_SV = {
 			item: "Teal Mask",
 			nature: "Jolly",
 			moves: ["Kerfuffle", "Horn Leech", "Take Down", "Zen Headbutt"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4294,10 +3486,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Calm",
 			moves: ["Force Waves", "Volt Switch", "Nuzzle", "Dreamy Kiss"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4313,10 +3501,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Calm",
 			moves: ["Force Waves", "Volt Switch", "Nuzzle", "Dreamy Kiss"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4339,10 +3523,6 @@ var SETDEX_SV = {
 				"Fire Blast",
 				"Clangorous Soul",
 			],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4363,10 +3543,6 @@ var SETDEX_SV = {
 				"Fire Blast",
 				"Clangorous Soul",
 			],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4383,10 +3559,6 @@ var SETDEX_SV = {
 			teraType: "Dragon",
 			nature: "Jolly",
 			moves: ["Outrage", "Iron Tail", "Roar", "Dragon Dance"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4405,10 +3577,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Fire Blast", "Expanding Force", "Taunt", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4426,10 +3594,6 @@ var SETDEX_SV = {
 			item: "Babiri Berry",
 			nature: "Timid",
 			moves: ["Moonblast", "Dark Pulse", "Mystical Power", "Lunar Dance"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4447,10 +3611,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Timid",
 			moves: ["Hyper Voice", "Psychic", "Focus Blast", "Eternal Beam"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4473,10 +3633,6 @@ var SETDEX_SV = {
 				"Dreamy Kiss",
 				"Mystical Fire",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4494,10 +3650,6 @@ var SETDEX_SV = {
 			item: "Weakness Policy",
 			nature: "Timid",
 			moves: ["Focus Blast", "Expanding Force", "Shadow Ball", "Agility"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4516,10 +3668,6 @@ var SETDEX_SV = {
 			item: "Colbur Berry",
 			nature: "Timid",
 			moves: ["Blizzard", "Psystrike", "Focus Blast", "Shadow Ball"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4537,10 +3685,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Timid",
 			moves: ["Extrasensory", "Scorching Sands", "Mystical Fire", "Dazzling Gleam"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4558,10 +3702,6 @@ var SETDEX_SV = {
 			item: "Mind Plate",
 			nature: "Hasty",
 			moves: ["Drain Punch", "Extrasensory", "Poison Jab", "Shadow Punch"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4579,10 +3719,6 @@ var SETDEX_SV = {
 			item: "Silk Scarf",
 			nature: "Timid",
 			moves: ["Tera Blast", "Extrasensory", "Mystical Fire", "Dazzling Gleam"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4600,10 +3736,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Modest",
 			moves: ["Dismal Cry", "Draining Kiss", "Encore", "Disable"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4621,10 +3753,6 @@ var SETDEX_SV = {
 			item: "Expert Belt",
 			nature: "Timid",
 			moves: ["Serenade", "Extrasensory", "Mystical Fire", "Water Pulse"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4643,10 +3771,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Hasty",
 			moves: ["Fire Pledge", "Psychic Noise", "Alluring Voice", "Dismal Cry"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4664,10 +3788,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Blizzard", "Misty Explosion", "Dreamy Kiss", "Aurora Veil"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4685,10 +3805,6 @@ var SETDEX_SV = {
 			item: "Babiri Berry",
 			nature: "Jolly",
 			moves: ["Ice Hammer", "Knockout Punch", "Brutal Swing", "Strength"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4706,10 +3822,6 @@ var SETDEX_SV = {
 			item: "Charti Berry",
 			nature: "Timid",
 			moves: ["Blizzard", "Hurricane", "Whirlwind", "Aurora Veil"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4727,10 +3839,6 @@ var SETDEX_SV = {
 			item: "Liechi Berry",
 			nature: "Jolly",
 			moves: ["Ice Hammer", "Megaton Kick", "Strength", "Engorge"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4748,10 +3856,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Blizzard", "Power Gem", "Earth Power", "Shell Smash"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4770,10 +3874,6 @@ var SETDEX_SV = {
 			item: "Occa Berry",
 			nature: "Adamant",
 			moves: ["Extreme Speed", "Blaze Kick", "Freeze-Dry", "Howl"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4791,10 +3891,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Bold",
 			moves: ["Freeze-Dry", "Whirlpool", "Yawn", "Encore"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4812,10 +3908,6 @@ var SETDEX_SV = {
 			item: "Icy Rock",
 			nature: "Timid",
 			moves: ["Aurora Beam", "Disarming Voice", "Chilling Water", "Aurora Veil"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4833,10 +3925,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Ice Fang", "Stomping Tantrum", "Smack Down", "Yawn"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4854,10 +3942,6 @@ var SETDEX_SV = {
 			item: "Occa Berry",
 			nature: "Modest",
 			moves: ["Aurora Beam", "Mega Drain", "Water Pulse", "Aurora Veil"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4875,10 +3959,6 @@ var SETDEX_SV = {
 			item: "Charcoal",
 			nature: "Rash",
 			moves: ["Fire Spin", "Headbutt", "Thunder Fang", "Hoodwink"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4897,10 +3977,6 @@ var SETDEX_SV = {
 			item: "Clear Amulet",
 			nature: "Adamant",
 			moves: ["Ice Fang", "Liquidation", "Brick Break", "Hoodwink"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4919,10 +3995,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Impish",
 			moves: ["Kerfuffle", "Glare", "Taunt", "Parting Shot"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4940,10 +4012,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Modest",
 			moves: ["Misty Explosion", "Subspace Tear", "Dreamy Kiss", "Nuzzle"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4961,10 +4029,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Timid",
 			moves: ["Hex", "Alluring Voice", "Will-O-Wisp", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -4982,10 +4046,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Adamant",
 			moves: ["Liquidation", "Hoodwink", "Ice Punch", "Zen Headbutt"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5003,10 +4063,6 @@ var SETDEX_SV = {
 			item: "Salac Berry",
 			nature: "Jolly",
 			moves: ["Earthquake", "Play Rough", "Wild Charge", "Engorge"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5022,10 +4078,6 @@ var SETDEX_SV = {
 			item: "Babiri Berry",
 			nature: "Adamant",
 			moves: ["Hoodwink", "Stomping Tantrum", "Rock Slide", "Slack Off"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5043,10 +4095,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Jolly",
 			moves: ["Tail Slap", "Wallop", "Pummel", "Fake Out"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5064,10 +4112,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Modest",
 			moves: ["Serenade", "Dazzling Gleam", "Flamethrower", "Aura Sphere"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5085,10 +4129,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Triple Axel", "Pummel", "Celebrate", "Rock Blast"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5104,10 +4144,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Modest",
 			moves: ["Freeze-Dry", "Alluring Voice", "Water Pulse", "Dreamy Kiss"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5124,10 +4160,6 @@ var SETDEX_SV = {
 			ability: "Contrary",
 			nature: "Serious",
 			moves: ["Magical Torque (Vanilla)", "Spin Out", "Headlong Rush", "Overheat"],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5144,10 +4176,6 @@ var SETDEX_SV = {
 			ability: "Transistor",
 			nature: "Serious",
 			moves: ["Magical Torque (Reverse)", "Iron Head", "Overdrive", "Earthquake"],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5166,10 +4194,6 @@ var SETDEX_SV = {
 			item: "Choice Band",
 			nature: "Adamant",
 			moves: ["Outrage", "Liquidation", "", ""],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5185,10 +4209,6 @@ var SETDEX_SV = {
 			item: "Leftovers",
 			nature: "Careful",
 			moves: ["Dive", "Arcane Fangs", "Poison Fang", "Tickle"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5206,10 +4226,6 @@ var SETDEX_SV = {
 			item: "Ability Shield",
 			nature: "Bold",
 			moves: ["Hydro Cannon", "Draco Meteor", "", ""],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5225,10 +4241,6 @@ var SETDEX_SV = {
 			item: "Rocky Helmet",
 			nature: "Bold",
 			moves: ["Brine", "Dragon Breath", "Sludge Bomb", ""],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5247,10 +4259,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Jolly",
 			moves: ["Final Gambit", "Roar", "Destiny Bond", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5268,10 +4276,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Jolly",
 			moves: ["Thunderous Kick", "Volt Tackle", "Divebomb", "Parting Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5289,10 +4293,6 @@ var SETDEX_SV = {
 			item: "Power Herb",
 			nature: "Adamant",
 			moves: ["Sky Attack", "Cross Chop", "Acrobatics", "Stone Edge"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5310,10 +4310,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Adamant",
 			moves: ["Drain Punch", "Crunch", "Glare", "Parting Shot"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5331,10 +4327,6 @@ var SETDEX_SV = {
 			item: "Toxic Orb",
 			nature: "Jolly",
 			moves: ["Kerfuffle", "Knockout Punch", "Seismic Fist", "Roar"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5350,10 +4342,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Adamant",
 			moves: ["Drain Punch", "Hoodwink", "Jaw Lock", "Stomping Tantrum"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5371,10 +4359,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Careful",
 			moves: ["Retaliate", "Close Combat", "Shadow Punch", "Victory Dance"],
-			evs: {
-				sp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5396,10 +4380,6 @@ var SETDEX_SV = {
 				"Strength",
 				"High Voltage",
 			],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5417,10 +4397,6 @@ var SETDEX_SV = {
 			item: "Poison Barb",
 			nature: "Hasty",
 			moves: ["Brick Break", "Sludge Bomb", "Throat Chop", "Parting Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5438,10 +4414,6 @@ var SETDEX_SV = {
 			item: "Sitrus Berry",
 			nature: "Adamant",
 			moves: ["Circle Throw", "Fire Punch", "Thunder Punch", "Shadow Punch"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5459,10 +4431,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Jolly",
 			moves: ["Cross Chop", "Shadow Punch", "Ice Punch", "Poison Jab"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5479,10 +4447,6 @@ var SETDEX_SV = {
 			ability: "Headstrong",
 			nature: "Serious",
 			moves: ["Combat Torque (Reverse)", "Spin Out", "", ""],
-			evs: {
-				at: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5500,10 +4464,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Detonate", "Roar", "Roar", "Parting Shot"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5521,10 +4481,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Outrage", "Seed Bomb", "Shell Smash", "Gunk Shot"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5542,10 +4498,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Jolly",
 			moves: ["Bullet Seed", "Spore", "Pummel", "Rock Blast"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5563,10 +4515,6 @@ var SETDEX_SV = {
 			item: "Rindo Berry",
 			nature: "Careful",
 			moves: ["Strength", "Fissure", "Fissure", "Fissure"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5584,10 +4532,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Careful",
 			moves: ["Stinger Missile", "Take Aim", "Spike Cannon", "Icicle Spear"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5606,10 +4550,6 @@ var SETDEX_SV = {
 			item: "Assault Vest",
 			nature: "Adamant",
 			moves: ["Retaliate", "Brutal Swing", "Take Down", "Stomping Tantrum"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5632,10 +4572,6 @@ var SETDEX_SV = {
 				"Mesmer-Eyes",
 				"Parting Shot",
 			],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5653,10 +4589,6 @@ var SETDEX_SV = {
 			item: "Weakness Policy",
 			nature: "Jolly",
 			moves: ["Strength", "Knockout Punch", "Brutal Swing", "Rock Polish"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5674,10 +4606,6 @@ var SETDEX_SV = {
 			item: "Weakness Policy",
 			nature: "Modest",
 			moves: ["Hydro Pump", "Psystrike", "Agility", "Blizzard"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5695,10 +4623,6 @@ var SETDEX_SV = {
 			item: "White Herb",
 			nature: "Timid",
 			moves: ["Eternal Beam", "Shell Smash", "Hydro Pump", "Astral Storm"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5716,10 +4640,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Jolly",
 			moves: ["Crush Grip", "Shadow Punch", "Ice Punch", "Rock Polish"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5738,10 +4658,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Quiet",
 			moves: ["Bug Buzz", "Psychic Noise", "Focus Blast", "Trick Room"],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5759,10 +4675,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Hasty",
 			moves: ["Rising Voltage", "U-turn", "Taunt", "Nuzzle"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5785,10 +4697,6 @@ var SETDEX_SV = {
 				"Alluring Voice",
 				"Terrain Pulse",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5806,10 +4714,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Hydro Pump", "Terrain Pulse", "Blizzard", "Yawn"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5827,10 +4731,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Dark Pulse", "Stored Power", "Aura Sphere", "Lunar Dance"],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5848,10 +4748,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Expanding Force", "Shadow Ball", "Focus Blast", "Nasty Plot"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5870,9 +4766,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Kerfuffle", "Retaliate", "Dreamy Kiss", "Celebrate"],
-			evs: {
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5890,10 +4783,6 @@ var SETDEX_SV = {
 			item: "Passho Berry",
 			nature: "Impish",
 			moves: ["Barb Barrage", "Flip Turn", "Haze", "Toxic Spikes"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5911,10 +4800,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Modest",
 			moves: ["Detonate", "Explosion", "", ""],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5932,10 +4817,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Earthquake", "Dragon Claw", "Temper Flare", "Dragon Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5953,10 +4834,6 @@ var SETDEX_SV = {
 			item: "Yache Berry",
 			nature: "Jolly",
 			moves: ["Wood Hammer", "Megaton Kick", "Strength", "Shell Smash"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5974,10 +4851,6 @@ var SETDEX_SV = {
 			item: "Eviolite",
 			nature: "Careful",
 			moves: ["Fissure", "Fissure", "Fissure", "Rollout"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -5996,10 +4869,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Adamant",
 			moves: ["Megaton Kick", "Rock Slide", "Fire Punch", "Shell Smash"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6017,10 +4886,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Bold",
 			moves: ["Steel Beam", "Lustrous Power", "Thunder Wave", "Dreamy Kiss"],
-			evs: {
-				hp: 252,
-				df: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6038,10 +4903,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Hydro Pump", "Flash Cannon", "Shell Smash", "Focus Blast"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6059,10 +4920,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Modest",
 			moves: ["Detonate", "Explosion", "", ""],
-			evs: {
-				hp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6080,10 +4937,6 @@ var SETDEX_SV = {
 			item: "Weakness Policy",
 			nature: "Jolly",
 			moves: ["Cross Chop", "Laceration", "Jagged Edge", "Victory Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6101,10 +4954,6 @@ var SETDEX_SV = {
 			item: "Power Herb",
 			nature: "Adamant",
 			moves: ["Sky Attack", "Steel Wingbeat", "Acrobatics", "Sacred Slash"],
-			evs: {
-				at: 252,
-				hp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6123,10 +4972,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Jolly",
 			moves: ["Gigaton Hammer", "Hold Back", "Hold Back", "Hold Back"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6144,10 +4989,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Jolly",
 			moves: ["Megaton Kick", "Drill Peck", "Swords Dance", "Temper Flare"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6165,10 +5006,6 @@ var SETDEX_SV = {
 			item: "Power Herb",
 			nature: "Adamant",
 			moves: ["Sky Attack", "Pummel", "Dual Wingbeat", "Fury Swipes"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6186,10 +5023,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Modest",
 			moves: ["Flash Cannon", "Dragon Pulse", "Focus Blast", "Shift Gear"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6207,10 +5040,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Jolly",
 			moves: ["Dragon Claw", "Sacred Slash", "Poison Jab", "Dragon Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6228,10 +5057,6 @@ var SETDEX_SV = {
 			item: "Chople Berry",
 			nature: "Jolly",
 			moves: ["Outrage", "Ice Hammer", "Earthquake", "Dragon Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6249,10 +5074,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Shadow Ball", "Thunder Wave", "Dragon Pulse", "Destiny Bond"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6270,10 +5091,6 @@ var SETDEX_SV = {
 			item: "Yache Berry",
 			nature: "Adamant",
 			moves: ["Extreme Speed", "Stone Edge", "Earthquake", "Bulk Up"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6292,10 +5109,6 @@ var SETDEX_SV = {
 			item: "Haban Berry",
 			nature: "Timid",
 			moves: ["Fickle Beam", "Earth Power", "Fire Blast", "Sludge Bomb"],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6313,10 +5126,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Make It Rain", "Thunder Wave", "Destiny Bond", "Jackpot"],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6334,10 +5143,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Jolly",
 			moves: ["Bitter Blade", "Shadow Claw", "Sacred Slash", "Swords Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6355,10 +5160,6 @@ var SETDEX_SV = {
 			item: "Colbur Berry",
 			nature: "Modest",
 			moves: ["Inferno", "Psystrike", "Lustrous Power", "Agility"],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6376,10 +5177,6 @@ var SETDEX_SV = {
 			item: "Rindo Berry",
 			nature: "Adamant",
 			moves: ["Surging Strikes", "Triple Axel", "Bulk Up", "Jet Punch"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6402,10 +5199,6 @@ var SETDEX_SV = {
 				"Mystical Power",
 				"Mystical Power",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6424,10 +5217,6 @@ var SETDEX_SV = {
 			item: "Coba Berry",
 			nature: "Timid",
 			moves: ["Petal Dance", "Power Gem", "", ""],
-			evs: {
-				sp: 252,
-				sa: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6445,10 +5234,6 @@ var SETDEX_SV = {
 			item: "Mental Herb",
 			nature: "Careful",
 			moves: ["U-turn", "Whirlwind", "Will-O-Wisp", "Stun Spore"],
-			evs: {
-				hp: 252,
-				sd: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6466,10 +5251,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Adamant",
 			moves: ["Outrage", "Laceration", "Tailwind", "Night Slash"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6487,10 +5268,6 @@ var SETDEX_SV = {
 			item: "Throat Spray",
 			nature: "Timid",
 			moves: ["Boomburst", "Dark Pulse", "Sing", "Roar"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6508,10 +5285,6 @@ var SETDEX_SV = {
 			item: "Booster Energy",
 			nature: "Timid",
 			moves: ["Lustrous Power", "Astral Storm", "Destiny Bond", "Hypnosis"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6529,10 +5302,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Explosion", "Detonate", "Fissure", "Fissure"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6550,10 +5319,6 @@ var SETDEX_SV = {
 			item: "Roseli Berry",
 			nature: "Jolly",
 			moves: ["Outrage", "Collision Course", "Raging Fury", "Victory Dance"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6571,10 +5336,6 @@ var SETDEX_SV = {
 			item: "Focus Sash",
 			nature: "Timid",
 			moves: ["Misty Explosion", "Thunder Wave", "Destiny Bond", "Hypnosis"],
-			evs: {
-				hp: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6597,10 +5358,6 @@ var SETDEX_SV = {
 				"Earth Power",
 				"Quiver Dance",
 			],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6618,10 +5375,6 @@ var SETDEX_SV = {
 			item: "Quick Claw",
 			nature: "Timid",
 			moves: ["Steel Beam", "Dark Pulse", "Flash Cannon", "Aeroblast"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6639,10 +5392,6 @@ var SETDEX_SV = {
 			item: "Red Card",
 			nature: "Jolly",
 			moves: ["Power Trip", "Zing Zap", "Ice Punch", "Dragon Dance"],
-			evs: {
-				at: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6660,10 +5409,6 @@ var SETDEX_SV = {
 			item: "Weakness Policy",
 			nature: "Adamant",
 			moves: ["Volt Tackle", "Circle Throw", "Ice Punch", "Whirlwind"],
-			evs: {
-				hp: 252,
-				at: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,
@@ -6681,10 +5426,6 @@ var SETDEX_SV = {
 			item: "Life Orb",
 			nature: "Timid",
 			moves: ["Thunder", "Dragon's Fury", "Energy Ball", "Overheat"],
-			evs: {
-				sa: 252,
-				sp: 252,
-			},
 			ivs: {
 				hp: 31,
 				at: 31,

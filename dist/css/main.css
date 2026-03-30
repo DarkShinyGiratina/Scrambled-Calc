@@ -15,11 +15,12 @@ a img {
 	);
 	background: -moz-linear-gradient(top, #26b436, #299b1abf);
 	background: linear-gradient(top, #26b436, #299b1abf);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8EEFC', endColorstr='#D7DEEA');
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#26b436', endColorstr='#299b1abf');
 
-	border-bottom: 1px solid #aaa;
-	box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.6),
-		0px 2px 2px rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid #1a6e10;
+	box-shadow:
+		inset 1px 1px 0 rgba(255, 255, 255, 0.2),
+		0px 2px 2px rgba(0, 0, 0, 0.4);
 	min-height: 50px;
 }
 .header-inner {
@@ -58,14 +59,14 @@ a img {
 }
 .nav .button.cur,
 .nav .button.cur:hover {
-	color: #777777;
-	background: #f8f8f8;
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	color: #aaaaaa;
+	background: #2a2a2a;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .nav .button.cur:hover {
-	border: solid 1px #888888;
+	border: solid 1px #555555;
 }
 .nav .button:hover {
 	z-index: 10;
@@ -83,117 +84,122 @@ a img {
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	border-radius: 5px;
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
-		inset 0 -1px 2px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
-		inset 0 -1px 2px rgba(255, 255, 255, 1);
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
-		inset 0 -1px 2px rgba(255, 255, 255, 1);
+	-webkit-box-shadow:
+		0 1px 2px rgba(0, 0, 0, 0.4),
+		inset 0 -1px 2px rgba(255, 255, 255, 0.05);
+	-moz-box-shadow:
+		0 1px 2px rgba(0, 0, 0, 0.4),
+		inset 0 -1px 2px rgba(255, 255, 255, 0.05);
+	box-shadow:
+		0 1px 2px rgba(0, 0, 0, 0.4),
+		inset 0 -1px 2px rgba(255, 255, 255, 0.05);
 	white-space: nowrap;
 
-	/* default colors */
-	color: #222222;
-	border: solid 1px #aaaaaa;
-	background: #e3e3e3;
+	/* dark theme colors */
+	color: #cccccc;
+	border: solid 1px #555555;
+	background: #2e2e2e;
 	background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
-		from(#f6f6f6),
-		to(#e3e3e3)
+		from(#3a3a3a),
+		to(#262626)
 	);
-	background: -moz-linear-gradient(top, #f6f6f6, #e3e3e3);
-	background: linear-gradient(top, #f6f6f6, #e3e3e3);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e3e3e3');
+	background: -moz-linear-gradient(top, #3a3a3a, #262626);
+	background: linear-gradient(top, #3a3a3a, #262626);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3a3a3a', endColorstr='#262626');
 }
 .button:hover {
-	background: #cfcfcf;
+	background: #3f3f3f;
 	background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
-		from(#f2f2f2),
-		to(#cfcfcf)
+		from(#484848),
+		to(#303030)
 	);
-	background: -moz-linear-gradient(top, #f2f2f2, #cfcfcf);
-	background: linear-gradient(top, #f2f2f2, #cfcfcf);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#cfcfcf');
-	border-color: #606060;
+	background: -moz-linear-gradient(top, #484848, #303030);
+	background: linear-gradient(top, #484848, #303030);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#484848', endColorstr='#303030');
+	border-color: #888888;
 }
 .button:active {
 	background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
-		from(#cfcfcf),
-		to(#f2f2f2)
+		from(#262626),
+		to(#3a3a3a)
 	);
-	background: -moz-linear-gradient(top, #cfcfcf, #f2f2f2);
-	background: linear-gradient(top, #cfcfcf, #f2f2f2);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfcfcf', endColorstr='#f2f2f2');
+	background: -moz-linear-gradient(top, #262626, #3a3a3a);
+	background: linear-gradient(top, #262626, #3a3a3a);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endColorstr='#3a3a3a');
 }
 
 .greenbutton {
-	background: hsl(100, 30%, 93%);
+	background: hsl(100, 20%, 20%);
 	background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
-		from(hsl(100, 30%, 97%)),
-		to(hsl(100, 30%, 84%))
+		from(hsl(100, 20%, 24%)),
+		to(hsl(100, 20%, 16%))
 	);
 	background: -moz-linear-gradient(
 		top,
-		hsl(100, 30%, 97%),
-		hsl(100, 30%, 84%)
+		hsl(100, 20%, 24%),
+		hsl(100, 20%, 16%)
 	);
-	background: linear-gradient(top, hsl(100, 30%, 97%), hsl(100, 30%, 84%));
-	border-color: hsl(100, 30%, 70%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#e3e3e3');
+	background: linear-gradient(top, hsl(100, 20%, 24%), hsl(100, 20%, 16%));
+	border-color: hsl(100, 20%, 35%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e3d2e', endColorstr='#1e2e1e');
 }
 .greenbutton:hover {
-	background: hsl(100, 30%, 87%);
+	background: hsl(100, 20%, 28%);
 	background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
-		from(hsl(100, 30%, 94%)),
-		to(hsl(100, 30%, 77%))
+		from(hsl(100, 20%, 32%)),
+		to(hsl(100, 20%, 22%))
 	);
 	background: -moz-linear-gradient(
 		top,
-		hsl(100, 30%, 94%),
-		hsl(100, 30%, 77%)
+		hsl(100, 20%, 32%),
+		hsl(100, 20%, 22%)
 	);
-	background: linear-gradient(top, hsl(100, 30%, 94%), hsl(100, 30%, 77%));
-	border-color: hsl(100, 30%, 41%);
+	background: linear-gradient(top, hsl(100, 20%, 32%), hsl(100, 20%, 22%));
+	border-color: hsl(100, 30%, 45%);
 }
 .greenbutton:active {
-	background: hsl(100, 30%, 77%);
+	background: hsl(100, 20%, 18%);
 	background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
-		from(hsl(100, 30%, 77%)),
-		to(hsl(100, 30%, 83%))
+		from(hsl(100, 20%, 18%)),
+		to(hsl(100, 20%, 24%))
 	);
 	background: -moz-linear-gradient(
 		top,
-		hsl(100, 30%, 77%),
-		hsl(100, 30%, 83%)
+		hsl(100, 20%, 18%),
+		hsl(100, 20%, 24%)
 	);
-	background: linear-gradient(top, hsl(100, 30%, 77%), hsl(100, 30%, 83%));
-	border-color: hsl(100, 30%, 41%);
+	background: linear-gradient(top, hsl(100, 20%, 18%), hsl(100, 20%, 24%));
+	border-color: hsl(100, 30%, 45%);
 }
 
 /* general page styling */
 html,
 body {
-	font: 10pt Verdana, sans-serif;
-	background-color: white;
-	color: black;
+	font:
+		10pt Verdana,
+		sans-serif;
+	background-color: #121212;
+	color: #e0e0e0;
 	margin: 0;
 	padding: 0;
 	min-width: 100em;
@@ -214,8 +220,8 @@ div.wrapper > div > span {
 }
 fieldset {
 	float: left;
-	background-color: #f1f4f9;
-	border: 1px solid #aaaaaa;
+	background-color: #1e1e1e;
+	border: 1px solid #444444;
 }
 legend {
 	font-weight: bold;
@@ -245,7 +251,6 @@ th {
 	margin: 0.5em 0;
 }
 .big-text #mainResult:hover {
-	/* indicates the presence of click-to-copy function */
 	cursor: pointer;
 	opacity: 0.7;
 }
@@ -254,8 +259,8 @@ th {
 	visibility: hidden;
 	border-radius: 5px;
 	width: 120px;
-	background-color: black;
-	color: white;
+	background-color: #000000;
+	color: #e0e0e0;
 	text-align: center;
 	padding: 5px;
 	margin-left: 10px;
@@ -265,7 +270,7 @@ th {
 }
 .panel {
 	float: left;
-	display: inline-block; /* required for honkaculate to work */
+	display: inline-block;
 }
 .poke-info {
 	width: 30em;
@@ -286,12 +291,12 @@ th {
 /* general button styling */
 .btn {
 	text-align: center;
-	border: solid 1px #aaaaaa;
+	border: solid 1px #555555;
 	padding: 4px 4px;
 	position: relative;
 	cursor: pointer;
-	color: #555555;
-	background: #e9e9e9;
+	color: #cccccc;
+	background: #2a2a2a;
 	margin: -1px -3px 0;
 	display: inline-block;
 	width: 5em;
@@ -334,33 +339,33 @@ th {
 .btn-mid {
 	border-radius: 0;
 }
-.visually-hidden:focus + .btn, /* Add visual indication when focusing on visually hidden elements */
+.visually-hidden:focus + .btn,
 .btn:hover {
 	z-index: 10;
-	border-color: #777777;
-	background: #e3e3e3;
+	border-color: #888888;
+	background: #383838;
 }
 .visually-hidden:checked + .btn {
 	font-weight: bold;
-	color: #111111;
-	background: #f5f5f5;
+	color: #ffffff;
+	background: #3a3a3a;
 }
 .visually-hidden[type="radio"]:checked + .btn {
 	cursor: default;
 }
 
-/* Hide element visually, but not from screen readers. See http://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html */
+/* Hide element visually, but not from screen readers */
 .visually-hidden {
 	clip: rect(1px, 1px, 1px, 1px);
 	height: 1px;
 	overflow: hidden;
 	position: absolute;
 	top: auto;
-	white-space: nowrap; /* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe */
+	white-space: nowrap;
 }
 
 .visually-hidden:disabled + .btn {
-	color: #999999;
+	color: #666666;
 }
 .btn-group {
 	display: inline-block;
@@ -373,7 +378,7 @@ th {
 	float: right;
 }
 .locked-move:checked + .btn {
-	background: #ffff99;
+	background: #4a4a00;
 }
 
 .genSelection,
@@ -522,6 +527,9 @@ table.field {
 	min-width: 27em;
 	min-height: 10em;
 	resize: vertical;
+	background-color: #1e1e1e;
+	color: #e0e0e0;
+	border: 1px solid #444444;
 }
 
 .import-name-text {
@@ -529,6 +537,8 @@ table.field {
 	min-height: 1em;
 	overflow: auto;
 	display: inline;
+	background-color: #1e1e1e;
+	color: #e0e0e0;
 }
 
 .hpbar {
@@ -626,7 +636,7 @@ table.field {
 	width: calc(33% - 10px);
 	cursor: pointer;
 	box-sizing: border-box;
-	border: 1px solid #282a36;
+	border: 1px solid #333333;
 	border-radius: 10px;
 	margin: 5px;
 	background-position-x: -20px;
@@ -635,7 +645,7 @@ table.field {
 
 .trainer-pok {
 	background: none;
-	border: 1px solid rgb(0, 0, 0, 0);
+	border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .trainer-pok.right-side {
@@ -652,7 +662,7 @@ table.field {
 	flex-direction: column;
 	margin-left: 10px;
 	align-items: center;
-	border: 1px solid #282a36;
+	border: 1px solid #333333;
 	padding: 5px;
 	width: calc(20% - 22px);
 }
@@ -664,4 +674,62 @@ table.field {
 
 .player-party .trainer-pok-container:hover {
 	border: none;
+}
+
+/* Dark theme input/select overrides */
+input,
+select,
+textarea {
+	background-color: #1e1e1e;
+	color: #e0e0e0;
+	border: 1px solid #444444;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline-color: #1abc9c;
+}
+
+a {
+	color: #7ec8a0;
+}
+
+a:visited {
+	color: #a07ec8;
+}
+
+/* Native select overrides */
+select,
+select option {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+}
+
+/* Select2 plugin overrides */
+.select2-drop {
+	background-color: #1e1e1e;
+	border: 1px solid #555555;
+	color: #e0e0e0;
+}
+.select2-results .select2-result-label {
+	color: #e0e0e0;
+}
+.select2-results .select2-highlighted {
+	background-color: #2e2e2e;
+	color: #ffffff;
+}
+.select2-container .select2-choice {
+	background: #2a2a2a;
+	background: linear-gradient(top, #3a3a3a, #262626);
+	border: 1px solid #555555;
+	color: #cccccc;
+}
+.select2-container .select2-choice:hover {
+	background: #383838;
+}
+.select2-search input {
+	background-color: #2a2a2a !important;
+	color: #e0e0e0 !important;
+	border: 1px solid #555555;
 }
