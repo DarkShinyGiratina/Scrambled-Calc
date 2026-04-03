@@ -86,6 +86,12 @@ function get_box() {
 				.replace(".", "")
 				.replace(".", "")
 				.replace("’", "")
+				.replace("basculin-white", "basculin-white-striped")
+				.replace("deerling", "deerling-winter")
+				.replace("sawsbuck", "sawsbuck-winter")
+				.replace("minior-pink", "minior-red")
+				.replace("dusk-mane", "dusk")
+				.replace("dawn-wings", "dawn")
 				.replace("-totem", "");
 
 			// Handle starmobile cases
@@ -117,6 +123,12 @@ function get_trainer_preview(poks) {
 			.replace(".", "")
 			.replace(".", "")
 			.replace("’", "")
+			.replace("basculin-white", "basculin-white-striped")
+			.replace("deerling", "deerling-winter")
+			.replace("sawsbuck", "sawsbuck-winter")
+			.replace("minior-pink", "minior-red")
+			.replace("dusk-mane", "dusk")
+			.replace("dawn-wings", "dawn")
 			.replace("-totem", "");
 
 		// Handle starmobile cases
