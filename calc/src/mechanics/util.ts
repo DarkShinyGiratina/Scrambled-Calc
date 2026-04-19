@@ -390,6 +390,31 @@ export function checkMultihitBoost(
       attacker.boosts.atk,
       gen
     );
+  } else if (move.named("Vine Lashes")) {
+    if (attacker.hasAbility("Unaware")) {
+      desc.attackerAbility = attacker.ability;
+    } else {
+      const defSimple = defender.hasAbility("Simple") ? 2 : 1;
+
+      if (defender.hasAbility("Contrary")) {
+        desc.defenderAbility = defender.ability;
+        defender.boosts.def = Math.min(
+          defender.boosts.def + defSimple,
+          6
+        );
+      } else {
+        defender.boosts.def = Math.max(
+          defender.boosts.def - defSimple,
+          -6
+        );
+      }
+
+      defender.stats.def = getModifiedStat(
+        defender.rawStats.def,
+        defender.boosts.def,
+        gen
+      );
+    }
   }
 
   const atkSimple = attacker.hasAbility("Simple") ? 2 : 1;
