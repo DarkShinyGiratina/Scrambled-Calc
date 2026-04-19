@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <title>Pok&eacute;mon Damage Calculator</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?80eae09e" />
-    <!--<link type="text/css" rel="stylesheet" href="./css/dynamic.css?0.9154205195674904" /> -->
+    <link type="text/css" rel="stylesheet" href="./css/main.css?4542df7b" />
+    <!--<link type="text/css" rel="stylesheet" href="./css/dynamic.css?0.4171326644443146" /> -->
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
@@ -133,7 +133,10 @@
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                <button id="clearSets">Clear Imported Sets</button>
+                <div style="display: flex !important;">
+                    <button class="pranks-buttons" id="clearThisSet">Delete this Set</button>
+                    <button class="pranks-buttons" id="clearSets" style="margin-left: auto;">Delete ALL Sets</button>
+                </div>
             </span>
             <div class="info-group top">
                 <div>
@@ -1031,7 +1034,6 @@
             <input type="text" class="set-selector calc-trigger" />
             <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
-                <button id="clearSets">Clear Imported Sets</button>
             </span>
             <div class="info-group top">
                 <div>
@@ -1613,7 +1615,7 @@
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
     <script type="text/javascript" src="./js/shared_controls.js?8b1462b2"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?0dc8951e"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?d803d059"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?efda3dc7"></script>
     <script type="text/javascript" src="./js/showdown_hooks.js?1942bad2"></script>
 </div>
 
