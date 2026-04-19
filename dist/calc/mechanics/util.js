@@ -374,6 +374,22 @@ function checkMultihitBoost(gen, attacker, defender, move, field, desc, attacker
         attacker.boosts.atk = Math.min(attacker.boosts.atk + 1, 6);
         attacker.stats.atk = getModifiedStat(attacker.rawStats.atk, attacker.boosts.atk, gen);
     }
+    else if (move.named("Vine Lashes")) {
+        if (attacker.hasAbility("Unaware")) {
+            desc.attackerAbility = attacker.ability;
+        }
+        else {
+            var defSimple_1 = defender.hasAbility("Simple") ? 2 : 1;
+            if (defender.hasAbility("Contrary")) {
+                desc.defenderAbility = defender.ability;
+                defender.boosts.def = Math.min(defender.boosts.def + defSimple_1, 6);
+            }
+            else {
+                defender.boosts.def = Math.max(defender.boosts.def - defSimple_1, -6);
+            }
+            defender.stats.def = getModifiedStat(defender.rawStats.def, defender.boosts.def, gen);
+        }
+    }
     var atkSimple = attacker.hasAbility("Simple") ? 2 : 1;
     var defSimple = defender.hasAbility("Simple") ? 2 : 1;
     if ((!defenderUsedItem &&
