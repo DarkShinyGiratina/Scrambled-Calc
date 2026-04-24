@@ -141,7 +141,7 @@ $(".sd .base, .sd .evs, .sd .ivs").bind("keyup change", function () {
 $(".sp .base, .sp .evs, .sp .ivs").bind("keyup change", function () {
 	calcStat($(this).closest(".poke-info"), "sp");
 });
-$(".evs").bind('keyup change', function () {
+$(".evs").bind("keyup change", function () {
 	totalEVs($(this).closest(".poke-info"));
 });
 $(".sl .base").keyup(function () {
@@ -231,7 +231,7 @@ function drawHealthBar(poke, max, current) {
 			fillColor +
 			" " +
 			fillPercent +
-			"%, white 0%"
+			"%, white 0%",
 	);
 }
 // TODO: these HP inputs should really be input type=number with min=0, step=1, constrained by max=maxHP or 100
@@ -368,7 +368,7 @@ function autosetWeather(ability, i) {
 				lastAutoWeather[1 - i] !== "" ? lastAutoWeather[1 - i] : "";
 			$("input:radio[name='weather'][value='" + newWeather + "']").prop(
 				"checked",
-				true
+				true,
 			);
 			break;
 	}
@@ -411,7 +411,7 @@ function autosetTerrain(ability, i) {
 					: lastManualTerrain;
 			if ("No terrain" !== newTerrain) {
 				$(
-					"input:checkbox[name='terrain'][value='" + newTerrain + "']"
+					"input:checkbox[name='terrain'][value='" + newTerrain + "']",
 				).prop("checked", true);
 			}
 			break;
@@ -480,7 +480,7 @@ $(".move-selector").change(function () {
 						.val(
 							hpIVs[stat] !== undefined
 								? calc.Stats.IVToDV(hpIVs[stat])
-								: 15
+								: 15,
 						);
 				}
 				if (gen < 3) {
@@ -568,7 +568,7 @@ $(".set-selector").change(function () {
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(
 		fullSetName.indexOf("(") + 1,
-		fullSetName.lastIndexOf(")")
+		fullSetName.lastIndexOf(")"),
 	);
 	var pokemon = pokedex[pokemonName];
 	if (pokemon) {
@@ -680,22 +680,22 @@ $(".set-selector").change(function () {
 						set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined
 							? set.evs[LEGACY_STATS[gen][i]]
 							: $("#randoms").prop("checked")
-							? 84
-							: 0
+								? 84
+								: 0,
 					);
 				pokeObj
 					.find("." + LEGACY_STATS[gen][i] + " .ivs")
 					.val(
 						set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined
 							? set.ivs[LEGACY_STATS[gen][i]]
-							: 31
+							: 31,
 					);
 				pokeObj
 					.find("." + LEGACY_STATS[gen][i] + " .dvs")
 					.val(
 						set.dvs && set.dvs[LEGACY_STATS[gen][i]] !== undefined
 							? set.dvs[LEGACY_STATS[gen][i]]
-							: 15
+							: 15,
 					);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
@@ -707,12 +707,12 @@ $(".set-selector").change(function () {
 				setSelectValueIfValid(
 					abilityObj,
 					randset.abilities && randset.abilities[0],
-					abilityFallback
+					abilityFallback,
 				);
 				setSelectValueIfValid(
 					itemObj,
 					randset.items && randset.items[0],
-					""
+					"",
 				);
 			} else {
 				setSelectValueIfValid(abilityObj, set.ability, abilityFallback);
@@ -803,7 +803,18 @@ $(".set-selector").change(function () {
 		if (pokemon.gender === "N") {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");
-		} else pokeObj.find(".gender").parent().show();
+		} else {
+			pokeObj.find(".gender").parent().show();
+			if (localStorage.customsets) {
+				var customsets = JSON.parse(localStorage.customsets);
+				var genderMap = { M: "Male", F: "Female" };
+				var gender = customsets[pokemonName]?.[setName]?.gender;
+				pokeObj
+					.find(".gender")
+					.val(genderMap[gender] || "Male")
+					.change();
+			}
+		}
 	}
 });
 
@@ -811,7 +822,7 @@ function formatMovePool(moves) {
 	var formatted = [];
 	for (var i = 0; i < moves.length; i++) {
 		formatted.push(
-			isKnownDamagingMove(moves[i]) ? moves[i] : "<i>" + moves[i] + "</i>"
+			isKnownDamagingMove(moves[i]) ? moves[i] : "<i>" + moves[i] + "</i>",
 		);
 	}
 	return formatted.join(", ");
@@ -865,8 +876,8 @@ function setSelectValueIfValid(select, value, fallback) {
 		!value
 			? fallback
 			: select.children("option[value='" + value + "']").length
-			? value
-			: fallback
+				? value
+				: fallback,
 	);
 }
 
@@ -877,7 +888,7 @@ $(".forme").change(function () {
 		pokemonName = fullSetName.substring(0, fullSetName.indexOf(" (")),
 		setName = fullSetName.substring(
 			fullSetName.indexOf("(") + 1,
-			fullSetName.lastIndexOf(")")
+			fullSetName.lastIndexOf(")"),
 		);
 
 	$(this).parent().siblings().find(".type1").val(altForme.types[0]);
@@ -965,7 +976,7 @@ function correctHiddenPower(pokemon) {
 			for (var stat in hpIVs) {
 				pokemon.ivs[calc.Stats.shortForm(stat)] = hpIVs[stat];
 				pokemon.dvs[calc.Stats.shortForm(stat)] = calc.Stats.IVToDV(
-					hpIVs[stat]
+					hpIVs[stat],
 				);
 			}
 			if (gen < 3) {
@@ -988,7 +999,7 @@ function createPokemon(pokeInfo) {
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
 		var setName = pokeInfo.substring(
 			pokeInfo.indexOf("(") + 1,
-			pokeInfo.lastIndexOf(")")
+			pokeInfo.lastIndexOf(")"),
 		);
 		var isRandoms = $("#randoms").prop("checked");
 		var set = isRandoms ? randdex[name] : setdex[name][setName];
@@ -1026,7 +1037,7 @@ function createPokemon(pokeInfo) {
 				new calc.Move(gen, moves[moveName] ? moveName : "(No Move)", {
 					ability: ability,
 					item: item,
-				})
+				}),
 			);
 		}
 
@@ -1038,6 +1049,7 @@ function createPokemon(pokeInfo) {
 
 		return new calc.Pokemon(gen, name, {
 			level: set.level,
+			nickname: setName,
 			ability: set.ability,
 			abilityOn: true,
 			item:
@@ -1054,10 +1066,15 @@ function createPokemon(pokeInfo) {
 	} else {
 		var setName = pokeInfo.find("input.set-selector").val();
 		var name;
+		var nickname;
 		if (setName.indexOf("(") === -1) {
 			name = setName;
 		} else {
 			var pokemonName = setName.substring(0, setName.indexOf(" ("));
+			nickname = setName.substring(
+				setName.indexOf(" (") + 2,
+				setName.indexOf(" - My Box"),
+			);
 			var species = pokedex[pokemonName];
 			name =
 				species.otherFormes ||
@@ -1080,7 +1097,7 @@ function createPokemon(pokeInfo) {
 					? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val()
 					: ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val() *
 							2 +
-					  1;
+						1;
 			evs[stat] = ~~pokeInfo
 				.find("." + LEGACY_STATS[gen][i] + " .evs")
 				.val();
@@ -1106,13 +1123,12 @@ function createPokemon(pokeInfo) {
 			pokeInfo.find(".type2").val(),
 		];
 		return new calc.Pokemon(gen, name, {
+			nickname: nickname,
 			level: ~~pokeInfo.find(".level").val(),
 			ability: ability,
 			abilityOn: pokeInfo.find(".abilityToggle").is(":checked"),
 			item: item,
-			gender: pokeInfo.find(".gender").is(":visible")
-				? getGender(pokeInfo.find(".gender").val())
-				: "N",
+			gender: getGender(pokeInfo.find(".gender").val()),
 			nature: pokeInfo.find(".nature").val(),
 			ivs: ivs,
 			evs: evs,
@@ -1134,28 +1150,28 @@ function createPokemon(pokeInfo) {
 					name,
 					ability,
 					item,
-					isDynamaxed
+					isDynamaxed,
 				),
 				getMoveDetails(
 					pokeInfo.find(".move2"),
 					name,
 					ability,
 					item,
-					isDynamaxed
+					isDynamaxed,
 				),
 				getMoveDetails(
 					pokeInfo.find(".move3"),
 					name,
 					ability,
 					item,
-					isDynamaxed
+					isDynamaxed,
 				),
 				getMoveDetails(
 					pokeInfo.find(".move4"),
 					name,
 					ability,
 					item,
-					isDynamaxed
+					isDynamaxed,
 				),
 			],
 			overrides: {
@@ -1407,7 +1423,7 @@ function calcStat(poke, StatID) {
 		ivs,
 		evs,
 		level,
-		nature
+		nature,
 	);
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
 		total *= 2;
@@ -1499,7 +1515,7 @@ $(".gen").change(function () {
 			window.history.replaceState(
 				{},
 				document.title,
-				window.location.pathname + (params.length ? "?" + params : "")
+				window.location.pathname + (params.length ? "?" + params : ""),
 			);
 		}
 	} else {
@@ -1727,10 +1743,10 @@ function isPokeInfoGrounded(pokeInfo) {
 		(teraType
 			? teraType !== "Flying"
 			: pokeInfo.find(".type1").val() !== "Flying" && teraType
-			? teraType !== "Flying"
-			: pokeInfo.find(".type2").val() !== "Flying" &&
-			  pokeInfo.find(".ability").val() !== "Levitate" &&
-			  pokeInfo.find(".item").val() !== "Air Balloon")
+				? teraType !== "Flying"
+				: pokeInfo.find(".type2").val() !== "Flying" &&
+					pokeInfo.find(".ability").val() !== "Levitate" &&
+					pokeInfo.find(".item").val() !== "Air Balloon")
 	);
 }
 
@@ -1851,7 +1867,7 @@ function loadDefaultLists() {
 			query.callback({
 				results: results.slice(
 					(query.page - 1) * pageSize,
-					query.page * pageSize
+					query.page * pageSize,
 				),
 				more: results.length >= query.page * pageSize,
 			});
@@ -1910,7 +1926,7 @@ function loadCustomList(id) {
 			query.callback({
 				results: results.slice(
 					(query.page - 1) * pageSize,
-					query.page * pageSize
+					query.page * pageSize,
 				),
 				more: results.length >= query.page * pageSize,
 			});

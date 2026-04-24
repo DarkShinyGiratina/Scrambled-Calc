@@ -1,7 +1,8 @@
-import type * as I from './data/interface';
+import type * as I from "./data/interface";
 export declare namespace State {
     interface Pokemon {
         name: I.SpeciesName;
+        nickname?: string;
         level?: number;
         ability?: I.AbilityName;
         abilityOn?: boolean;
@@ -9,7 +10,7 @@ export declare namespace State {
         dynamaxLevel?: number;
         isSaltCure?: boolean;
         alliesFainted?: number;
-        boostedStat?: I.StatIDExceptHP | 'auto';
+        boostedStat?: I.StatIDExceptHP | "auto";
         item?: I.ItemName;
         gender?: I.GenderName;
         nature?: I.NatureName;
@@ -17,7 +18,7 @@ export declare namespace State {
         evs?: Partial<I.StatsTable>;
         boosts?: Partial<I.StatsTable>;
         originalCurHP?: number;
-        status?: I.StatusName | '';
+        status?: I.StatusName | "";
         teraType?: I.TypeName;
         toxicCounter?: number;
         moves?: I.MoveName[];
@@ -72,6 +73,6 @@ export declare namespace State {
         isBattery?: boolean;
         isPowerSpot?: boolean;
         isSteelySpirit?: boolean;
-        isSwitching?: 'out' | 'in';
+        isSwitching?: "out" | "in";
     }
 }

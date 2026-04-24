@@ -14,16 +14,32 @@ function placeBsBtn() {
 	});
 }
 
-function ExportPokemon(pokeInfo) {
+function ExportPokemon(pokeInfo, changeText) {
 	var pokemon = createPokemonForceTeraType(pokeInfo);
 	var EV_counter = 0;
 	var finalText = "";
-	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	if (pokemon.nickname) {
+		finalText =
+			pokemon.nickname +
+			" (" +
+			pokemon.name +
+			")" +
+			" (" +
+			pokemon.gender +
+			")" +
+			(pokemon.item ? " @ " + pokemon.item : "") +
+			"\n";
+	} else {
+		finalText =
+			pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
+	}
 	finalText += "Level: " + pokemon.level + "\n";
 	finalText +=
 		pokemon.nature && gen > 2 ? pokemon.nature + " Nature" + "\n" : "";
 	finalText +=
-		pokemon.teraType && gen > 8 ? "Tera Type: " + pokemon.teraType + "\n" : "";
+		pokemon.teraType && gen > 8
+			? "Tera Type: " + pokemon.teraType + "\n"
+			: "";
 	finalText += pokemon.ability ? "Ability: " + pokemon.ability + "\n" : "";
 	if (gen > 2) {
 		var EVs_Array = [];
@@ -62,15 +78,18 @@ function ExportPokemon(pokeInfo) {
 		}
 	}
 	finalText = finalText.trim();
-	$("textarea.import-team-text").val(finalText);
+	if (changeText) {
+		$("textarea.import-team-text").val(finalText);
+	}
+	return finalText;
 }
 
 $("#exportL").click(function () {
-	ExportPokemon($("#p1"));
+	ExportPokemon($("#p1"), true);
 });
 
 $("#exportR").click(function () {
-	ExportPokemon($("#p2"));
+	ExportPokemon($("#p2"), true);
 });
 
 function serialize(array, separator) {
@@ -176,6 +195,15 @@ function getItem(currentRow, j) {
 	}
 }
 
+function getGenderImport(currentRow, j) {
+	for (; j < currentRow.length; j++) {
+		var gender = currentRow[j].trim();
+		if (["M", "F", "N"].indexOf(gender) != -1) {
+			return gender;
+		}
+	}
+}
+
 function getMoves(currentPoke, rows, offset) {
 	var movesFound = false;
 	var moves = [];
@@ -244,6 +272,7 @@ function addToDex(poke) {
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
+	dexObject.gender = poke.gender;
 	dexObject.isCustomSet = poke.isCustomSet;
 	var customsets;
 	if (localStorage.customsets) {
@@ -290,7 +319,7 @@ function updateDex(customsets) {
 	localStorage.customsets = JSON.stringify(customsets);
 }
 
-function addSets(pokes, name) {
+function addSets(pokes, name, notify = true) {
 	var rows = pokes.split("\n");
 	var currentRow;
 	var currentPoke;
@@ -303,6 +332,7 @@ function addSets(pokes, name) {
 				currentPoke = calc.SPECIES[9][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
+				currentPoke.gender = getGenderImport(currentRow, j + 1);
 				if (j === 1 && currentRow[0].trim()) {
 					currentPoke.nameProp = currentRow[0].trim();
 				} else {
@@ -318,11 +348,13 @@ function addSets(pokes, name) {
 			}
 		}
 	}
-	if (addedpokes > 0) {
-		alert("Successfully imported " + addedpokes + " set(s)");
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
-	} else {
-		alert("No sets imported, please check your syntax and try again");
+	if (notify) {
+		if (addedpokes > 0) {
+			alert("Successfully imported " + addedpokes + " set(s)");
+			$(allPokemon("#importedSetsOptions")).css("display", "inline");
+		} else {
+			alert("No sets imported, please check your syntax and try again");
+		}
 	}
 }
 
@@ -382,8 +414,10 @@ function checkExeptions(poke) {
 }
 
 $(allPokemon("#clearThisSet")).click(function () {
-	var playerText = document.querySelector('.calc-trigger.player .select2-chosen').textContent;
-	var name = playerText.split(' (')[0];
+	var playerText = document.querySelector(
+		".calc-trigger.player .select2-chosen",
+	).textContent;
+	var name = playerText.split(" (")[0];
 
 	var customsets;
 	if (localStorage.customsets) {
@@ -395,12 +429,16 @@ $(allPokemon("#clearThisSet")).click(function () {
 	if (customsets[name]) {
 		if (
 			confirm(
-				"Are you sure you want to delete your " + name + " Custom Set? This action cannot be undone."
+				"Are you sure you want to delete your " +
+					name +
+					" Custom Set? This action cannot be undone.",
 			)
 		) {
 			customsets[name] = {};
 			updateDex(customsets);
-			alert("Your Custom Set was successfully deleted. Please refresh the page.");
+			alert(
+				"Your Custom Set was successfully deleted. Please refresh the page.",
+			);
 			$(allPokemon("#importedSetsOptions")).css("display", "inline");
 		}
 	}
@@ -409,7 +447,7 @@ $(allPokemon("#clearThisSet")).click(function () {
 $(allPokemon("#clearSets")).click(function () {
 	if (
 		confirm(
-			"Are you sure you want to delete ALL your custom sets? This action cannot be undone."
+			"Are you sure you want to delete ALL your custom sets? This action cannot be undone.",
 		)
 	) {
 		localStorage.removeItem("customsets");
