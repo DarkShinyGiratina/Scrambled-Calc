@@ -1,11 +1,10 @@
-import type * as I from './data/interface';
-import {Stats} from './stats';
-import {toID, extend, assignWithout} from './util';
-import type {State} from './state';
+import type * as I from "./data/interface";
+import { Stats } from "./stats";
+import { toID, extend, assignWithout } from "./util";
+import type { State } from "./state";
 
-const STATS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'] as I.StatID[];
-const SPC = new Set(['spc']);
-
+const STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as I.StatID[];
+const SPC = new Set(["spc"]);
 
 export class Pokemon implements State.Pokemon {
   gen: I.Generation;
@@ -16,6 +15,7 @@ export class Pokemon implements State.Pokemon {
   weightkg: number;
 
   level: number;
+  nickname?: string;
   gender?: I.GenderName;
   ability?: I.AbilityName;
   abilityOn?: boolean;
@@ -23,7 +23,7 @@ export class Pokemon implements State.Pokemon {
   dynamaxLevel?: number;
   isSaltCure?: boolean;
   alliesFainted?: number;
-  boostedStat?: I.StatIDExceptHP | 'auto';
+  boostedStat?: I.StatIDExceptHP | "auto";
   item?: I.ItemName;
   disabledItem?: I.ItemName;
   teraType?: I.TypeName;
@@ -36,7 +36,7 @@ export class Pokemon implements State.Pokemon {
   stats: I.StatsTable;
 
   originalCurHP: number;
-  status: I.StatusName | '';
+  status: I.StatusName | "";
   toxicCounter: number;
 
   moves: I.MoveName[];
@@ -46,32 +46,41 @@ export class Pokemon implements State.Pokemon {
     name: string,
     options: Partial<State.Pokemon> & {
       curHP?: number;
-      ivs?: Partial<I.StatsTable> & {spc?: number};
-      evs?: Partial<I.StatsTable> & {spc?: number};
-      boosts?: Partial<I.StatsTable> & {spc?: number};
-    } = {}
+      ivs?: Partial<I.StatsTable> & { spc?: number };
+      evs?: Partial<I.StatsTable> & { spc?: number };
+      boosts?: Partial<I.StatsTable> & { spc?: number };
+    } = {},
   ) {
-    this.species = extend(true, {}, gen.species.get(toID(name)), options.overrides);
+    this.species = extend(
+      true,
+      {},
+      gen.species.get(toID(name)),
+      options.overrides,
+    );
 
     this.gen = gen;
-    this.name = options.name || name as I.SpeciesName;
+    this.name = options.name || (name as I.SpeciesName);
+    this.nickname = options.nickname || "";
     this.types = this.species.types;
     this.weightkg = this.species.weightkg;
 
     this.level = options.level || 100;
-    this.gender = options.gender || this.species.gender || 'M';
+    this.gender = options.gender || this.species.gender || "M";
     this.ability = options.ability || this.species.abilities?.[0] || undefined;
     this.abilityOn = !!options.abilityOn;
 
     this.isDynamaxed = !!options.isDynamaxed;
     this.dynamaxLevel = this.isDynamaxed
-      ? (options.dynamaxLevel === undefined ? 10 : options.dynamaxLevel) : undefined;
+      ? options.dynamaxLevel === undefined
+        ? 10
+        : options.dynamaxLevel
+      : undefined;
     this.isSaltCure = !!options.isSaltCure;
     this.alliesFainted = options.alliesFainted;
     this.boostedStat = options.boostedStat;
     this.teraType = options.teraType;
     this.item = options.item;
-    this.nature = options.nature || ('Serious' as I.NatureName);
+    this.nature = options.nature || ("Serious" as I.NatureName);
     this.ivs = Pokemon.withDefault(gen, options.ivs, 31);
     this.evs = Pokemon.withDefault(gen, options.evs, gen.num >= 3 ? 0 : 252);
     this.boosts = Pokemon.withDefault(gen, options.boosts, 0, false);
@@ -89,7 +98,7 @@ export class Pokemon implements State.Pokemon {
           def: this.ivs.def,
           spe: this.ivs.spe,
           spc: this.ivs.spa,
-        })
+        }),
       );
     }
 
@@ -102,8 +111,9 @@ export class Pokemon implements State.Pokemon {
     }
 
     const curHP = options.curHP || options.originalCurHP;
-    this.originalCurHP = curHP && curHP <= this.rawStats.hp ? curHP : this.rawStats.hp;
-    this.status = options.status || '';
+    this.originalCurHP =
+      curHP && curHP <= this.rawStats.hp ? curHP : this.rawStats.hp;
+    this.status = options.status || "";
     this.toxicCounter = options.toxicCounter || 0;
     this.moves = options.moves || [];
   }
@@ -111,7 +121,9 @@ export class Pokemon implements State.Pokemon {
   maxHP(original = false) {
     // Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
     if (!original && this.isDynamaxed && this.species.baseStats.hp !== 1) {
-      return Math.floor((this.rawStats.hp * (150 + 5 * this.dynamaxLevel!)) / 100);
+      return Math.floor(
+        (this.rawStats.hp * (150 + 5 * this.dynamaxLevel!)) / 100,
+      );
     }
 
     return this.rawStats.hp;
@@ -120,7 +132,9 @@ export class Pokemon implements State.Pokemon {
   curHP(original = false) {
     // Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
     if (!original && this.isDynamaxed && this.species.baseStats.hp !== 1) {
-      return Math.ceil((this.originalCurHP * (150 + 5 * this.dynamaxLevel!)) / 100);
+      return Math.ceil(
+        (this.originalCurHP * (150 + 5 * this.dynamaxLevel!)) / 100,
+      );
     }
 
     return this.originalCurHP;
@@ -140,7 +154,8 @@ export class Pokemon implements State.Pokemon {
 
   hasType(...types: I.TypeName[]) {
     for (const type of types) {
-      if (this.teraType ? this.teraType === type : this.types.includes(type)) return true;
+      if (this.teraType ? this.teraType === type : this.types.includes(type))
+        return true;
     }
     return false;
   }
@@ -190,7 +205,7 @@ export class Pokemon implements State.Pokemon {
       this.ivs[stat]!,
       this.evs[stat]!,
       this.level,
-      this.nature
+      this.nature,
     );
   }
 
@@ -198,7 +213,7 @@ export class Pokemon implements State.Pokemon {
     gen: I.Generation,
     speciesName: string,
     item?: I.ItemName,
-    moveName?: I.MoveName
+    moveName?: I.MoveName,
   ) {
     const species = gen.species.get(toID(speciesName));
     if (!species?.otherFormes) {
@@ -208,14 +223,14 @@ export class Pokemon implements State.Pokemon {
     let i = 0;
     if (
       (item &&
-        ((item.includes('ite') && !item.includes('ite Y')) ||
-          (speciesName === 'Groudon' && item === 'Red Orb') ||
-          (speciesName === 'Kyogre' && item === 'Blue Orb'))) ||
-      (moveName && speciesName === 'Meloetta' && moveName === 'Relic Song') ||
-      (speciesName === 'Rayquaza' && moveName === 'Dragon Ascent')
+        ((item.includes("ite") && !item.includes("ite Y")) ||
+          (speciesName === "Groudon" && item === "Red Orb") ||
+          (speciesName === "Kyogre" && item === "Blue Orb"))) ||
+      (moveName && speciesName === "Meloetta" && moveName === "Relic Song") ||
+      (speciesName === "Rayquaza" && moveName === "Dragon Ascent")
     ) {
       i = 1;
-    } else if (item?.includes('ite Y')) {
+    } else if (item?.includes("ite Y")) {
       i = 2;
     }
 
@@ -224,7 +239,7 @@ export class Pokemon implements State.Pokemon {
 
   private static withDefault(
     gen: I.Generation,
-    current: Partial<I.StatsTable> & {spc?: number} | undefined,
+    current: (Partial<I.StatsTable> & { spc?: number }) | undefined,
     val: number,
     match = true,
   ) {
@@ -236,9 +251,19 @@ export class Pokemon implements State.Pokemon {
         cur.spd = current.spc;
       }
       if (match && gen.num <= 2 && current.spa !== current.spd) {
-        throw new Error('Special Attack and Special Defense must match before Gen 3');
+        throw new Error(
+          "Special Attack and Special Defense must match before Gen 3",
+        );
       }
     }
-    return {hp: val, atk: val, def: val, spa: val, spd: val, spe: val, ...cur};
+    return {
+      hp: val,
+      atk: val,
+      def: val,
+      spa: val,
+      spd: val,
+      spe: val,
+      ...cur,
+    };
   }
 }

@@ -1,5 +1,5 @@
-import type * as I from './data/interface';
-import type { State } from './state';
+import type * as I from "./data/interface";
+import type { State } from "./state";
 export declare class Pokemon implements State.Pokemon {
     gen: I.Generation;
     name: I.SpeciesName;
@@ -7,6 +7,7 @@ export declare class Pokemon implements State.Pokemon {
     types: [I.TypeName] | [I.TypeName, I.TypeName];
     weightkg: number;
     level: number;
+    nickname?: string;
     gender?: I.GenderName;
     ability?: I.AbilityName;
     abilityOn?: boolean;
@@ -14,7 +15,7 @@ export declare class Pokemon implements State.Pokemon {
     dynamaxLevel?: number;
     isSaltCure?: boolean;
     alliesFainted?: number;
-    boostedStat?: I.StatIDExceptHP | 'auto';
+    boostedStat?: I.StatIDExceptHP | "auto";
     item?: I.ItemName;
     disabledItem?: I.ItemName;
     teraType?: I.TypeName;
@@ -25,7 +26,7 @@ export declare class Pokemon implements State.Pokemon {
     rawStats: I.StatsTable;
     stats: I.StatsTable;
     originalCurHP: number;
-    status: I.StatusName | '';
+    status: I.StatusName | "";
     toxicCounter: number;
     moves: I.MoveName[];
     constructor(gen: I.Generation, name: string, options?: Partial<State.Pokemon> & {

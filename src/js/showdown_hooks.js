@@ -41,6 +41,7 @@ function addToDex(poke) {
 		dexObject.teraType = poke.teraType;
 	}
 	dexObject.level = poke.level;
+	dexObject.gender = poke.gender;
 	dexObject.evs = poke.evs;
 	dexObject.ivs = poke.ivs;
 	dexObject.moves = poke.moves;
@@ -86,6 +87,12 @@ function get_box() {
 				.replace(".", "")
 				.replace(".", "")
 				.replace("’", "")
+				.replace("basculin-white", "basculin-white-striped")
+				.replace("deerling", "deerling-winter")
+				.replace("sawsbuck", "sawsbuck-winter")
+				.replace("minior-pink", "minior-red")
+				.replace("dusk-mane", "dusk")
+				.replace("dawn-wings", "dawn")
 				.replace("-totem", "");
 
 			// Handle starmobile cases
@@ -117,6 +124,12 @@ function get_trainer_preview(poks) {
 			.replace(".", "")
 			.replace(".", "")
 			.replace("’", "")
+			.replace("basculin-white", "basculin-white-striped")
+			.replace("deerling", "deerling-winter")
+			.replace("sawsbuck", "sawsbuck-winter")
+			.replace("minior-pink", "minior-red")
+			.replace("dusk-mane", "dusk")
+			.replace("dawn-wings", "dawn")
 			.replace("-totem", "");
 
 		// Handle starmobile cases
@@ -159,7 +172,7 @@ function getSet(setName, selector) {
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(
 		fullSetName.indexOf("(") + 1,
-		fullSetName.lastIndexOf(")")
+		fullSetName.lastIndexOf(")"),
 	);
 	var pokemon = pokedex[pokemonName];
 	if (pokemon) {
@@ -266,22 +279,22 @@ function getSet(setName, selector) {
 						set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined
 							? set.evs[LEGACY_STATS[gen][i]]
 							: $("#randoms").prop("checked")
-							? 84
-							: 0
+								? 84
+								: 0,
 					);
 				pokeObj
 					.find("." + LEGACY_STATS[gen][i] + " .ivs")
 					.val(
 						set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined
 							? set.ivs[LEGACY_STATS[gen][i]]
-							: 31
+							: 31,
 					);
 				pokeObj
 					.find("." + LEGACY_STATS[gen][i] + " .dvs")
 					.val(
 						set.dvs && set.dvs[LEGACY_STATS[gen][i]] !== undefined
 							? set.dvs[LEGACY_STATS[gen][i]]
-							: 15
+							: 15,
 					);
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
@@ -293,12 +306,12 @@ function getSet(setName, selector) {
 				setSelectValueIfValid(
 					abilityObj,
 					randset.abilities && randset.abilities[0],
-					abilityFallback
+					abilityFallback,
 				);
 				setSelectValueIfValid(
 					itemObj,
 					randset.items && randset.items[0],
-					""
+					"",
 				);
 			} else {
 				setSelectValueIfValid(abilityObj, set.ability, abilityFallback);
@@ -388,6 +401,7 @@ function getSet(setName, selector) {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
+		console.log("gender: " + pokemon.gender);
 	}
 }
 
@@ -438,7 +452,7 @@ function loadDefaultLists() {
 			query.callback({
 				results: results.slice(
 					(query.page - 1) * pageSize,
-					query.page * pageSize
+					query.page * pageSize,
 				),
 				more: results.length >= query.page * pageSize,
 			});
@@ -467,7 +481,14 @@ function get_current_trainer() {
 }
 
 $(document).on("click", ".trainer-pok.left-side", function () {
+	var activeSet = ExportPokemon($("#p1"), false);
 	var set = $(this).attr("data-id");
+	if (
+		localStorage.customsets &&
+		!activeSet.includes("@ Griseous Orb\nLevel: 100")
+	) {
+		addSets(activeSet, "Custom Set", false);
+	}
 	$("input.set-selector").first().val(set).change();
 	$(".player .select2-chosen").text(set);
 });

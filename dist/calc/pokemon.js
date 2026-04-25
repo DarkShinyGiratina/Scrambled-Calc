@@ -25,8 +25,8 @@ exports.__esModule = true;
 
 var stats_1 = require("./stats");
 var util_1 = require("./util");
-var STATS = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
-var SPC = new Set(['spc']);
+var STATS = ["hp", "atk", "def", "spa", "spd", "spe"];
+var SPC = new Set(["spc"]);
 var Pokemon = (function () {
     function Pokemon(gen, name, options) {
         var e_1, _a;
@@ -35,21 +35,25 @@ var Pokemon = (function () {
         this.species = (0, util_1.extend)(true, {}, gen.species.get((0, util_1.toID)(name)), options.overrides);
         this.gen = gen;
         this.name = options.name || name;
+        this.nickname = options.nickname || "";
         this.types = this.species.types;
         this.weightkg = this.species.weightkg;
         this.level = options.level || 100;
-        this.gender = options.gender || this.species.gender || 'M';
+        this.gender = options.gender || this.species.gender || "M";
         this.ability = options.ability || ((_b = this.species.abilities) === null || _b === void 0 ? void 0 : _b[0]) || undefined;
         this.abilityOn = !!options.abilityOn;
         this.isDynamaxed = !!options.isDynamaxed;
         this.dynamaxLevel = this.isDynamaxed
-            ? (options.dynamaxLevel === undefined ? 10 : options.dynamaxLevel) : undefined;
+            ? options.dynamaxLevel === undefined
+                ? 10
+                : options.dynamaxLevel
+            : undefined;
         this.isSaltCure = !!options.isSaltCure;
         this.alliesFainted = options.alliesFainted;
         this.boostedStat = options.boostedStat;
         this.teraType = options.teraType;
         this.item = options.item;
-        this.nature = options.nature || 'Serious';
+        this.nature = options.nature || "Serious";
         this.ivs = Pokemon.withDefault(gen, options.ivs, 31);
         this.evs = Pokemon.withDefault(gen, options.evs, gen.num >= 3 ? 0 : 252);
         this.boosts = Pokemon.withDefault(gen, options.boosts, 0, false);
@@ -82,8 +86,9 @@ var Pokemon = (function () {
             finally { if (e_1) throw e_1.error; }
         }
         var curHP = options.curHP || options.originalCurHP;
-        this.originalCurHP = curHP && curHP <= this.rawStats.hp ? curHP : this.rawStats.hp;
-        this.status = options.status || '';
+        this.originalCurHP =
+            curHP && curHP <= this.rawStats.hp ? curHP : this.rawStats.hp;
+        this.status = options.status || "";
         this.toxicCounter = options.toxicCounter || 0;
         this.moves = options.moves || [];
     }
@@ -207,14 +212,14 @@ var Pokemon = (function () {
         }
         var i = 0;
         if ((item &&
-            ((item.includes('ite') && !item.includes('ite Y')) ||
-                (speciesName === 'Groudon' && item === 'Red Orb') ||
-                (speciesName === 'Kyogre' && item === 'Blue Orb'))) ||
-            (moveName && speciesName === 'Meloetta' && moveName === 'Relic Song') ||
-            (speciesName === 'Rayquaza' && moveName === 'Dragon Ascent')) {
+            ((item.includes("ite") && !item.includes("ite Y")) ||
+                (speciesName === "Groudon" && item === "Red Orb") ||
+                (speciesName === "Kyogre" && item === "Blue Orb"))) ||
+            (moveName && speciesName === "Meloetta" && moveName === "Relic Song") ||
+            (speciesName === "Rayquaza" && moveName === "Dragon Ascent")) {
             i = 1;
         }
-        else if (item === null || item === void 0 ? void 0 : item.includes('ite Y')) {
+        else if (item === null || item === void 0 ? void 0 : item.includes("ite Y")) {
             i = 2;
         }
         return i ? species.otherFormes[i - 1] : species.name;
@@ -229,7 +234,7 @@ var Pokemon = (function () {
                 cur.spd = current.spc;
             }
             if (match && gen.num <= 2 && current.spa !== current.spd) {
-                throw new Error('Special Attack and Special Defense must match before Gen 3');
+                throw new Error("Special Attack and Special Defense must match before Gen 3");
             }
         }
         return __assign({ hp: val, atk: val, def: val, spa: val, spd: val, spe: val }, cur);
