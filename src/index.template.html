@@ -35,6 +35,13 @@
     <ul class="nav nav-play">
         <li><a class="button greenbutton nav-first nav-last" href="//play.pokemonshowdown.com/">Play</a></li>
     </ul>
+    <ul class="nav nav-play">
+        <li>
+            <button id="theme-toggle" class="button nav-first nav-last"
+                    style="padding: 5px 12px; font-size: 0.9em;"
+                    title="Toggle dark mode">🌙 Dark</button>
+        </li>
+    </ul>
     <div style="clear:both"></div>
 </div></div></nav>
 <div class="wrapper">
@@ -1624,6 +1631,25 @@
     <li><a href="https://github.com/DarkShinyGiratina/Scrambled-Calc/issues" target="_blank">Bug Reports</a></li>
     <li><a href="https://github.com/DarkShinyGiratina/Scrambled-Calc" target="_blank">GitHub repository</a></li></ul>
 </div>
+
+<script>
+(function () {
+    var btn = document.getElementById('theme-toggle');
+    var DARK = 'dark-mode';
+    var KEY  = 'calc-theme';
+
+    if (localStorage.getItem(KEY) === DARK) {
+        document.body.classList.add(DARK);
+        btn.textContent = '☀️ Light';
+    }
+
+    btn.addEventListener('click', function () {
+        var isDark = document.body.classList.toggle(DARK);
+        btn.textContent = isDark ? '☀️ Light' : '🌙 Dark';
+        localStorage.setItem(KEY, isDark ? DARK : 'light');
+    });
+})();
+</script>
 
 </body>
 

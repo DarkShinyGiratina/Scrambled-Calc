@@ -18,7 +18,8 @@ a img {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8EEFC', endColorstr='#D7DEEA');
 
 	border-bottom: 1px solid #aaa;
-	box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.6),
+	box-shadow:
+		inset 1px 1px 0 rgba(255, 255, 255, 0.6),
 		0px 2px 2px rgba(0, 0, 0, 0.15);
 	min-height: 50px;
 }
@@ -85,11 +86,14 @@ a img {
 	text-decoration: none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 	border-radius: 5px;
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
+	-webkit-box-shadow:
+		0 1px 2px rgba(0, 0, 0, 0.2),
 		inset 0 -1px 2px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
+	-moz-box-shadow:
+		0 1px 2px rgba(0, 0, 0, 0.2),
 		inset 0 -1px 2px rgba(255, 255, 255, 1);
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
+	box-shadow:
+		0 1px 2px rgba(0, 0, 0, 0.2),
 		inset 0 -1px 2px rgba(255, 255, 255, 1);
 	white-space: nowrap;
 
@@ -191,7 +195,9 @@ a img {
 /* general page styling */
 html,
 body {
-	font: 10pt Verdana, sans-serif;
+	font:
+		10pt Verdana,
+		sans-serif;
 	background-color: white;
 	color: black;
 	margin: 0;
@@ -667,16 +673,104 @@ table.field {
 }
 
 .pranks-buttons {
-  border-radius: 5px;
-  margin: 2px;
+	border-radius: 5px;
+	margin: 2px;
 }
 
 #clearThisSet {
-  color: #d00000;
-  border: 1px solid #c00000;
+	color: #d00000;
+	border: 1px solid #c00000;
 }
 
 #clearSets {
-  color: #b00000;
-  border: 2px solid #a00000;
+	color: #b00000;
+	border: 2px solid #a00000;
+}
+
+/* ── Dark mode overrides ─────────────────────────── */
+body.dark-mode {
+	background-color: #121212;
+	color: #e0e0e0;
+}
+body.dark-mode fieldset {
+	background-color: #1e1e1e;
+	border-color: #444444;
+}
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+	background-color: #1e1e1e;
+	color: #e0e0e0;
+	border-color: #444444;
+}
+body.dark-mode select,
+body.dark-mode select option {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+}
+body.dark-mode .btn {
+	background: #2a2a2a;
+	color: #cccccc;
+	border-color: #555555;
+}
+body.dark-mode .btn:hover,
+body.dark-mode .visually-hidden:focus + .btn {
+	background: #383838;
+	border-color: #888888;
+}
+body.dark-mode .visually-hidden:checked + .btn {
+	background: #3a3a3a;
+	color: #ffffff;
+}
+body.dark-mode .button {
+	background: #2e2e2e;
+	color: #cccccc;
+	border-color: #555555;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+body.dark-mode .button:hover {
+	background: #3f3f3f;
+	border-color: #888888;
+}
+body.dark-mode .import-team-text,
+body.dark-mode .import-name-text {
+	background-color: #1e1e1e;
+	color: #e0e0e0;
+	border-color: #444444;
+}
+body.dark-mode .select2-drop,
+body.dark-mode .select2-drop-active {
+	background-color: #1e1e1e !important;
+	border-color: #555555 !important;
+	color: #e0e0e0 !important;
+}
+body.dark-mode .select2-results {
+	background-color: #1e1e1e !important;
+}
+body.dark-mode .select2-results li,
+body.dark-mode .select2-results .select2-result-label {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+}
+body.dark-mode .select2-results .select2-highlighted,
+body.dark-mode .select2-results .select2-highlighted .select2-result-label {
+	background-color: #3a3a3a !important;
+	color: #ffffff !important;
+}
+body.dark-mode .select2-search {
+	background-color: #1e1e1e !important;
+}
+body.dark-mode .select2-search input {
+	background-color: #2a2a2a !important;
+	color: #000000 !important;
+	border-color: #555555 !important;
+}
+body.dark-mode .select2-container .select2-choice {
+	background: #2a2a2a !important;
+	border-color: #555555 !important;
+	color: #cccccc !important;
+}
+body.dark-mode .select2-container .select2-choice .select2-arrow {
+	background: #2a2a2a !important;
+	border-color: #555555 !important;
 }
